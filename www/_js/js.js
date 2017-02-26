@@ -1839,6 +1839,7 @@ $(function() {
         var mainBlock = $('.brick-play').length > 0;
         var isKD = $('.kartina-dnua').length > 0;
         var isInteresnoe = $('.interesnoe').length > 0;
+        var isSection = $('.section-brick').length > 0;
         if (!mainBlock) { return; }
         var currentPoint = document.body.clientWidth;
 
@@ -1866,35 +1867,48 @@ $(function() {
             doAlign('tablet')
         } else if (document.body.clientWidth < 1024) {
             doAlign('mobile');
+        } else {
+            doAlign();
         }
 
         function doAlign(size) {
-            switch (size) {
-                case 'mobile':
-                    if (isInteresnoe) {
-                        alignItemsInBlocks(3, 6);
-                    } else {
-                        alignItemsInBlocks(4, 6);
-                    }
-                    break;
-                case 'tablet':
-                    if (isKD) {
-                        alignItemsInBlocks(3, 9);
-                    } else if (isInteresnoe) {
-                        alignItemsInBlocks(5, 9);
-                    } else {
-                        alignItemsInBlocks(6, 9);
-                    }
-                    break;
-                default:
-                    if (isKD) {
-                        alignItemsInBlocks(5, 12);    
-                    } else if (isInteresnoe) {
-                        alignItemsInBlocks(7, 12);
-                    } else {
-                        alignItemsInBlocks(8, 12);
-                    }
+            if (firstBlock.length && secondBlock.length && thirdBlock.length) {
+                switch (size) {
+                    case 'mobile':
+                        if (isInteresnoe) {
+                            alignItemsInBlocks(5, 6);
+                        } else if (isKD) {
+                            alignItemsInBlocks(4, 6);
+                        } else if(isSection) {
+                            alignItemsInBlocks(5, 6);
+                        } else {
+                            alignItemsInBlocks(6, 6);
+                        }
+                        break;
+                    case 'tablet':
+                        if (isKD) {
+                            alignItemsInBlocks(3, 9);
+                        } else if (isInteresnoe) {
+                            alignItemsInBlocks(5, 9);
+                        } else if(isSection) {
+                            alignItemsInBlocks(8, 9);
+                        } else {
+                            alignItemsInBlocks(6, 9);
+                        }
+                        break;
+                    default:
+                        if (isKD) {
+                            alignItemsInBlocks(5, 12);    
+                        } else if (isInteresnoe) {
+                            alignItemsInBlocks(7, 12);
+                        } else if(isSection) {
+                            alignItemsInBlocks(11, 12);
+                        } else {
+                            alignItemsInBlocks(8, 12);
+                        }
+                }
             }
+            
             setSpecificPositions(size);
         }
 
