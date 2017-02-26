@@ -85,6 +85,34 @@
 
     </div>
 
+	<!-- Блок авторских мнений -->
+	<section class="wrapper contentBackground_white author-opinion clearfix">
+		<div class="bricks__wrapper bricks_article-previews">
+
+			<!--Один блок на разных разрешения-->
+			<!-- Широкий блок который занимает ширину 2-ух блоков на 1280 -->
+			<div class="brick width_twice hideOn_1024 hideOn_768">
+				<!--#include virtual="bricks/article-preview.shtml?author=1&data=1&count1=120&count2=35&count3=3812"-->
+			</div>
+			<!--Замена широкого блока так как у них разные иконки readLater -->
+			<div class="brick width_twice hideOn_1280">
+				<!--#include virtual="bricks/article-preview.shtml?author=1&data=1&count1=120&count2=35&count3=3812&glass=1"-->
+			</div>
+			<!--Коец одного блока на разных разрешениях-->
+
+			<!--обычный блок -->
+			<div class="brick">
+				<!--#include virtual="bricks/article-preview.shtml?author=2&data=2&count1=120&count2=35&count3=3812&glass=1"-->
+			</div>
+
+			<!--обычный блок -->
+			<div class="brick">
+				<!--#include virtual="bricks/article-preview.shtml?author=3&data=3&count1=120&count2=35&count3=3812&glass=1"-->
+			</div>
+		</div>
+	</section>
+	<!-- Конец блока авторских мнений -->
+
     <!--#include virtual="bricks/videosection.shtml"-->
 
     <div class="bricks__wrapper second-main-block clearfix">
