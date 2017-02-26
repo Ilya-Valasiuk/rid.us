@@ -671,9 +671,17 @@ $(function() {
     // ======================================
     // тэги на _block-selector
     // ======================================
-    $(".blockSelector__link").on('click', function(){
-        $(".blockSelector__link").removeClass('state_selected');
-        $(this).addClass("state_selected");
+    var prevSelectedIndex = null;
+    var blockSelectorItems = $(".blockSelector__link");
+    blockSelectorItems.on('click', function(){
+        if (prevSelectedIndex === blockSelectorItems.index($(this))) {
+            $(this).toggleClass("state_selected");
+        } else {
+            $(".blockSelector__link").removeClass('state_selected');
+            $(this).addClass("state_selected");
+        }
+
+        prevSelectedIndex = blockSelectorItems.index($(this));
         return false;
     });
 
