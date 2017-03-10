@@ -63,13 +63,26 @@
 
 
 
-            <ul class="textTabs view_dotBetween view_h5 clearfix">
-                <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Новости кратко</a></li>
-                <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Политика</a></li>
-            </ul>
+            <div class="bread__crumbs">
+                <ul class="textTabs view_dotBetween view_h5 clearfix">
+                    <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Гражданская журналистика</a></li>
+                    <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Политика</a></li>
+                </ul>
+                <div class="countersBlock">
+                    <span class="countersBlock__item view_count1">
+                        123 <i class="icon"><!-- icon --></i>
+                    </span>
+                    <span class="countersBlock__item view_count2">
+                        557 <i class="icon"><!-- icon --></i>
+                    </span>
+                    <span class="countersBlock__item view_count3">
+                        99 <i class="icon"><!-- icon --></i>
+                    </span>
+                </div>
+            </div>
 
             <div class="article">
-                <!--#include virtual="_article-short.shtml?sidebanner=1"-->
+                <!--#include virtual="_article-short.shtml?sidebanner=1&counter=0"-->
                 <div class="text">
                     <p>
                         Виталий Кличко избран лидером партии Петра Порошенко «Солидарность». На этом посту он сменил ранее возглавлявшего ее Юрия Луценко.
@@ -129,13 +142,26 @@
 
 
 
-            <ul class="textTabs view_dotBetween view_h5 clearfix">
-                <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Новости кратко</a></li>
-                <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Политика</a></li>
-            </ul>
+            <div class="bread__crumbs">
+                <ul class="textTabs view_dotBetween view_h5 clearfix">
+                    <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Гражданская журналистика</a></li>
+                    <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Политика</a></li>
+                </ul>
+                <div class="countersBlock">
+                    <span class="countersBlock__item view_count1">
+                        123 <i class="icon"><!-- icon --></i>
+                    </span>
+                    <span class="countersBlock__item view_count2">
+                        557 <i class="icon"><!-- icon --></i>
+                    </span>
+                    <span class="countersBlock__item view_count3">
+                        99 <i class="icon"><!-- icon --></i>
+                    </span>
+                </div>
+            </div>
             
             <div class="article">
-                <!--#include virtual="_article-short.shtml?sidebanner=1&display=0"-->
+                <!--#include virtual="_article-short.shtml?sidebanner=1&display=0&counter=0"-->
                 <div class="text">
                     <p>
                         Виталий Кличко избран лидером партии Петра Порошенко «Солидарность». На этом посту он сменил ранее возглавлявшего ее Юрия Луценко.
@@ -216,13 +242,26 @@
 
             <a class="stickedSlideHere" data-stickedSlideHere="1"></a>
 
-            <ul class="textTabs view_dotBetween view_h5 clearfix">
-                <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Новости кратко</a></li>
-                <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Политика</a></li>
-            </ul>
+            <div class="bread__crumbs">
+                <ul class="textTabs view_dotBetween view_h5 clearfix">
+                    <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Гражданская журналистика</a></li>
+                    <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Политика</a></li>
+                </ul>
+                <div class="countersBlock">
+                    <span class="countersBlock__item view_count1">
+                        123 <i class="icon"><!-- icon --></i>
+                    </span>
+                    <span class="countersBlock__item view_count2">
+                        557 <i class="icon"><!-- icon --></i>
+                    </span>
+                    <span class="countersBlock__item view_count3">
+                        99 <i class="icon"><!-- icon --></i>
+                    </span>
+                </div>
+            </div>
             
             <div class="article">
-                <!--#include virtual="_article-short.shtml?sidebanner=1"-->
+                <!--#include virtual="_article-short.shtml?sidebanner=1&counter=0"-->
                 <div class="text">
                     <p>
                         Виталий Кличко избран лидером партии Петра Порошенко «Солидарность». На этом посту он сменил ранее возглавлявшего ее Юрия Луценко.
@@ -301,13 +340,26 @@
 
             <a class="stickedSlideHere" data-stickedSlideHere="2"></a>
             
-            <ul class="textTabs view_dotBetween view_h5 clearfix">
-                <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Новости кратко</a></li>
-                <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Политика</a></li>
-            </ul>
+            <div class="bread__crumbs">
+                <ul class="textTabs view_dotBetween view_h5 clearfix">
+                    <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Гражданская журналистика</a></li>
+                    <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Политика</a></li>
+                </ul>
+                <div class="countersBlock">
+                    <span class="countersBlock__item view_count1">
+                        123 <i class="icon"><!-- icon --></i>
+                    </span>
+                    <span class="countersBlock__item view_count2">
+                        557 <i class="icon"><!-- icon --></i>
+                    </span>
+                    <span class="countersBlock__item view_count3">
+                        99 <i class="icon"><!-- icon --></i>
+                    </span>
+                </div>
+            </div>
             
             <div class="article">
-                <!--#include virtual="_article-short.shtml?sidebanner=1"-->
+                <!--#include virtual="_article-short.shtml?sidebanner=1&counter=0"-->
                 <div class="text">
                     <p>
                         Виталий Кличко избран лидером партии Петра Порошенко «Солидарность». На этом посту он сменил ранее возглавлявшего ее Юрия Луценко.
@@ -383,13 +435,26 @@
 
 
 
-            <ul class="textTabs view_dotBetween view_h5 clearfix">
-                <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Новости кратко</a></li>
-                <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Политика</a></li>
-            </ul>
+            <div class="bread__crumbs">
+                <ul class="textTabs view_dotBetween view_h5 clearfix">
+                    <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Гражданская журналистика</a></li>
+                    <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Политика</a></li>
+                </ul>
+                <div class="countersBlock">
+                    <span class="countersBlock__item view_count1">
+                        123 <i class="icon"><!-- icon --></i>
+                    </span>
+                    <span class="countersBlock__item view_count2">
+                        557 <i class="icon"><!-- icon --></i>
+                    </span>
+                    <span class="countersBlock__item view_count3">
+                        99 <i class="icon"><!-- icon --></i>
+                    </span>
+                </div>
+            </div>
             
             <div class="article">
-                <!--#include virtual="_article-short.shtml?sidebanner=1"-->
+                <!--#include virtual="_article-short.shtml?sidebanner=1&counter=0"-->
                 <div class="text">
                     <p>
                         Виталий Кличко избран лидером партии Петра Порошенко «Солидарность». На этом посту он сменил ранее возглавлявшего ее Юрия Луценко.
@@ -477,14 +542,27 @@
 
 
 
-            <ul class="textTabs view_dotBetween view_h5 clearfix">
-                <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Новости кратко</a></li>
-                <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Политика</a></li>
-            </ul>
+            <div class="bread__crumbs">
+                <ul class="textTabs view_dotBetween view_h5 clearfix">
+                    <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Гражданская журналистика</a></li>
+                    <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Политика</a></li>
+                </ul>
+                <div class="countersBlock">
+                    <span class="countersBlock__item view_count1">
+                        123 <i class="icon"><!-- icon --></i>
+                    </span>
+                    <span class="countersBlock__item view_count2">
+                        557 <i class="icon"><!-- icon --></i>
+                    </span>
+                    <span class="countersBlock__item view_count3">
+                        99 <i class="icon"><!-- icon --></i>
+                    </span>
+                </div>
+            </div>
             
             <div class="article">
             
-                <!--#include virtual="_article-short.shtml?sidebanner=1"-->
+                <!--#include virtual="_article-short.shtml?sidebanner=1&counter=0"-->
 
                 <div class="text">
                     <p>

@@ -8,6 +8,9 @@
 <!--#if expr="\"$QUERY_STRING\" = /sidebanner=([a-zA-Z0-9]+)/" -->
 <!--#set var="sidebanner" value="$1" -->
 <!--#endif -->
+<!--#if expr="\"$QUERY_STRING\" = /counter=([a-zA-Z0-9]+)/" -->
+<!--#set var="counter" value="$1" -->
+<!--#endif -->
 <!--#if expr="\"$QUERY_STRING\" = /display=([a-zA-Z0-9]+)/" -->
 <!--#set var="display" value="$1" -->
 <!--#endif -->
@@ -18,6 +21,7 @@
 
 <h1 class="article__title">
 	Кличко возглавил партию Порошенко
+	<!--#if expr="$counter != 0" -->
 	<div class="countersBlock">
 		<span class="countersBlock__item view_count1">
 			123 <i class="icon"><!-- icon --></i>
@@ -29,6 +33,7 @@
 			99 <i class="icon"><!-- icon --></i>
 		</span>
 	</div>
+	<!--#endif -->
 </h1>
 
 <div class="articleInfo__avatarContainer clearfix">

@@ -62,15 +62,28 @@
         <div class="table__mainColumn">
 
 
-            <ul class="textTabs view_dotBetween view_h5 clearfix">
-                <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Гражданская журналистика</a></li>
-                <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Политика</a></li>
-            </ul>
+           <div class="bread__crumbs">
+                <ul class="textTabs view_dotBetween view_h5 clearfix">
+                    <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Гражданская журналистика</a></li>
+                    <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Политика</a></li>
+                </ul>
+                <div class="countersBlock">
+                    <span class="countersBlock__item view_count1">
+                        123 <i class="icon"><!-- icon --></i>
+                    </span>
+                    <span class="countersBlock__item view_count2">
+                        557 <i class="icon"><!-- icon --></i>
+                    </span>
+                    <span class="countersBlock__item view_count3">
+                        99 <i class="icon"><!-- icon --></i>
+                    </span>
+                </div>
+            </div>
 
 
             <div class="article article__container">
 
-                <!--#include virtual="_article-short.shtml?sidebanner=2"-->
+                <!--#include virtual="_article-short.shtml?sidebanner=2&counter=0"-->
 
                 <div class="text">
                     <p>
