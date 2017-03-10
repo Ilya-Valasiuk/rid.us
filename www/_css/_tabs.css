@@ -96,6 +96,12 @@ h1 .textTabs.view_h5 {
     border-top: 6px solid #fff;
 }
 
+.bread__crumbs .countersBlock {
+	display: inline-block;
+	position: relative;
+	top: -2px;
+}
+
 
 
 

@@ -1,84 +1,87 @@
-            <ul class="textTabs view_dotBetween view_h5 clearfix">
-                <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Гражданская журналистика</a></li>
-                <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Политика</a></li>
-            </ul>
+<div class="bread__crumbs">
+    <ul class="textTabs view_dotBetween view_h5 clearfix">
+        <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Гражданская журналистика</a></li>
+        <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Политика</a></li>
+    </ul>
+    <div class="countersBlock">
+        <span class="countersBlock__item view_count1">
+            123 <i class="icon"><!-- icon --></i>
+        </span>
+        <span class="countersBlock__item view_count2">
+            557 <i class="icon"><!-- icon --></i>
+        </span>
+        <span class="countersBlock__item view_count3">
+            99 <i class="icon"><!-- icon --></i>
+        </span>
+    </div>
+</div>
 
-            <div class="article">
+<div class="article">
 
-                <h1 class="article__title">
-                    Кличко возглавил партию Порошенко
-                    <div class="countersBlock">
-                        <span class="countersBlock__item view_count1">
-                            123 <i class="icon"><!-- icon --></i>
-                        </span>
-                        <span class="countersBlock__item view_count2">
-                            557 <i class="icon"><!-- icon --></i>
-                        </span>
-                        <span class="countersBlock__item view_count3">
-                            99 <i class="icon"><!-- icon --></i>
-                        </span>
-                    </div>
-                </h1>
+    <h1 class="article__title">
+        Кличко возглавил партию Порошенко
+        
+    </h1>
 
-                <div class="articleInfo__avatarContainer clearfix">
-                    <a class="articleInfo__avatar" href="" title="">
-                        <img src="http://www.ridus.ru/images/avatars/141718/large_b7147dcd85.jpg" alt=""/>
-                    </a>
-                    <ul class="articleInfo view_dotBetween">
-                        <li>21 августа, 12:29</li>
-                        <li><a href="" title="">Екатерина Трофимова</a>, журналист-эксперт в международной сфере</li>
-                    </ul>
-                </div>
+    <div class="articleInfo__avatarContainer clearfix">
+        <a class="articleInfo__avatar" href="" title="">
+            <img src="http://www.ridus.ru/images/avatars/141718/large_b7147dcd85.jpg" alt=""/>
+        </a>
+        <ul class="articleInfo view_dotBetween">
+            <li>21 августа, 12:29</li>
+            <li><a href="" title="">Екатерина Трофимова</a>, журналист-эксперт в международной сфере</li>
+        </ul>
+    </div>
 
-                <div class="text">
-                    <p>
-                        На нефтяные цены действует сразу несколько негативных факторов. К уже привычному превышению предложения над спросом добавились ожидания предстоящего выхода на рынок дешевой иранской нефти, неутешительная статистика из Китая и рост числа действующих буровых установок в США.
-                    </p>
-                    <p>
-                    <iframe width="100%" height="480" src="https://www.youtube.com/embed/RmZvqr53KyM" frameborder="0" allowfullscreen></iframe>
-                    </p>
+    <div class="text">
+        <p>
+            На нефтяные цены действует сразу несколько негативных факторов. К уже привычному превышению предложения над спросом добавились ожидания предстоящего выхода на рынок дешевой иранской нефти, неутешительная статистика из Китая и рост числа действующих буровых установок в США.
+        </p>
+        <p>
+        <iframe width="100%" height="480" src="https://www.youtube.com/embed/RmZvqr53KyM" frameborder="0" allowfullscreen></iframe>
+        </p>
 
-                    <p>Самонаблюдение мгновенно отталкивает депрессивный эскапизм. Код, в представлении Морено, семантически выбирает интеллект.</p>
+        <p>Самонаблюдение мгновенно отталкивает депрессивный эскапизм. Код, в представлении Морено, семантически выбирает интеллект.</p>
 
-                    <p id="video1Details" class="state_hidderHidden">Назарбаев, когда провёл на этой неделе девальвацию своей валюты, предварительно все вклады населения перевёл в доллары, чтобы люди ничего не потеряли на падении курса валюты и не говорили про своего руководителя плохо. Это же родное государство? Продолжается ослабление национальной валюты и в России. На фоне дешевеющей нефти доллар перешагнул рубеж в 68 рублей. Но это же не какое-то вражеское население, это родное государство, свои люди, братья свои, одна семья, одна страна - Казахстан.</p>
+        <p id="video1Details" class="state_hidderHidden">Назарбаев, когда провёл на этой неделе девальвацию своей валюты, предварительно все вклады населения перевёл в доллары, чтобы люди ничего не потеряли на падении курса валюты и не говорили про своего руководителя плохо. Это же родное государство? Продолжается ослабление национальной валюты и в России. На фоне дешевеющей нефти доллар перешагнул рубеж в 68 рублей. Но это же не какое-то вражеское население, это родное государство, свои люди, братья свои, одна семья, одна страна - Казахстан.</p>
 
-                    <a href="#" class="weather__readmore hider" data-id="video1Details" title="">
-                        <span>Развернуть</span>
-                        <span class="state_hidderHidden">Свернуть</span>
-                    </a>
+        <a href="#" class="weather__readmore hider" data-id="video1Details" title="">
+            <span>Развернуть</span>
+            <span class="state_hidderHidden">Свернуть</span>
+        </a>
 
-                    <p>
-                        
-                    </p>
+        <p>
+            
+        </p>
 
-                </div>
-                
-                <div class="articleSocials__wrapper clearfix">
-                    <div class="ridusLikes view_sideBorder">
-                        <p class="hint">
-                            Нам важно ваше мнение!
-                        </p>
-                        <div class="ridusLikesButton">
-                            <a href="#" class="ridusLikesButton__link">+</a>
-                            <span>123</span>
-                            <a href="#" class="ridusLikesButton__link">−</a>
-                        </div>
-                    </div>
-                    <div class="articleSocials">
-                        <p class="hint">
-                            Нашли опечатку? Выделите её мышкой и нажмите: Ctrl+Enter
-                        </p>
-                        <!--#include virtual="_socials-article.shtml"-->
-                    </div>
-                </div>
-
-                <p class="article__tags">
-                    Теги: 
-                    <a href="#" title="">нефть</a>, 
-                    <a href="#" title="">Казахстан</a>, 
-                    <a href="#" title="">прогнозы</a>, 
-                    <a href="#" title="">Назарбаев</a>
-                </p>
-
-                <!--#include virtual="_comments.shtml"-->
+    </div>
+    
+    <div class="articleSocials__wrapper clearfix">
+        <div class="ridusLikes view_sideBorder">
+            <p class="hint">
+                Нам важно ваше мнение!
+            </p>
+            <div class="ridusLikesButton">
+                <a href="#" class="ridusLikesButton__link">+</a>
+                <span>123</span>
+                <a href="#" class="ridusLikesButton__link">−</a>
             </div>
+        </div>
+        <div class="articleSocials">
+            <p class="hint">
+                Нашли опечатку? Выделите её мышкой и нажмите: Ctrl+Enter
+            </p>
+            <!--#include virtual="_socials-article.shtml"-->
+        </div>
+    </div>
+
+    <p class="article__tags">
+        Теги: 
+        <a href="#" title="">нефть</a>, 
+        <a href="#" title="">Казахстан</a>, 
+        <a href="#" title="">прогнозы</a>, 
+        <a href="#" title="">Назарбаев</a>
+    </p>
+
+    <!--#include virtual="_comments.shtml"-->
+</div>
