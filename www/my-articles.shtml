@@ -39,6 +39,13 @@
         </ul>
     </div>
 
+    <h3>
+        <ul class="textTabs view_dotBetween clearfix">
+            <li class="textTabs__item">Опубликованные</li>
+            <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Неопубликованные</a></li>
+        </ul>
+    </h3>
+
     <div class="bricks__wrapper clearfix padding_top">
 
         <div class="brick">
