@@ -275,3 +275,7 @@
 .comment__text p {
 	margin: 0;
 }
+
+.comment__item--removed .comment__text {
+    color: #b1b1b1;
+}

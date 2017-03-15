@@ -102,6 +102,16 @@ h1 .textTabs.view_h5 {
 	top: -2px;
 }
 
+.example-right .bread__crumbs {
+	display: flex;
+	vertical-align: middle;
+	justify-content: space-between;
+}
+
+.example-right .bread__crumbs .countersBlock {
+	top: 2px;
+}
+
 
 
 
