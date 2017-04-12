@@ -117,10 +117,10 @@
         <div class="borderedSection view_authorMaterials">
             <ul class="textTabs view_dotBetween view_h5">
                 <li class="textTabs__item">
-                    статьи автора (<span>15</span>)
+                    <a href="./authors-articles.shtml" class="textTabs__link state_current">статьи автора (<span>15</span>)</a>
                 </li>
                 <li class="textTabs__item">
-                    <a href="#" class="textTabs__link" title="">комментарии автора (<span>133</span>)</a>
+                    <a href="./authors-comments.shtml" class="textTabs__link" title="">комментарии автора (<span>133</span>)</a>
                 </li>
             </ul>
         </div>
