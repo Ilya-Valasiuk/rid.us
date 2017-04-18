@@ -1449,3 +1449,10 @@ blockquote b {
     position: relative;
     z-index: -1;
 }
+
+iframe.instagram {
+    min-width: 550px;
+    min-height: 650px;
+    max-width: 715px;
+    max-height: 675px;
+}
