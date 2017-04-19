@@ -857,6 +857,8 @@ $(function() {
 
     $('.slider').each(function () {
         var imagesSlider = new Swiper($(this), {
+            nextButton: $(this).parent().find('.slider-button-next'),
+            prevButton: $(this).parent().find('.slider-button-prev'),
             pagination: $(this).find('.swiper-pagination'),
             paginationClickable: true,
             loop: true,
@@ -2026,3 +2028,43 @@ $(function() {
     });
 });
 
+$(function() {
+    $(document).ready(function() {
+        var icon = $('.view__gear');
+        var block = $('.newList__settings');
+
+        if (!icon.length && !block.length) {
+            return;
+        }
+
+        icon.on('click', function() {
+            block.toggle('slide');
+        });
+
+        $('.newList__reset').on('click', function() {
+            $(this).closest('form').find('input[name=all-items], input[name=heading]').prop('checked', false);
+        });
+
+        $('.newList__settings__item').on('click', function() {
+            var input = $(this).find('input');
+            var value = input.prop('checked');
+            input.prop('checked', !value);
+            return false;
+        });
+
+        $('.newList__all').on('click', function() {
+            var allCheckInput = $(this).find('input');
+            var form = $(this).parent();
+            var inputs = form.find('input[name=heading]');
+            var selectedInputs = form.find('input[name=heading]:checked');
+            if (selectedInputs.length < inputs.length) {
+                inputs.prop('checked', true);    
+                allCheckInput.prop('checked', true);
+            } else {
+                inputs.prop('checked', false);
+                allCheckInput.prop('checked', false);
+            }
+            return false;
+        });
+    });
+});

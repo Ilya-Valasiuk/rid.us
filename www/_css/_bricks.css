@@ -1019,6 +1019,18 @@
     }
 }
 
+.view__gear {
+	position: absolute;
+	display: block;
+	background: url(../_images/gear_icon.svg);
+	width: 19px;
+    height: 19px;
+    z-index: 999;
+    right: 4px;
+    top: 8px;
+	cursor: pointer;
+}
+
 
 .brick.view_yellow .iscroll {
     height: 356px;

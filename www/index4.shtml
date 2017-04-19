@@ -74,7 +74,8 @@
 						</div>
 
 						<div class="brick view_yellow height-twice">
-							<a href="#" class="brick__header view_arrowed" title="">Бездна новостей</a>
+							<a href="#" class="brick__header" title="">Бездна новостей</a>
+							<span class="view__gear"></span>
 							<!--#include virtual="bricks/newslist.shtml?banner=none"-->
 						</div>
 
@@ -106,7 +107,8 @@
 					<!-- блок скрыт на разрешениях .hideOn_1024 .hideOn_1280,
 					выше он же вставлен для этих разрешений с классом .hideOn_768 -->
 					<div class="brick view_yellow swiper-slide hideOn_1024 hideOn_1280">
-						<a href="#" class="brick__header view_arrowed" title="">Бездна новостей</a>
+						<a href="#" class="brick__header" title="">Бездна новостей</a>
+						<span class="view__gear"></span>
 						<!--#include virtual="bricks/newslist.shtml?banner=none"-->
 					</div>
 
@@ -740,7 +742,7 @@
 
 <div class="pageSwiper__container">
 
-    <section class="flexSlider wrapper contentBackground_white paddings_side padding_top padding_bottom clearfix">
+    <section class="flexSlider wrapper contentBackground_pantone7506 paddings_side padding_top padding_bottom clearfix">
 
         <h1 class="view_centred">
             <i class="threeDot"></i>

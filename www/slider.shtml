@@ -80,5 +80,9 @@
         </div>
     </div>
     <!-- Add Pagination -->
-    <div class="swiper-pagination"></div>
+	<div class="swiper-pagination"></div>
+
+	<!-- If we need navigation buttons -->
+	<div class="slider-button-prev transparent default-position"></div>
+	<div class="slider-button-next transparent default-position"></div>
 </div>
