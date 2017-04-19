@@ -220,3 +220,45 @@
 	text-decoration: underline;
 	color: #878787;
 }
+
+.newList__settings {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 38px;
+	width: calc(100% - 36px);
+	height: calc(100% - 55px);
+	padding: 8px 18px 10px;
+	background-color: #ffd051;
+}
+
+.newList__settings input[name='heading'] {
+	margin-bottom: 10px;
+}
+
+.newList__settings input[type='button'] {
+	background-color: white;
+    border: 4px;
+    border-radius: 6px;
+    padding: 2px 20px;
+    font-size: 16px;
+}
+
+.newList__settings__item,
+.newList__all {
+	display: flex;
+	cursor: pointer;
+	color: black;
+	align-items: baseline;
+}
+
+.newList__settings__item input,
+.newList__all input {
+	margin-right: 15px;
+}
+
+.newList__buttons {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 25px;
+}

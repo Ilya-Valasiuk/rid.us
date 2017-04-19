@@ -216,32 +216,32 @@
 
 
 
+            <div class="contentBackground_pantone7545 clearfix padding_top">
+                <h1 class="view_centred">
+                    <i class="threeDot"></i>
+                    картина дня
+                    <i class="threeDot"></i>
+                </h1>
 
-
-
-
-
-            <h1 class="view_centred">
-                <i class="threeDot"></i>
-                гражданская журналистика
-                <i class="threeDot"></i>
-            </h1>
-
-            <div class="bricks__wrapper padding_bottom clearfix">
-                <div class="brick">
-                    <!--#include virtual="bricks/news-simple.shtml?image=2&data=1&label=31&count1=120&count2=35&count3=3812"-->
+                <div class="bricks__wrapper padding_bottom clearfix">
+                    <!--#include virtual="slider.shtml"-->
+                    <div class="brick not_for_hover hideOn_1024 hideOn_768">
+                        <div class="brick view_floatText">
+                            <!--#include virtual="bricks/mini-full.shtml?image=1&data=1&label=11"-->
+                        </div>
+                        <div class="brick view_floatText">
+                            <!--#include virtual="bricks/mini-full.shtml?image=2&data=3&label=13"-->
+                        </div>
+                        <div class="brick view_floatText">
+                            <!--#include virtual="bricks/mini-full.shtml?image=3&data=2&label=12"-->
+                        </div>
+                    </div>
                 </div>
-                <div class="brick hideOn_768">
-                    <!--#include virtual="bricks/news-simple.shtml?image=3&data=2&label=32&count1=120&count2=35&count3=3812"-->
-                </div>            
-                <div class="brick hideOn_1024">
-                    <!--#include virtual="bricks/news-simple.shtml?image=1&data=3&label=33&count1=120&count2=35&count3=3812"-->
-                </div>            
             </div>
+            <br><br>
 
 
-
-
+           
 
 
             <a class="stickedSlideHere" data-stickedSlideHere="1"></a>
@@ -317,27 +317,26 @@
 
 
 
+            <div class="clearfix padding_top">
+                <h1 class="view_centred">
+                    <i class="threeDot"></i>
+                    гражданская журналистика
+                    <i class="threeDot"></i>
+                </h1>
 
-            <h1 class="view_centred">
-                <i class="threeDot"></i>
-                картина дня
-                <i class="threeDot"></i>
-            </h1>
-
-            <div class="bricks__wrapper padding_bottom clearfix">
-                <!--#include virtual="slider.shtml"-->
-                <div class="brick not_for_hover hideOn_1024 hideOn_768">
-                    <div class="brick view_floatText">
-                        <!--#include virtual="bricks/mini-full.shtml?image=1&data=1&label=11"-->
+                <div class="bricks__wrapper padding_bottom clearfix">
+                    <div class="brick">
+                        <!--#include virtual="bricks/news-simple.shtml?image=2&data=1&label=31&count1=120&count2=35&count3=3812"-->
                     </div>
-                    <div class="brick view_floatText">
-                        <!--#include virtual="bricks/mini-full.shtml?image=2&data=3&label=13"-->
-                    </div>
-                    <div class="brick view_floatText">
-                        <!--#include virtual="bricks/mini-full.shtml?image=3&data=2&label=12"-->
-                    </div>
+                    <div class="brick hideOn_768">
+                        <!--#include virtual="bricks/news-simple.shtml?image=3&data=2&label=32&count1=120&count2=35&count3=3812"-->
+                    </div>            
+                    <div class="brick hideOn_1024">
+                        <!--#include virtual="bricks/news-simple.shtml?image=1&data=3&label=33&count1=120&count2=35&count3=3812"-->
+                    </div>            
                 </div>
             </div>
+            <br><br>
 
 
 
@@ -419,23 +418,33 @@
 
 
 
-            <h1 class="view_centred">
-                <i class="threeDot"></i>
-                развлечения
-                <i class="threeDot"></i>
-            </h1>
+            <div class="contentBackground_blue clearfix padding_top">
+                <h1 class="view_centred">
+                    <i class="threeDot"></i>
+                    интересное
+                    <i class="threeDot"></i>
+                </h1>
 
-            <div class="bricks__wrapper padding_bottom clearfix">
-                <div class="brick">
-                    <!--#include virtual="bricks/news-simple.shtml?image=2&data=2&label=32&count1=120&count2=35&count3=3812"-->
+                <!-- заменить на картинку -->
+                <div class="bricks__wrapper padding_bottom clearfix">
+                    <div class="brick aLaSlideImage">
+                        <!--#include virtual="bricks/alaslideimage.shtml?image=3"-->
+                    </div>
+
+                    <div class="brick not_for_hover hideOn_1024 hideOn_768">
+                        <div class="brick view_floatText">
+                            <!--#include virtual="bricks/mini-full.shtml?image=1&data=1&label=11"-->
+                        </div>
+                        <div class="brick view_floatText">
+                            <!--#include virtual="bricks/mini-full.shtml?image=2&data=3&label=13"-->
+                        </div>
+                        <div class="brick view_floatText">
+                            <!--#include virtual="bricks/mini-full.shtml?image=3&data=2&label=12"-->
+                        </div>
+                    </div>
                 </div>
-                <div class="brick hideOn_768">
-                    <!--#include virtual="bricks/news-simple.shtml?image=3&data=1&label=31&count1=120&count2=35&count3=3812"-->
-                </div>            
-                <div class="brick hideOn_1024">
-                    <!--#include virtual="bricks/news-simple.shtml?image=1&data=3&label=33&count1=120&count2=35&count3=3812"-->
-                </div>            
             </div>
+            <br><br>
 
 
 
@@ -518,30 +527,23 @@
 
 
 
-            <div class="contentBackground_blue clearfix padding_top">
+            <div class="contentBackground_pantone7506 clearfix padding_top">
                 <h1 class="view_centred">
                     <i class="threeDot"></i>
-                    интересное
+                    развлечения
                     <i class="threeDot"></i>
                 </h1>
 
-                <!-- заменить на картинку -->
                 <div class="bricks__wrapper padding_bottom clearfix">
-                    <div class="brick aLaSlideImage">
-                        <!--#include virtual="bricks/alaslideimage.shtml?image=3"-->
+                    <div class="brick">
+                        <!--#include virtual="bricks/news-simple.shtml?image=2&data=2&label=32&count1=120&count2=35&count3=3812"-->
                     </div>
-
-                    <div class="brick not_for_hover hideOn_1024 hideOn_768">
-                        <div class="brick view_floatText">
-                            <!--#include virtual="bricks/mini-full.shtml?image=1&data=1&label=11"-->
-                        </div>
-                        <div class="brick view_floatText">
-                            <!--#include virtual="bricks/mini-full.shtml?image=2&data=3&label=13"-->
-                        </div>
-                        <div class="brick view_floatText">
-                            <!--#include virtual="bricks/mini-full.shtml?image=3&data=2&label=12"-->
-                        </div>
-                    </div>
+                    <div class="brick hideOn_768">
+                        <!--#include virtual="bricks/news-simple.shtml?image=3&data=1&label=31&count1=120&count2=35&count3=3812"-->
+                    </div>            
+                    <div class="brick hideOn_1024">
+                        <!--#include virtual="bricks/news-simple.shtml?image=1&data=3&label=33&count1=120&count2=35&count3=3812"-->
+                    </div>            
                 </div>
             </div>
             <br><br>

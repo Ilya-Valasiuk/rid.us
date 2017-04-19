@@ -216,6 +216,18 @@
     background: #ffd051 url(../_images/icons_sprite.png);
     z-index: 9999;
 }
+.slider-button-prev,
+.slider-button-next {
+    display: none;
+    width: 50px;
+    height: 50px;
+    background: transparent url(../_images/icons_sprite.png);
+    z-index: 9999;
+}
+.swiper-slide:hover .slider-button-prev,
+.swiper-slide:hover .slider-button-next {
+    display: block;
+}
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { 
     .swiper-button-next,
     .swiper-button-prev {
@@ -226,12 +238,16 @@
 
 
 .swiper-button-next:hover,
-.swiper-button-prev:hover {
+.swiper-button-prev:hover,
+.slider-button-next:hover,
+.slider-button-prev:hover {
     opacity: .75;
 }
 @media screen and (max-width: 1040px) {
     .swiper-button-next,
-    .swiper-button-prev {
+    .swiper-button-prev,
+    .slider-button-next,
+    .slider-button-prev {
         display: none;
     }
 }
@@ -245,11 +261,13 @@
 }
 
 
-.swiper-button-prev {
+.swiper-button-prev,
+.slider-button-prev {
     background-position: -50px -184px;
     left: 1%;
 }
-.swiper-button-next {
+.swiper-button-next,
+.slider-button-next {
     float: right;
     background-position: 0 -184px;
     right: 1%;

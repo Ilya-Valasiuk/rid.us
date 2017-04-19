@@ -117,7 +117,9 @@
 }
 /* Arrows */
 .swiper-button-prev,
-.swiper-button-next {
+.swiper-button-next,
+.slider-button-next,
+.slider-button-prev {
   position: absolute;
   top: 50%;
   width: 27px;

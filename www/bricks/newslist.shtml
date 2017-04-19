@@ -207,3 +207,37 @@
     </div>
 
 </div>
+
+<div class="newList__settings">
+    <form>
+        <label class="newList__all">
+            <input type="checkbox" name="all-items" value="all">
+                <span>Все</span>
+            </label>
+        <label class="newList__settings__item">
+            <input type="checkbox" name="heading" value="day_picture">
+                <span>Картина Дня</span>
+            </label>
+        <label class="newList__settings__item">
+            <input type="checkbox" name="heading" value="politic">
+                <span>Гражданская политика</span>
+            </label>
+        <label class="newList__settings__item">
+            <input type="checkbox" name="heading" value="interesting">
+                <span>Интерсное</span>
+            </label>
+        <label class="newList__settings__item">
+            <input type="checkbox" name="heading" value="useful">
+                <span>Полезное</span>
+            </label>
+        <label class="newList__settings__item">
+            <input type="checkbox" name="heading" value="entertainment">
+                <span>Развлечения</span>
+            </label>
+        
+        <div class="newList__buttons">
+            <input type="button" class="newList__submit" value="Ок">
+            <input type="button" class="newList__reset" value="Сбросить">
+        </div>
+    </form>
+</div>
