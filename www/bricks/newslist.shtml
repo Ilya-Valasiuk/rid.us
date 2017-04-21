@@ -210,28 +210,28 @@
 
 <div class="newList__settings">
     <form>
-        <label class="newList__all">
-            <input type="checkbox" name="all-items" value="all">
+        <label class="newList__all item-selected">
+            <input type="checkbox" name="all-items" value="all" checked>
                 <span>Все</span>
-            </label>
-        <label class="newList__settings__item">
-            <input type="checkbox" name="heading" value="day_picture">
+        </label>
+        <label class="newList__settings__item item-selected">
+            <input type="checkbox" name="heading" value="day_picture" checked>
                 <span>Картина Дня</span>
             </label>
-        <label class="newList__settings__item">
-            <input type="checkbox" name="heading" value="politic">
+        <label class="newList__settings__item item-selected">
+            <input type="checkbox" name="heading" value="politic" checked>
                 <span>Гражданская политика</span>
             </label>
-        <label class="newList__settings__item">
-            <input type="checkbox" name="heading" value="interesting">
+        <label class="newList__settings__item item-selected">
+            <input type="checkbox" name="heading" value="interesting" checked>
                 <span>Интерсное</span>
             </label>
-        <label class="newList__settings__item">
-            <input type="checkbox" name="heading" value="useful">
+        <label class="newList__settings__item item-selected">
+            <input type="checkbox" name="heading" value="useful" checked>
                 <span>Полезное</span>
             </label>
-        <label class="newList__settings__item">
-            <input type="checkbox" name="heading" value="entertainment">
+        <label class="newList__settings__item item-selected">
+            <input type="checkbox" name="heading" value="entertainment" checked>
                 <span>Развлечения</span>
             </label>
         
