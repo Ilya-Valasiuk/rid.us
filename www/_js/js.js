@@ -2030,41 +2030,76 @@ $(function() {
 
 $(function() {
     $(document).ready(function() {
-        var icon = $('.view__gear');
+        var icon = $('.burgerButton');
         var block = $('.newList__settings');
 
         if (!icon.length && !block.length) {
             return;
         }
 
-        icon.on('click', function() {
-            block.toggle('slide');
+        icon.on('click', function(e) {
+            block.toggle('slide', {direction: "left" }, 200);
+        });
+
+        $('.newList__submit').on('click', function () {
+            block.toggle('slide', {direction: "left" }, 200);
         });
 
         $('.newList__reset').on('click', function() {
-            $(this).closest('form').find('input[name=all-items], input[name=heading]').prop('checked', false);
+            var items = $(this).closest('form').find('label');
+            items.map(function (index, el) {
+                toggleChecked(el, false);
+            });
         });
 
-        $('.newList__settings__item').on('click', function() {
-            var input = $(this).find('input');
-            var value = input.prop('checked');
-            input.prop('checked', !value);
+        $('.newList__settings__item').on('click', function(e) {
+            var value = toggleChecked(this);
+
+            if (!value) {
+                toggleChecked($(this).closest('form').find('.newList__all'), false);
+            } else {
+                var form = $(this).closest('form');
+                var inputs = form.find('.newList__settings__item');
+                var selectedInputs = form.find('.newList__settings__item.item-selected');
+
+                if (inputs.length === selectedInputs.length) {
+                    toggleChecked($(this).closest('form').find('.newList__all'), true);
+                }
+            }
+
             return false;
         });
 
         $('.newList__all').on('click', function() {
-            var allCheckInput = $(this).find('input');
-            var form = $(this).parent();
-            var inputs = form.find('input[name=heading]');
-            var selectedInputs = form.find('input[name=heading]:checked');
-            if (selectedInputs.length < inputs.length) {
-                inputs.prop('checked', true);    
-                allCheckInput.prop('checked', true);
-            } else {
-                inputs.prop('checked', false);
-                allCheckInput.prop('checked', false);
-            }
+            var form = $(this).closest('form');
+            var inputs = form.find('.newList__settings__item');
+            var selectedInputs = form.find('.newList__settings__item.item-selected');
+            var isNeedCheck = selectedInputs.length < inputs.length
+
+            inputs.map(function(index, el) {
+                toggleChecked(el, isNeedCheck);
+            });
+            toggleChecked(this, isNeedCheck);
+           
             return false;
         });
+
+        function toggleChecked(el, value) {
+            var input = $(el).find('input');
+
+            if (value === undefined) {
+                value = !input.prop('checked');
+            }
+
+            if (value) {
+                $(el).addClass('item-selected');
+            } else {
+                $(el).removeClass('item-selected');
+            }
+            
+            input.prop('checked', value);
+
+            return value;
+        }
     });
 });

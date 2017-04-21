@@ -1019,18 +1019,49 @@
     }
 }
 
-.view__gear {
+.burgerButton {
 	position: absolute;
-	display: block;
-	background: url(../_images/gear_icon.svg);
-	width: 19px;
-    height: 19px;
-    z-index: 999;
-    right: 4px;
-    top: 8px;
 	cursor: pointer;
+    right: 0;
+    top: 0;
+    z-index: 666;
+    display: block;
+    width: 30px;
+    padding: 5px 0;
 }
 
+.burgerButton li {
+    width: 4px;
+    height: 4px;
+    margin: 3px auto;
+    background: black;
+    transition: .25s ease-in-out;
+}
+
+.burgerButton li:nth-child(2) {
+    position: relative;
+}
+
+.burgerButton li:nth-child(2):before, .burgerButton li:nth-child(2):after {
+    background: transparent;
+}
+
+.burgerButton li:nth-child(2):before, .burgerButton li:nth-child(2):after {
+    content: '';
+    position: absolute;
+    left: -50%;
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin: 1px 0 0 -6px;
+    transform: rotate(45deg);
+    background: rgba(255, 255, 255, 0);
+    transition: .25s ease-in-out;
+}
+
+.burgerButton li:nth-child(2):after {
+    transform: rotate(-45deg);
+}
 
 .brick.view_yellow .iscroll {
     height: 356px;

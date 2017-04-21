@@ -232,10 +232,6 @@
 	background-color: #ffd051;
 }
 
-.newList__settings input[name='heading'] {
-	margin-bottom: 10px;
-}
-
 .newList__settings input[type='button'] {
 	background-color: white;
     border: 4px;
@@ -247,18 +243,55 @@
 .newList__settings__item,
 .newList__all {
 	display: flex;
-	cursor: pointer;
+	position: relative;
+    overflow: hidden;
+    cursor: pointer;
 	color: black;
-	align-items: baseline;
-}
-
-.newList__settings__item input,
-.newList__all input {
-	margin-right: 15px;
+	align-items: center;
 }
 
 .newList__buttons {
 	display: flex;
 	justify-content: space-around;
-	margin-bottom: 25px;
+	margin: 20px 30px 25px;
+}
+
+.newList__settings__item.item-selected::after,
+.newList__all.item-selected::after {
+    content: '';
+    position: absolute;
+    width: 1.6ex;
+    height: 0.6ex;
+    background: rgba(0, 0, 0, 0);
+    top: 0.9ex;
+    left: 0.6ex;
+    border: 3px solid black;
+    border-top: none;
+    border-right: none;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.newList__settings__item input,
+.newList__all input {
+   line-height: 2.1ex;
+   position: absolute;
+    left: -999em;
+}
+
+.newList__settings__item::before,
+.newList__all::before {
+   content: "";
+   display: inline-block;
+   vertical-align: -25%;
+   height: 25px;
+   width: 25px;
+   background-color: white;
+   border: 1px solid rgb(166, 166, 166);
+   border-radius: 4px;
+   box-shadow: inset 0 2px 5px rgba(0,0,0,0.25);
+   margin-right: 0.75em;
 }

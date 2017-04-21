@@ -40,7 +40,14 @@
 			</div>
 
 	        <div class="brick view_yellow not-search">
-				<a href="#" class="brick__header view_arrowed" title="">Бездна новостей</a>
+				<a href="#" class="brick__header" title="">Бездна новостей</a>
+				<span class="burgerButton">
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</span>
 				<!--#include virtual="bricks/newslist.shtml?banner=none"-->
 	        </div>
 
@@ -59,7 +66,14 @@
         </div>
 
         <div class="brick view_yellow hideOn_1024 hideOn_1280 not-search">
-			<a href="#" class="brick__header view_arrowed" title="">Бездна новостей</a>
+			<a href="#" class="brick__header" title="">Бездна новостей</a>
+			<span class="burgerButton">
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</span>
 			<!--#include virtual="bricks/newslist.shtml?banner=none"-->
         </div>
 
