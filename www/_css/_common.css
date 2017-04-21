@@ -742,6 +742,10 @@ blockquote b {
 		box-shadow: -40px 0 0 #cee0ed,
 					 40px 0 0 #cee0ed;
 	}
+	.table__mainColumn .contentBackground_gunmetal {
+		box-shadow: -40px 0 0 #2b3336,
+					 40px 0 0 #2b3336;
+	}
 	.table__mainColumn .contentBackground_yellow {
 		box-shadow: -40px 0 0 #ffcd00,
 					 40px 0 0 #ffcd00;
@@ -776,6 +780,10 @@ blockquote b {
 		box-shadow: -40px 0 0 #ffcd00,
 					 10px 0 0 #ffcd00;
 	}
+	.table__mainColumn .contentBackground_gunmetal {
+		box-shadow: -40px 0 0 #2b3336,
+					 10px 0 0 #2b3336;
+	}
 	.table__mainColumn .contentBackground_pantone7545 {
 		box-shadow: -40px 0 0 #7d1900,
 					 10px 0 0 #7d1900;
@@ -805,6 +813,10 @@ blockquote b {
 	.table__mainColumn .contentBackground_yellow {
 		box-shadow: -16px 0 0 #ffcd00,
 					 8px 0 0 #ffcd00;
+	}
+	.table__mainColumn .contentBackground_gunmetal {
+		box-shadow: -16px 0 0 #2b3336,
+					 8px 0 0 #2b3336;
 	}
 	.table__mainColumn .contentBackground_pantone7545 {
 		box-shadow: -16px 0 0 #7d1900,
