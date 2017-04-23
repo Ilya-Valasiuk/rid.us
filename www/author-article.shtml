@@ -268,6 +268,81 @@
                 <!--#include virtual="_comments.shtml"-->
             </div>
 
+            <section class="clearfix">
+
+                    <h1>
+                        <ul class="textTabs view_dotBetween clearfix">
+                            <li class="textTabs__item">Авторские колонки</li>
+                            <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Авторы</a></li>
+                        </ul>
+                    </h1>
+
+                    <div class="bricks__wrapper clearfix">
+
+                        <div class="brick">
+                            <!--#include virtual="bricks/news-simple.shtml?image=1&data=1&label=11&count1=120&count2=35&count3=3812"-->
+                        </div>
+                        <div class="brick hideOn_768">
+                            <!--#include virtual="bricks/news-simple.shtml?image=3&data=1&label=11&count1=120&count2=35&count3=3812"-->
+                        </div>
+                        <div class="brick hideOn_1024 hideOn_768">
+                            <!--#include virtual="bricks/news-simple.shtml?image=2&data=2&label=12&count1=120&count2=35&count3=3812"-->
+                        </div>
+                        
+
+                        <div class="brick">
+                            <!--#include virtual="bricks/news-simple.shtml?image=2&data=2&label=12&count1=120&count2=35&count3=3812"-->
+                        </div>
+                        <div class="brick hideOn_768">
+                            <!--#include virtual="bricks/news-simple.shtml?image=3&data=2&label=12&count1=120&count2=35&count3=3812"-->
+                        </div>
+                        <div class="brick hideOn_1024 hideOn_768">
+                            <!--#include virtual="bricks/news-simple.shtml?image=1&data=1&label=11&count1=120&count2=35&count3=3812"-->
+                        </div>
+                        
+
+                        <div class="brick">
+                            <!--#include virtual="bricks/news-simple.shtml?image=3&data=2&label=12&count1=120&count2=35&count3=3812"-->
+                        </div>
+                        <div class="brick">
+                            <!--#include virtual="bricks/news-simple.shtml?image=1&data=1&label=11&count1=120&count2=35&count3=3812"-->
+                        </div>
+                        <div class="brick hideOn_768">
+                            <!--#include virtual="bricks/news-simple.shtml?image=2&data=2&label=12&count1=120&count2=35&count3=3812"-->
+                        </div>
+                        <div class="brick hideOn_1024 hideOn_768">
+                            <!--#include virtual="bricks/news-simple.shtml?image=3&data=2&label=12&count1=120&count2=35&count3=3812"-->
+                        </div>
+
+                        
+                        <div class="brick">
+                            <!--#include virtual="bricks/news-simple.shtml?image=2&data=1&label=11&count1=120&count2=35&count3=3812"-->
+                        </div>
+                        <div class="brick hideOn_768">
+                            <!--#include virtual="bricks/news-simple.shtml?image=3&data=2&label=12&count1=120&count2=35&count3=3812"-->
+                        </div>
+                        <div class="brick hideOn_1024 hideOn_768">
+                            <!--#include virtual="bricks/news-simple.shtml?image=1&data=2&label=12&count1=120&count2=35&count3=3812"-->
+                        </div>
+
+                        <div class="brick">
+                            <!--#include virtual="bricks/news-simple.shtml?image=3&data=2&label=12&count1=120&count2=35&count3=3812"-->
+                        </div>
+                        <div class="brick">
+                            <!--#include virtual="bricks/news-simple.shtml?image=1&data=1&label=11&count1=120&count2=35&count3=3812"-->
+                        </div>
+                        <div class="brick hideOn_768">
+                            <!--#include virtual="bricks/news-simple.shtml?image=2&data=2&label=12&count1=120&count2=35&count3=3812"-->
+                        </div>
+                        <div class="brick hideOn_1024 hideOn_768">
+                            <!--#include virtual="bricks/news-simple.shtml?image=3&data=2&label=12&count1=120&count2=35&count3=3812"-->
+                        </div>
+                        
+                    </div>
+
+
+                </section>
+
             <!--#include virtual="_article-maincolumn.shtml"-->
 
         </div>
