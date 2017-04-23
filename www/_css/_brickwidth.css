@@ -101,6 +101,9 @@
 	box-shadow: inset #cee0ed 0 -15px 10px;
 }
 
+.contentBackground_ededce .brick .brick__content:after {
+	box-shadow: inset #ededce 0 -15px 10px;
+}
 
 
 

@@ -235,9 +235,10 @@
 .newList__settings input[type='button'] {
 	background-color: white;
     border: 4px;
-    border-radius: 6px;
-    padding: 2px 20px;
+    border-radius: 0;
+    padding: 7px 25px;
     font-size: 16px;
+	cursor: pointer;
 }
 
 .newList__settings__item,
@@ -253,7 +254,17 @@
 .newList__buttons {
 	display: flex;
 	justify-content: space-around;
-	margin: 20px 30px 25px;
+	margin-top: 20px;
+}
+
+.newList__buttons input:hover {
+	opacity: 0.9;
+}
+
+@media screen and (max-width: 1023px) {
+	.newList__buttons {
+		margin: 20px 30px 25px;
+	}
 }
 
 .newList__settings__item.item-selected::after,

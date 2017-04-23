@@ -2048,8 +2048,10 @@ $(function() {
         $('.newList__reset').on('click', function() {
             var items = $(this).closest('form').find('label');
             items.map(function (index, el) {
-                toggleChecked(el, false);
+                toggleChecked(el, true);
             });
+
+            block.toggle('slide', {direction: "left" }, 200);
         });
 
         $('.newList__settings__item').on('click', function(e) {
