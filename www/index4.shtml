@@ -754,7 +754,7 @@
 
 <div class="pageSwiper__container">
 
-    <section class="flexSlider wrapper contentBackground_pantone7506 paddings_side padding_top padding_bottom clearfix">
+    <section class="flexSlider wrapper paddings_side padding_top padding_bottom clearfix">
 
         <h1 class="view_centred">
             <i class="threeDot"></i>
