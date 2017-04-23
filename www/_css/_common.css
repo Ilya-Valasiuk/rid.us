@@ -264,11 +264,11 @@ h1 .threeDot {
 .contentBackground_yellow .threeDot,
 .contentBackground_yellow .threeDot:before,
 .contentBackground_yellow .threeDot:after {
-	background: black;
+	background: #f00;
 }
 
 .contentBackground_yellow .brick .brick__content:after {
-	box-shadow: inset #ffcd00 0 -15px 10px;
+	box-shadow: inset #ffc336 0 -15px 10px;
 }
 
 
@@ -618,7 +618,7 @@ blockquote b {
 }
 /*развлечение*/
 .contentBackground_yellow {
-	background: #ffcd00;
+	background: #ffc336;
 }
 /*картина дня*/
 .contentBackground_pantone7545 {
@@ -650,6 +650,10 @@ blockquote b {
 }
 .contentBackground_dark .swiper-button-disabled {
 	opacity: .15;
+}
+
+.contentBackground_ededce {
+	background: #ededce;
 }
 
 /* технологии */
@@ -747,8 +751,8 @@ blockquote b {
 					 40px 0 0 #2b3336;
 	}
 	.table__mainColumn .contentBackground_yellow {
-		box-shadow: -40px 0 0 #ffcd00,
-					 40px 0 0 #ffcd00;
+		box-shadow: -40px 0 0 #ffc336,
+					 40px 0 0 #ffc336;
 	}
 	.table__mainColumn .contentBackground_pantone7545 {
 		box-shadow: -40px 0 0 #7d1900,
@@ -766,6 +770,10 @@ blockquote b {
 		box-shadow: -40px 0 0 #252525,
 					 40px 0 0 #252525;
 	}
+	.table__mainColumn .contentBackground_ededce {
+		box-shadow: -40px 0 0 #ededce,
+					 40px 0 0 #ededce;
+	}
 }
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
 	.table__mainColumn .contentBackground_grey {
@@ -777,8 +785,8 @@ blockquote b {
 					 10px 0 0 #cee0ed;
 	}
 	.table__mainColumn .contentBackground_yellow {
-		box-shadow: -40px 0 0 #ffcd00,
-					 10px 0 0 #ffcd00;
+		box-shadow: -40px 0 0 #ffc336,
+					 10px 0 0 #ffc336;
 	}
 	.table__mainColumn .contentBackground_gunmetal {
 		box-shadow: -40px 0 0 #2b3336,
@@ -800,6 +808,10 @@ blockquote b {
 		box-shadow: -40px 0 0 #252525,
 					 10px 0 0 #252525;
 	}
+	.table__mainColumn .contentBackground_ededce {
+		box-shadow: -40px 0 0 #ededce,
+					 10px 0 0 #ededce;
+	}
 }
 @media screen and (min-width: 1280px) {
 	.table__mainColumn .contentBackground_grey {
@@ -811,8 +823,8 @@ blockquote b {
 					  8px 0 0 #cee0ed;
 	}
 	.table__mainColumn .contentBackground_yellow {
-		box-shadow: -16px 0 0 #ffcd00,
-					 8px 0 0 #ffcd00;
+		box-shadow: -16px 0 0 #ffc336,
+					 8px 0 0 #ffc336;
 	}
 	.table__mainColumn .contentBackground_gunmetal {
 		box-shadow: -16px 0 0 #2b3336,
@@ -833,6 +845,10 @@ blockquote b {
 	.table__mainColumn .contentBackground_dark {
 		box-shadow: -16px 0 0 #252525,
 					  8px 0 0 #252525;
+	}
+	.table__mainColumn .contentBackground_ededce {
+		box-shadow: -16px 0 0 #ededce,
+					 40px 0 0 #ededce;
 	}
 }
 
