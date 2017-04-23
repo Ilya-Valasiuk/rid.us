@@ -38,27 +38,21 @@
 			</span>
 			<!--#include virtual="bricks/newslist.shtml?banner=none"-->
         </div>
-		<div class="brick not_for_hover not-search hideOn_1024 hideOn_1280">
-            <div class="brick view_floatText">
-                <!--#include virtual="bricks/mini-full.shtml?image=1&data=1&label=11"-->
-            </div>
-            <div class="brick view_floatText">
-                <!--#include virtual="bricks/mini-full.shtml?image=2&data=3&label=13"-->
-            </div>
-            <div class="brick view_floatText">
-                <!--#include virtual="bricks/mini-full.shtml?image=3&data=2&label=12"-->
-            </div>
-        </div>
-        <div class="brick">
+
+		<!--дата в этот контейнер попадает через js. Парсятся елементы, у которых есть data-triple-brick-data атрибут-->
+		<div class="brick not_for_hover not-search hideOn_1024 hideOn_1280" data-triple-brick>
+
+		</div>
+        <div class="brick hideOn_768" data-triple-brick-data>
         	<!--#include virtual="bricks/news-simple.shtml?image=1&data=1&label=11&count1=120&count2=35&count3=3812"-->
         </div>
-        <div class="brick">
+        <div class="brick hideOn_768" data-triple-brick-data>
         	<!--#include virtual="bricks/news-simple.shtml?image=2&data=2&label=12&count1=120&count2=35&count3=3812"-->
         </div>
         <div class="brick view_banner not-search" data-specific-size="3,4,5">
             <!--#include virtual="bricks/banner-mts.shtml"-->
         </div>
-        <div class="brick">
+        <div class="brick hideOn_768" data-triple-brick-data>
             <!--#include virtual="bricks/news-simple.shtml?image=3&data=2&label=12&count1=120&count2=35&count3=3812"-->
         </div>
         <div class="brick">

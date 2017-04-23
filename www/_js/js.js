@@ -2103,3 +2103,85 @@ $(function() {
         }
     });
 });
+
+$(function() {
+    $(document).ready(function() {
+        var item = $('[data-triple-brick]');
+
+        if (!item.length) {
+            return;
+        }
+        var template = '<div class="brick view_floatText">' + 
+            '<div class="brick__side">' +
+                '<a href="#" class="brick__image" style="background-image: url(imageUrl)">'+
+                    '<span class="clickable"></span>'+
+                '</a>'+
+            '</div>'+
+            '<div class="brick__content">'+
+                '<a href="#" class="brick__label" title="">brickLabel</a>'+
+                '<h5>'+
+                    '<a href="#" title="">brickHeader</a> '+
+                '</h5>'+
+            '</div>'+
+            '<div class="countersBlock">'+
+                '<span class="countersBlock__item view_count1">brickCount1<i class="icon"></i></span>'+
+                '<span class="countersBlock__item view_count2">brickCount2<i class="icon"></i></span>'+
+                '<span class="countersBlock__item view_count3">brickCount3<i class="icon"></i></span>'+
+                '<a href="#" class="countersBlock__item readLater only_icon__mobile">'+
+                    '<span>читать позже</span>'+
+                    '<span class="state_hidderHidden">читаю позже</span>'+
+                    '<i class="icon"></i>'+
+                '</a>'+
+            '</div>'+
+        '</div>';
+
+        var dataEl = $('[data-triple-brick-data]');
+
+        dataEl.map(function(index, el) {
+            var createdEl = createMiniBrickElement(getData($(el)));
+
+            item.append(createdEl);
+        });
+
+        function getData(el) {
+            var image = el.find('.brick__image');
+            var url = image.css('background-image');
+            url = url.replace('url(','').replace(')','').replace(/\"/gi, "");;
+            var mainLink = el.find('.brick__mainLink').text().trim();
+            var label = el.find('.brick__label').text().trim();
+            var count1 = el.find('.view_count1').text().trim();
+            var count2 = el.find('.view_count2').text().trim();
+            var count3 = el.find('.view_count3').text().trim();
+
+            return {
+                url: url,
+                header: mainLink,
+                label: label,
+                counter1: count1,
+                counter2: count2,
+                counter3: count3,
+            }
+        }
+
+        function createMiniBrickElement(data) {
+            var templateEl = replaceAll(template, {
+                imageUrl: data.url,
+                brickLabel: data.label,
+                brickHeader: data.header,
+                brickCount1: data.counter1,
+                brickCount2: data.counter2,
+                brickCount3: data.counter3
+            });
+            return $(templateEl);
+        }
+
+        function replaceAll(str, obj) {
+            var retStr = str;
+            for (var x in obj) {
+                retStr = retStr.replace(new RegExp(x, 'g'), obj[x]);
+            }
+            return retStr;
+        }
+        
+    });
+});
