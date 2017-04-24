@@ -503,7 +503,8 @@
 
 
 /* на синем фоне */
-.contentBackground_blue .countersBlock__item {
+.contentBackground_blue .countersBlock__item,
+.contentBackground_yellow .countersBlock__item {
 	color: #929fa9;
 }
 .contentBackground_red .countersBlock__item {
