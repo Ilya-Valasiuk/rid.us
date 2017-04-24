@@ -1901,16 +1901,21 @@ $(function() {
 $(function() {
     $(document).ready(function() {
         var mainBlock = $('.brick-play').length > 0;
+        var specificItems = $('[data-specific-size]');
+        
+        if (!mainBlock && !specificItems.length) {
+            return;
+        }
+
         var isKD = $('.kartina-dnua').length > 0;
         var isInteresnoe = $('.interesnoe').length > 0;
         var isSection = $('.section-brick').length > 0;
-        if (!mainBlock) { return; }
         var currentPoint = document.body.clientWidth;
 
         var firstBlock = $('.first-main-block');
         var secondBlock = $('.second-main-block');
         var thirdBlock = $('.third-main-block');
-        var specificItems = $('[data-specific-size]');
+        
 
         var fn = $.debounce(100, false, function() {
             if (document.body.clientWidth >= 1280 && currentPoint < 1280) {
