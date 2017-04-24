@@ -653,7 +653,11 @@ blockquote b {
 }
 
 .contentBackground_ededce {
-	background: #ededce;
+	background: #ede7ce;
+}
+
+.contentBackground_yellow-dark {
+	background-color: #e2dcc3;
 }
 
 /* технологии */
@@ -771,8 +775,8 @@ blockquote b {
 					 40px 0 0 #252525;
 	}
 	.table__mainColumn .contentBackground_ededce {
-		box-shadow: -40px 0 0 #ededce,
-					 40px 0 0 #ededce;
+		box-shadow: -40px 0 0 #ede7ce,
+					 40px 0 0 #ede7ce;
 	}
 }
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -809,8 +813,8 @@ blockquote b {
 					 10px 0 0 #252525;
 	}
 	.table__mainColumn .contentBackground_ededce {
-		box-shadow: -40px 0 0 #ededce,
-					 10px 0 0 #ededce;
+		box-shadow: -40px 0 0 #ede7ce,
+					 10px 0 0 #ede7ce;
 	}
 }
 @media screen and (min-width: 1280px) {
@@ -847,8 +851,8 @@ blockquote b {
 					  8px 0 0 #252525;
 	}
 	.table__mainColumn .contentBackground_ededce {
-		box-shadow: -16px 0 0 #ededce,
-					 40px 0 0 #ededce;
+		box-shadow: -16px 0 0 #ede7ce,
+					 8px 0 0 #ede7ce;
 	}
 }
 
