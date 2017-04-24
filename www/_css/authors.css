@@ -49,6 +49,7 @@
 	background: #000;
 }
 .authorPhoto__image {
+	cursor: default;
 	width: 295px;
 	height: 280px;
 }
