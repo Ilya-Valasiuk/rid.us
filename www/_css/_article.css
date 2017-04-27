@@ -332,6 +332,7 @@
 
 .article-short__image {
 	flex: 1;
+	background-size: cover;
 }
 
 .article-short__image img {
