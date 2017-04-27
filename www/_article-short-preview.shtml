@@ -54,22 +54,21 @@
             </div>
         </div>
     </div>
-    <div class="article-short__image">
-        <!--#if expr="$img = 1" -->
-        <img src="https://www.ridus.ru/images/2016/3/28/382486/large_f1b28937b6.png" alt="link">
-        <!--#endif -->
-        <!--#if expr="$img = 2" -->
-        <img src="https://www.ridus.ru/images/2017/4/17/572502/large_e778ccf1a2.jpg" alt="link">
-        <!--#endif -->
-        <!--#if expr="$img = 3" -->
-        <img src="https://www.ridus.ru/images/2016/3/28/382486/large_f1b28937b6.png" alt="link">
-        <!--#endif -->
-        <!--#if expr="$img = 4" -->
-        <img src="https://www.ridus.ru/images/2017/4/25/575774/large_1e0b7b3256.jpg" alt="link">
-        <!--#endif -->
-        <!--#if expr="$img = 5" -->
-        <img src="http://www.ridus.ru/images/2015/11/27/339969/in_article_f324f74275.png" alt="link">
-        <!--#endif -->
+    <!--#if expr="$img = 1" -->
+    <div class="article-short__image" style="background-image: url('https://www.ridus.ru/images/2016/3/28/382486/large_f1b28937b6.png')">
+    <!--#endif -->
+    <!--#if expr="$img = 2" -->
+    <div class="article-short__image" style="background-image: url('https://www.ridus.ru/images/2017/4/17/572502/large_e778ccf1a2.jpg')">
+    <!--#endif -->
+    <!--#if expr="$img = 3" -->
+    <div class="article-short__image" style="background-image: url('https://www.ridus.ru/images/2016/3/28/382486/large_f1b28937b6.png')">
+    <!--#endif -->
+    <!--#if expr="$img = 4" -->
+    <div class="article-short__image" style="background-image: url('https://www.ridus.ru/images/2017/4/25/575774/large_1e0b7b3256.jpg')">
+    <!--#endif -->
+    <!--#if expr="$img = 5" -->
+    <div class="article-short__image" style="background-image: url('http://www.ridus.ru/images/2015/11/27/339969/in_article_f324f74275.png')">
+    <!--#endif -->
     </div>
 </div>
 
