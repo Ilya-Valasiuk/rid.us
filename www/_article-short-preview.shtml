@@ -5,10 +5,10 @@
 
 <!-- //// извлекаем из параметров урла --> 
 
-<!--#if expr="\"$QUERY_STRING\" = /color=([a-zA-Z0-9]+)/" -->
+<!--#if expr="$QUERY_STRING = /color=([a-zA-Z0-9]+)/" -->
 <!--#set var="color" value="$1" -->
 <!--#endif -->
-<!--#if expr="\"$QUERY_STRING\" = /img=([a-zA-Z0-9]+)/" -->
+<!--#if expr="$QUERY_STRING = /img=([a-zA-Z0-9]+)/" -->
 <!--#set var="img" value="$1" -->
 <!--#endif -->
 
