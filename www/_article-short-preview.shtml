@@ -1,0 +1,80 @@
+<!-- //// определяем переменные -->  
+
+<!--#set var="color" value="" -->
+<!--#set var="img" value="" -->
+
+<!-- //// извлекаем из параметров урла --> 
+
+<!--#if expr="\"$QUERY_STRING\" = /color=([a-zA-Z0-9]+)/" -->
+<!--#set var="color" value="$1" -->
+<!--#endif -->
+<!--#if expr="\"$QUERY_STRING\" = /img=([a-zA-Z0-9]+)/" -->
+<!--#set var="img" value="$1" -->
+<!--#endif -->
+
+<!-- //// конец --> 
+
+
+<!--#if expr="$color = 1" -->
+<div class="article-short__container article-short--yellow">
+<!--#endif -->
+<!--#if expr="$color = 2" -->
+<div class="article-short__container article-short--blue">
+<!--#endif -->
+<!--#if expr="$color = 3" -->
+<div class="article-short__container article-short--red">
+<!--#endif -->
+<!--#if expr="$color = 4" -->
+<div class="article-short__container article-short--blue-light">
+<!--#endif -->
+<!--#if expr="$color = 5" -->
+<div class="article-short__container article-short--green">
+<!--#endif -->
+    <div class="article-short__info-background">
+        <div class="article-short__info">
+            <div class="article-short__bread-crumbs">
+                <ul class="textTabs view_dotBetween view_h5 clearfix">
+                    <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Гражданская журналистика</a></li>
+                    <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Политика</a></li>
+                </ul>
+            </div>
+
+            <h3 class="article-short__header">Виталий Кличко возглавил партию Петра Порошенко</h3>
+
+            <div class="countersBlock">
+                <span class="countersBlock__item view_count1">
+                    123 <i class="icon"><!-- icon --></i>
+                </span>
+                <span class="countersBlock__item view_count2">
+                    557 <i class="icon"><!-- icon --></i>
+                </span>
+                <span class="countersBlock__item view_count3">
+                    99 <i class="icon"><!-- icon --></i>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="article-short__image">
+        <!--#if expr="$img = 1" -->
+        <img src="https://www.ridus.ru/images/2016/3/28/382486/large_f1b28937b6.png" alt="link">
+        <!--#endif -->
+        <!--#if expr="$img = 2" -->
+        <img src="https://www.ridus.ru/images/2017/4/17/572502/large_e778ccf1a2.jpg" alt="link">
+        <!--#endif -->
+        <!--#if expr="$img = 3" -->
+        <img src="https://www.ridus.ru/images/2016/3/28/382486/large_f1b28937b6.png" alt="link">
+        <!--#endif -->
+        <!--#if expr="$img = 4" -->
+        <img src="https://www.ridus.ru/images/2017/4/25/575774/large_1e0b7b3256.jpg" alt="link">
+        <!--#endif -->
+        <!--#if expr="$img = 5" -->
+        <img src="http://www.ridus.ru/images/2015/11/27/339969/in_article_f324f74275.png" alt="link">
+        <!--#endif -->
+    </div>
+</div>
+
+
+
+
+
+

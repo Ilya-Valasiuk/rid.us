@@ -540,7 +540,9 @@
 .contentBackground_red .countersBlock__item.view_count1 .icon,
 .videoPlaylist__item .countersBlock__item.view_count1 .icon,
 .aLaSlideImage .countersBlock__item.view_count1 .icon,
-.slider .countersBlock__item.view_count1 .icon {
+.slider .countersBlock__item.view_count1 .icon,
+.article-short--blue .countersBlock__item.view_count1 .icon,
+.article-short--red .countersBlock__item.view_count1 .icon {
     background-position: -0px -301px;
 }
 .contentBackground_deepblue .countersBlock__item.view_count2 .icon,
@@ -549,7 +551,9 @@
 .contentBackground_red .countersBlock__item.view_count2 .icon,
 .videoPlaylist__item .countersBlock__item.view_count2 .icon,
 .aLaSlideImage .countersBlock__item.view_count2 .icon,
-.slider .countersBlock__item.view_count2 .icon {
+.slider .countersBlock__item.view_count2 .icon,
+.article-short--blue .countersBlock__item.view_count2 .icon,
+.article-short--red .countersBlock__item.view_count2 .icon {
     background-position: -11px -301px;
 }
 .contentBackground_deepblue .countersBlock__item.view_count3 .icon,
@@ -558,7 +562,9 @@
 .contentBackground_red .countersBlock__item.view_count3 .icon,
 .videoPlaylist__item .countersBlock__item.view_count3 .icon,
 .aLaSlideImage .countersBlock__item.view_count3 .icon,
-.slider .countersBlock__item.view_count3 .icon {
+.slider .countersBlock__item.view_count3 .icon,
+.article-short--blue .countersBlock__item.view_count3 .icon,
+.article-short--red .countersBlock__item.view_count3 .icon {
     background-position: -25px -301px;
 }
 
