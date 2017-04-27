@@ -333,6 +333,7 @@
 .article-short__image {
 	flex: 1;
 	background-size: cover;
+	background-position: center;
 }
 
 .article-short__image img {
