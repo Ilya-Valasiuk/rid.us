@@ -624,15 +624,15 @@
                 </div>
             </div>
 
-            <!--#include virtual="_article-short-preview.shtml?color=1&img=1"-->
+            <!--#include virtual="_article-short-preview.shtml?color=1&img=1&tag=1"-->
 
-            <!--#include virtual="_article-short-preview.shtml?color=2&img=2"-->
+            <!--#include virtual="_article-short-preview.shtml?color=2&img=2&tag=2"-->
 
-            <!--#include virtual="_article-short-preview.shtml?color=3&img=3"-->
+            <!--#include virtual="_article-short-preview.shtml?color=3&img=3&tag=3"-->
 
-            <!--#include virtual="_article-short-preview.shtml?color=4&img=4"-->
+            <!--#include virtual="_article-short-preview.shtml?color=4&img=4&tag=4"-->
 
-            <!--#include virtual="_article-short-preview.shtml?color=5&img=5"-->
+            <!--#include virtual="_article-short-preview.shtml?color=5&img=5&tag=5"-->
 
 
 

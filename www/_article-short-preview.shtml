@@ -11,6 +11,10 @@
 <!--#if expr="$QUERY_STRING = /img=([a-zA-Z0-9]+)/" -->
 <!--#set var="img" value="$1" -->
 <!--#endif -->
+<!--#if expr="\"$QUERY_STRING\" = /tag=([a-zA-Z0-9]+)/" -->
+<!--#set var="tag" value="$1" -->
+<!--#endif -->
+
 
 <!-- //// конец --> 
 
@@ -34,8 +38,22 @@
         <div class="article-short__info">
             <div class="article-short__bread-crumbs">
                 <ul class="textTabs view_dotBetween view_h5 clearfix">
+                    <!--#if expr="$tag = 1" -->
+                    <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Развлечение</a></li>
+                    <!--#endif -->
+                    <!--#if expr="$tag = 2" -->
+                    <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Картина Дня</a></li>
+                    <!--#endif -->
+                    <!--#if expr="$tag = 3" -->
                     <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Гражданская журналистика</a></li>
                     <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Политика</a></li>
+                    <!--#endif -->
+                    <!--#if expr="$tag = 4" -->
+                    <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Интересное</a></li>
+                    <!--#endif -->
+                     <!--#if expr="$tag = 5" -->
+                    <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Полезное</a></li>
+                    <!--#endif -->
                 </ul>
             </div>
 
@@ -51,6 +69,14 @@
                 <span class="countersBlock__item view_count3">
                     99 <i class="icon"><!-- icon --></i>
                 </span>
+                <a href="#" class="countersBlock__item readLater with-text">
+                    <span>читать позже</span>
+                    <span class="state_hidderHidden">читаю позже</span>
+                    <i class="icon"><!-- icon --></i>
+                </a>
+                <span class="countersBlock__item readLater only-glass">
+					<i class="icon"><!-- icon --></i>
+				</span>
             </div>
         </div>
     </div>
@@ -69,6 +95,7 @@
     <!--#if expr="$img = 5" -->
     <div class="article-short__image" style="background-image: url('http://www.ridus.ru/images/2015/11/27/339969/in_article_f324f74275.png')">
     <!--#endif -->
+    <span class="article-short__copyright">&copy; ridus</span>
     </div>
 </div>
 
