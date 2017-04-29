@@ -662,7 +662,9 @@
 .contentBackground_deepblue .countersBlock__item.readLater .icon,
 .contentBackground_dark .countersBlock__item.readLater .icon,
 .contentBackground_gunmetal .countersBlock__item.readLater .icon,
-.contentBackground_red .countersBlock__item.readLater .icon {
+.contentBackground_red .countersBlock__item.readLater .icon,
+.article-short--red .countersBlock__item.readLater .icon,
+.article-short--blue .countersBlock__item.readLater .icon {
     background-position: -48px -301px;
 }
 .contentBackground_deepblue .countersBlock__item.readLater,
@@ -674,7 +676,9 @@
 .contentBackground_deepblue .countersBlock__item.readLater:hover,
 .contentBackground_dark .countersBlock__item.readLater:hover,
 .contentBackground_gunmetal .countersBlock__item.readLater:hover,
-.contentBackground_red .countersBlock__item.readLater:hover {
+.contentBackground_red .countersBlock__item.readLater:hover,
+.article-short--red .countersBlock__item.readLater:hover,
+.article-short--blue .countersBlock__item.readLater:hover {
     background: rgba(0,0,0,.7);
 }
 
