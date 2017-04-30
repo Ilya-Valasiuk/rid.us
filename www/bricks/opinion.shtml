@@ -1,6 +1,6 @@
 <h4 class="brick__header view_centred">
 	<div class="opinion-button-prev"></div>
-	мнение
+	<a href="#" class="opinion__link">мнение</a>
 	<span class="opinion__sliderInfo">
 		&nbsp;(<span id="opinion__slideCurrent">0</span> из <span id="opinion__slideTotal">0</span>)
 	</span>

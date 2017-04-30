@@ -1180,6 +1180,9 @@
     background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 100%);
     background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 100%);
 }
+.opinion__link {
+	text-decoration: none;
+}
 .opinion__sliderInfo {
 	font-weight: normal;
 	font-size: 14px;

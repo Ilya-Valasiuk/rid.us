@@ -6,19 +6,25 @@
     padding: 9px 0 8px 9px;
     display: inline-block;
 }
-.alphabethNav__item.view_noEmpty {
+/*.alphabethNav__item.view_noEmpty {
 	padding: 0;
-}
-.alphabethNav__item.view_noEmpty a {
-    padding: 9px 0 8px 9px;
+}*/
+
+.alphabethNav__item a {
+    /*padding: 9px 0 8px 9px;*/
 }
 
 
 
 .alphabethNav__item a {
-	color: #a3a3a3;
 	text-decoration: none;
 }
-.alphabethNav__item a:hover {
+
+.alphabethNav__item.disabled a {
+	color: #a3a3a3;
+	cursor: default;
+}
+
+.alphabethNav__item:not('.disabled') a:hover {
 	color: #c64a1b;
 }
