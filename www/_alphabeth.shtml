@@ -1,76 +1,76 @@
 <ul class="borderedSection view_nullpaddings">
     <li class="borderedSection__separatedItem">
         <ul class="alphabethNav">
-            <li class="alphabethNav__item">А</li>
-            <li class="alphabethNav__item">Б</li>
-            <li class="alphabethNav__item">В</li>
-            <li class="alphabethNav__item view_noEmpty"><a href="#" title="">Г</a></li>
-            <li class="alphabethNav__item">Д</li>
-            <li class="alphabethNav__item">Е</li>
-            <li class="alphabethNav__item view_noEmpty"><a href="#" title="">Ж</a></li>
-            <li class="alphabethNav__item">З</li>
-            <li class="alphabethNav__item">И</li>
-            <li class="alphabethNav__item">К</li>
-            <li class="alphabethNav__item view_noEmpty"><a href="#" title="">Л</a></li>
-            <li class="alphabethNav__item">М</li>
-            <li class="alphabethNav__item">Н</li>
-            <li class="alphabethNav__item view_noEmpty"><a href="#" title="">О</a></li>
-            <li class="alphabethNav__item view_noEmpty"><a href="#" title="">П</a></li>
-            <li class="alphabethNav__item">Р</li>
-            <li class="alphabethNav__item">С</li>
-            <li class="alphabethNav__item">Т</li>
-            <li class="alphabethNav__item view_noEmpty"><a href="#" title="">У</a></li>
-            <li class="alphabethNav__item view_noEmpty"><a href="#" title="">Ф</a></li>
-            <li class="alphabethNav__item">Х</li>
-            <li class="alphabethNav__item">Ц</li>
-            <li class="alphabethNav__item">Ч</li>
-            <li class="alphabethNav__item">Ш</li>
-            <li class="alphabethNav__item">Щ</li>
-            <li class="alphabethNav__item">Э</li>
-            <li class="alphabethNav__item">Ю</li>
-            <li class="alphabethNav__item">Я</li>
+            <li class="alphabethNav__item"><a href="#" title="">А</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">Б</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">В</a></li>
+            <li class="alphabethNav__item disabled"><a href="#" title="">Г</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">Д</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">Е</a></li>
+            <li class="alphabethNav__item disabled"><a href="#" title="">Ж</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">З</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">И</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">Л</a></li>
+            <li class="alphabethNav__item disabled"><a href="#" title="">Л</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">М</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">Н</a></li>
+            <li class="alphabethNav__item disabled"><a href="#" title="">О</a></li>
+            <li class="alphabethNav__item disabled"><a href="#" title="">П</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">Р</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">С</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">Т</a></li>
+            <li class="alphabethNav__item disabled"><a href="#" title="">У</a></li>
+            <li class="alphabethNav__item disabled"><a href="#" title="">Ф</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">Х</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">Ц</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">Ч</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">Ш</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">Щ</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">Э</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">Ю</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">Я</a></li>
         </ul>
     </li>
     <li class="borderedSection__separatedItem">
         <ul class="alphabethNav">
-            <li class="alphabethNav__item">A</li>
-            <li class="alphabethNav__item">B</li>
-            <li class="alphabethNav__item">C</li>
-            <li class="alphabethNav__item">D</li>
-            <li class="alphabethNav__item">E</li>
-            <li class="alphabethNav__item view_noEmpty"><a href="#" title="">F</a></li>
-            <li class="alphabethNav__item">G</li>
-            <li class="alphabethNav__item">H</li>
-            <li class="alphabethNav__item">I</li>
-            <li class="alphabethNav__item">J</li>
-            <li class="alphabethNav__item">K</li>
-            <li class="alphabethNav__item">L</li>
-            <li class="alphabethNav__item">M</li>
-            <li class="alphabethNav__item view_noEmpty"><a href="#" title="">N</a></li>
-            <li class="alphabethNav__item">O</li>
-            <li class="alphabethNav__item">P</li>
-            <li class="alphabethNav__item">Q</li>
-            <li class="alphabethNav__item view_noEmpty"><a href="#" title="">R</a></li>
-            <li class="alphabethNav__item">S</li>
-            <li class="alphabethNav__item">T</li>
-            <li class="alphabethNav__item">U</li>
-            <li class="alphabethNav__item">V</li>
-            <li class="alphabethNav__item">W</li>
-            <li class="alphabethNav__item">X</li>
-            <li class="alphabethNav__item">Y</li>
-            <li class="alphabethNav__item">Z</li>
+            <li class="alphabethNav__item"><a href="#" title="">A</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">B</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">C</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">D</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">E</a></li>
+            <li class="alphabethNav__item disabled"><a href="#" title="">F</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">G</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">H</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">I</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">J</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">K</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">L</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">M</a></li>
+            <li class="alphabethNav__item disabled"><a href="#" title="">N</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">O</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">P</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">Q</a></li>
+            <li class="alphabethNav__item disabled"><a href="#" title="">R</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">S</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">T</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">U</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">V</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">W</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">X</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">Y</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">Z</a></li>
         </ul>
         <ul class="alphabethNav">
-            <li class="alphabethNav__item">1</li>
-            <li class="alphabethNav__item">2</li>
-            <li class="alphabethNav__item view_noEmpty"><a href="#" title="">3</a></li>
-            <li class="alphabethNav__item view_noEmpty"><a href="#" title="">4</a></li>
-            <li class="alphabethNav__item">5</li>
-            <li class="alphabethNav__item view_noEmpty"><a href="#" title="">6</a></li>
-            <li class="alphabethNav__item">7</li>
-            <li class="alphabethNav__item view_noEmpty"><a href="#" title="">8</a></li>
-            <li class="alphabethNav__item">9</li>
-            <li class="alphabethNav__item">0</li>   
+            <li class="alphabethNav__item"><a href="#" title="">1</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">2</a></li>
+            <li class="alphabethNav__item disabled"><a href="#" title="">3</a></li>
+            <li class="alphabethNav__item disabled"><a href="#" title="">4</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">5</a></li>
+            <li class="alphabethNav__item disabled"><a href="#" title="">6</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">7</a></li>
+            <li class="alphabethNav__item disabled"><a href="#" title="">8</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">9</a></li>
+            <li class="alphabethNav__item"><a href="#" title="">0</a></li>   
         </ul> 
     </li>
 </ul>
