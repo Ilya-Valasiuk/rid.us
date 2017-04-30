@@ -2192,3 +2192,21 @@ $(function() {
         
     });
 });
+
+
+$(function() {
+    $(document).ready(function() {
+        var disabledClass = 'disabled';
+        var items = $('.alphabethNav__item');
+        $('.alphabethNav__item').on('click', function() {
+            if ($(this).hasClass(disabledClass)) {
+                return;
+            }
+
+            items.removeClass('alphabethNav__item--selected');
+
+            $(this).addClass('alphabethNav__item--selected');
+        });
+
+    });
+});

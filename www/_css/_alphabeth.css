@@ -28,3 +28,7 @@
 .alphabethNav__item:not('.disabled') a:hover {
 	color: #c64a1b;
 }
+
+.alphabethNav__item--selected a {
+	color: #c64a1b;
+}
