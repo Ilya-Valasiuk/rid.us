@@ -1,0 +1,28 @@
+.all-tags__content {
+
+}
+
+.all-tags__item {
+    margin-bottom: 30px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.all-tags__tag {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.all-tags__items {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100%;
+}
+
+.all-tags__link {
+    display: inline-flex;
+    width: 100px;
+    padding: 5px 0;
+}
