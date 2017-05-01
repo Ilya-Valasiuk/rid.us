@@ -2198,9 +2198,10 @@ $(function() {
     $(document).ready(function() {
         var disabledClass = 'disabled';
         var items = $('.alphabethNav__item');
-        $('.alphabethNav__item').on('click', function() {
+        $('.alphabethNav__item').on('click', function(e) {
             if ($(this).hasClass(disabledClass)) {
-                return;
+                e.preventDefault();
+                return false;
             }
 
             items.removeClass('alphabethNav__item--selected');

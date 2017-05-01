@@ -39,7 +39,7 @@
             <div class="article-short__bread-crumbs">
                 <ul class="textTabs view_dotBetween view_h5 clearfix">
                     <!--#if expr="$tag = 1" -->
-                    <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Развлечение</a></li>
+                    <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Развлечения</a></li>
                     <!--#endif -->
                     <!--#if expr="$tag = 2" -->
                     <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Картина Дня</a></li>
@@ -96,6 +96,7 @@
     <div class="article-short__image" style="background-image: url('http://www.ridus.ru/images/2015/11/27/339969/in_article_f324f74275.png')">
     <!--#endif -->
     <span class="article-short__copyright">&copy; ridus</span>
+        <a href="#" class="clickable hideOn_1024 hideOn_768"></a>
     </div>
 </div>
 
