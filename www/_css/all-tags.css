@@ -3,7 +3,6 @@
 }
 
 .all-tags__item {
-    margin-bottom: 30px;
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -12,6 +11,21 @@
 .all-tags__tag {
     display: inline-block;
     margin-bottom: 20px;
+    font-size: 40px;
+    border-bottom: 1px solid black;
+}
+
+.all-tags__anchor {
+    display: block;
+    position: relative;
+    top: -120px;
+    visibility: hidden;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .all-tags__anchor {
+        top: -160px;
+    }
 }
 
 .all-tags__items {
@@ -25,4 +39,5 @@
     display: inline-flex;
     width: 100px;
     padding: 5px 0;
+    text-decoration: none;
 }
