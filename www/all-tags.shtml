@@ -60,8 +60,8 @@
     </li>
     <li class="borderedSection__separatedItem">
         <ul class="alphabethNav">
-            <li class="alphabethNav__item"><a href="#" title="">A</a></li>
-            <li class="alphabethNav__item"><a href="#" title="">B</a></li>
+            <li class="alphabethNav__item"><a href="#A" title="A">A</a></li>
+            <li class="alphabethNav__item"><a href="#B" title="">B</a></li>
             <li class="alphabethNav__item"><a href="#" title="">C</a></li>
             <li class="alphabethNav__item"><a href="#" title="">D</a></li>
             <li class="alphabethNav__item"><a href="#" title="">E</a></li>
@@ -104,7 +104,8 @@
 
     <div class="all-tags__content">
         <div class="all-tags__item">
-            <a href="#" name="А" class="all-tags__tag">A</a>
+            <span href="#" name="А" class="all-tags__tag">A</span>
+            <a name="А" href="#" class="all-tags__anchor"></a>
             <div class="all-tags__items">
                 <a href="#" class="all-tags__link">Абрикос</a>
                 <a href="#" class="all-tags__link">Абрикос</a>
@@ -150,80 +151,245 @@
                 <a href="#" class="all-tags__link">Абрикос</a>
             </div>
         </div>
-        <div class="all-tags__item">
-            <a href="#" name="Б" class="all-tags__tag">Б</a>
+         <div class="all-tags__item">
+            <span href="#" name="А" class="all-tags__tag">Б</span>
+            <a name="Б" href="#" class="all-tags__anchor"></a>
             <div class="all-tags__items">
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+                <a href="#" class="all-tags__link">Банан</a>
+            </div>
+        </div>
+         <div class="all-tags__item">
+            <span href="#" name="А" class="all-tags__tag">В</span>
+            <a name="В" href="#" class="all-tags__anchor"></a>
+            <div class="all-tags__items">
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+                <a href="#" class="all-tags__link">Винипух</a>
+            </div>
+        </div>
+         
+         <div class="all-tags__item">
+            <span href="#" name="А" class="all-tags__tag">Д</span>
+            <a name="Д" href="#" class="all-tags__anchor"></a>
+            <div class="all-tags__items">
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+                <a href="#" class="all-tags__link">Дверь</a>
+            </div>
+        </div>
+         <div class="all-tags__item">
+            <span href="#" name="А" class="all-tags__tag">A</span>
+            <a name="A" href="#" class="all-tags__anchor"></a>
+            <div class="all-tags__items">
+                <a href="#" class="all-tags__link">ABC</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
+                <a href="#" class="all-tags__link">Apple</a>
             </div>
         </div>
         <div class="all-tags__item">
-            <a href="#" name="В" class="all-tags__tag">В</a>
+            <span href="#" name="А" class="all-tags__tag">B</span>
+            <a name="B" href="#" class="all-tags__anchor"></a>
             <div class="all-tags__items">
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-            </div>
-        </div>
-        <div class="all-tags__item">
-            <a href="#" name="Г" class="all-tags__tag">Г</a>
-            <div class="all-tags__items">
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-            </div>
-        </div>
-        <div class="all-tags__item">
-            <a href="#" name="Д" class="all-tags__tag">Д</a>
-            <div class="all-tags__items">
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
-                <a href="#" class="all-tags__link">Абрикос</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
+                <a href="#" class="all-tags__link">Black</a>
             </div>
         </div>
     </div>
