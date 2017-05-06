@@ -995,49 +995,69 @@ $(function() {
 
     var filtersListCounterElement = $(".categoryFilter__counter"),
         filterListWrapper = $(".filtersList__wrapper"),
-        filtersListItems = $(".filtersList__item"),
+        filtersListItems = $(".filtersList__item:not(.view_allFilters)"),
         filtersListCounter = filtersListItems.filter('.state_selected').length,
         articlesWords = [' рубрика', ' рубрики', ' рубрик'],
         categoryFilterInfo = $(".categoryFilter__info");
 
-    $(".categoryFilter__filter").on('click', function(){
+    var filterBtn = $(".categoryFilter__filter");
+    var prevState;
+
+    filterBtn.on('click', function(){
+        if (!$(this).hasClass("state_open")) {
+        	prevState = filtersListItems.filter('.state_selected');
+        }
+
+
         var categoryFilterWidthAdjuster = $(".categoryFilter__widthAdjuster");
         var width = categoryFilterWidthAdjuster.parent().width() -
             categoryFilterWidthAdjuster.innerWidth() - 60;
         $(".filtersList__wrapper").width(width);
         $(this).toggleClass("state_open");
         filterListWrapper.toggleClass("state_open");
-        categoryFilterInfo.toggleClass("state_open");
+        // categoryFilterInfo.toggleClass("state_open");
         // if ($(this).hasClass("state_open")) {
         // 	categoryFilterWidth();
         // }
+
+        
         return false;
     });
 
     $(".categoryFilter__wrapper .closeButton").on('click', function(){
+        filtersListItems.removeClass('state_selected');
+        applyState(prevState);
         filterListWrapper.toggleClass("state_open");
-        categoryFilterInfo.toggleClass("state_open");
+        filtersListCounter = prevState.length;
+        filtersListCounterElement.text(filtersListCounter + declOfNum(filtersListCounter, articlesWords));
+        // categoryFilterInfo.toggleClass("state_open");
         return false;
     });
 
-    $(window).resize(function(){
-        $(".categoryFilter__filter").removeClass("state_open");
+    $('.categoryFilter__applyButton').on('click', function (){
         filterListWrapper.removeClass("state_open");
-        categoryFilterInfo.removeClass("state_open");
+        filterBtn.removeClass("state_open");
+    });
+
+    $(window).resize(function(){
+        filterBtn.removeClass("state_open");
+        filterListWrapper.removeClass("state_open");
+        // categoryFilterInfo.removeClass("state_open");
     });
 
 
     filterListWrapper.on('click', '.filtersList__item', function(e){
         var $this = $(e.currentTarget);
         $this.toggleClass("state_selected");
-        filtersListCounterElement.text(($this.hasClass("state_selected") ? ++filtersListCounter : --filtersListCounter) + declOfNum(filtersListCounter, articlesWords));
+        filtersListCounter = getSelectedItems(filtersListItems);
+        filtersListCounterElement.text(filtersListCounter + declOfNum(filtersListCounter, articlesWords));
         e.preventDefault();
     });
 
     filterListWrapper.on('click', '.view_allFilters', function(e){
 
         var $this = $(e.currentTarget),
-            selectedAll = $this.data('selectedAll'),
+            selectedAll = filtersListItems.length === getSelectedItems(filtersListItems),
             action = 'addClass',
             totalSelected = filtersListItems.length,
             state = 1;
@@ -1050,11 +1070,20 @@ $(function() {
         }
 
         filtersListItems[action]("state_selected");
-        $this.data('selectedAll', state);
         filtersListCounterElement.text(totalSelected + declOfNum(totalSelected, articlesWords));
 
         e.preventDefault();
     });
+
+    function applyState(items) {
+        items.map(function (i, item) {
+            $(item).addClass('state_selected');
+        })
+    }
+
+    function getSelectedItems(items) {
+        return items.filter('.state_selected').length;
+    }
 
     // $(window).resize(function(){  
     // 	$(".categoryFilter__filter").removeClass("state_open");
@@ -1900,16 +1929,19 @@ $(function() {
 
 $(function() {
     $(document).ready(function() {
-        var mainBlock = $('.brick-play').length > 0;
+        var mainBlock = $('.brick-play');
+        var isMainBlockExist = mainBlock.length > 0;
         var specificItems = $('[data-specific-size]');
         
-        if (!mainBlock && !specificItems.length) {
+        if (!isMainBlockExist && !specificItems.length) {
             return;
         }
 
-        var isKD = $('.kartina-dnua').length > 0;
-        var isInteresnoe = $('.interesnoe').length > 0;
-        var isSection = $('.section-brick').length > 0;
+        var brickConfig = mainBlock.data('config').split(',');
+        var mobileAligments = brickConfig[0].split('-');
+        var tabletAligments = brickConfig[1].split('-');
+        var desktopAligments = brickConfig[2].split('-');
+        
         var currentPoint = document.body.clientWidth;
 
         var firstBlock = $('.first-main-block');
@@ -1917,71 +1949,45 @@ $(function() {
         var thirdBlock = $('.third-main-block');
         
 
-        var fn = $.debounce(100, false, function() {
-            if (document.body.clientWidth >= 1280 && currentPoint < 1280) {
-                doAlign();
-                currentPoint = document.body.clientWidth;
-            } else if ((document.body.clientWidth >= 1024 && document.body.clientWidth < 1280) && (currentPoint >= 1280 || currentPoint < 1024)) {
-                doAlign('tablet');
-                currentPoint = document.body.clientWidth;
-            } else if (document.body.clientWidth < 1024 && currentPoint >= 1024) {
-                doAlign('mobile');
-                currentPoint = document.body.clientWidth;
-            }
-        });
+        var fn = $.debounce(100, false, restructureBlocks);
 
         $(window).resize(fn);
 
-         if (document.body.clientWidth < 1280 && document.body.clientWidth >= 1024) {
-            doAlign('tablet')
-        } else if (document.body.clientWidth < 1024) {
-            doAlign('mobile');
-        } else {
-            doAlign();
+        restructureBlocks();
+
+        function restructureBlocks() {
+            if (document.body.clientWidth < 1280 && document.body.clientWidth >= 1024) {
+                doAlign('tablet')
+            } else if (document.body.clientWidth < 1024) {
+                doAlign('mobile');
+            } else {
+                doAlign();
+            }
+            currentPoint = document.body.clientWidth;
         }
 
         function doAlign(size) {
             if (firstBlock.length && secondBlock.length && thirdBlock.length) {
                 switch (size) {
                     case 'mobile':
-                        if (isInteresnoe) {
-                            alignItemsInBlocks(5, 6);
-                        } else if (isKD) {
-                            alignItemsInBlocks(4, 6);
-                        } else if(isSection) {
-                            alignItemsInBlocks(5, 6);
-                        } else {
-                            alignItemsInBlocks(6, 6);
-                        }
+                        alignItemsInBlocks(mobileAligments[0], mobileAligments[1]);
                         break;
                     case 'tablet':
-                        if (isKD) {
-                            alignItemsInBlocks(3, 9);
-                        } else if (isInteresnoe) {
-                            alignItemsInBlocks(5, 9);
-                        } else if(isSection) {
-                            alignItemsInBlocks(8, 9);
-                        } else {
-                            alignItemsInBlocks(6, 9);
-                        }
+                        alignItemsInBlocks(tabletAligments[0], tabletAligments[1]);
                         break;
                     default:
-                        if (isKD) {
-                            alignItemsInBlocks(5, 12);    
-                        } else if (isInteresnoe) {
-                            alignItemsInBlocks(7, 12);
-                        } else if(isSection) {
-                            alignItemsInBlocks(11, 12);
-                        } else {
-                            alignItemsInBlocks(8, 12);
-                        }
+                        alignItemsInBlocks(desktopAligments[0], desktopAligments[1]);
                 }
             }
             
             setSpecificPositions(size);
+            // need to run one more time to correctly set bricks that was located close
+            setSpecificPositions(size);
         }
 
         function alignItemsInBlocks(firstBlockCount, secondBlockCount) {
+            firstBlockCount = +firstBlockCount;
+            secondBlockCount = +secondBlockCount;
             var firstBlockItems = firstBlock.find('>.brick').filter(function(i, item) {
                 return $(item).css('display') !== 'none';
             });

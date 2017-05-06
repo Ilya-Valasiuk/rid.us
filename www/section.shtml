@@ -6,7 +6,7 @@
     <link href="_css/section.css" rel="stylesheet" type="text/css">
 
 </head>
-<body class="page_section brick-play section-brick" itemscope itemtype="http://schema.org/WebPage">
+<body class="page_section brick-play" itemscope itemtype="http://schema.org/WebPage" data-config='5-6,8-9,11-12'>
 
 <header itemscope itemtype="http://schema.org/WPHeader">
     <!--#include virtual="_menu.shtml?float=true"-->

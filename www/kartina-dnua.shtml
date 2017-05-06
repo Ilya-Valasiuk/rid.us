@@ -6,7 +6,7 @@
     <link href="_css/block.css" rel="stylesheet" type="text/css">
 
 </head>
-<body class="page_block kartina-dnua brick-play" itemscope itemtype="http://schema.org/WebPage">
+<body class="page_block kartina-dnua brick-play" itemscope itemtype="http://schema.org/WebPage" data-config='4-6,3-9,5-12'>
 
 <header itemscope itemtype="http://schema.org/WPHeader">
     <!--#include virtual="_menu.shtml?float=true"-->

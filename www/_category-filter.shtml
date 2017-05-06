@@ -24,7 +24,7 @@
 		<b class="icon"></b>
 	</a>
 
-	<span class="categoryFilter__info">&#8212; выбрано <span class="categoryFilter__counter">0 рубрик</span></span>
+	<span class="categoryFilter__info state_open">&#8212; выбрано <span class="categoryFilter__counter">0 рубрик</span></span>
 
 	<div class="filtersList__wrapper">
 
