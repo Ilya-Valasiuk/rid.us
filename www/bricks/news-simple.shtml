@@ -85,6 +85,12 @@
 <!--#if expr="$image = 5" -->
 <div class="brick__image" style="background-image: url(http://dev.ridus.ru/images/2017/1/24/531735/preview_50ff0f9f84.jpg)">
 <!--#endif -->
+<!--#if expr="$image = 6" -->
+<div class="brick__image" style="background-image: url(https://www.ridus.ru/images/2017/5/7/581014/large_59205c80a5.jpg)">
+<!--#endif -->
+<!--#if expr="$image = 7" -->
+<div class="brick__image" style="background-image: url(https://www.ridus.ru/images/2014/7/8/212199/hd_e77957fba4.JPG)">
+<!--#endif -->
 
 <!--#if expr="$important = 'true'" -->
     <i class="important">важное</i>

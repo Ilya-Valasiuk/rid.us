@@ -211,7 +211,10 @@ h1 .threeDot {
 .contentBackground_deepblue .contentBackground_blue .threeDot:after,
 .contentBackground_blue .threeDot,
 .contentBackground_blue .threeDot:before,
-.contentBackground_blue .threeDot:after {
+.contentBackground_blue .threeDot:after,
+.contentBackground_yellow-dark .threeDot,
+.contentBackground_yellow-dark .threeDot:before,
+.contentBackground_yellow-dark .threeDot:after {
 	 background: #9caab3;
 }
 /* технологии */
@@ -1494,6 +1497,8 @@ blockquote b {
 
 .photoNumber {
 	position: absolute;
+	display: flex;
+	align-items: center;
 	color: #fff;
 	font-weight: 100;
 	top: 16px;
@@ -1505,6 +1510,24 @@ blockquote b {
 	-moz-transition:    all .3s ease-in-out;
 	transition:         all .3s ease-in-out;
 }
+
+.photoNumber-photo {
+	background-image: url('../_images/ic_photo_camera_white.png'); /* with class ModalCarrot ??*/
+	position:relative; /*or absolute*/
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	margin-right: 2px;
+}
+
+.photoNumber-video {
+	background-image: url('../_images/ic_videocam_white.png'); /* with class ModalCarrot ??*/
+	position:relative; /*or absolute*/
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+}
+
 .aLaSlideImage:hover .photoNumber,
 .photoBlock__image:hover .photoNumber {
 	background: rgba(0,0,0,0);
