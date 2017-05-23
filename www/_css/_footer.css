@@ -331,3 +331,29 @@
     }
 }
 
+.footerLeftInfo {
+	float: left;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1040px) {
+	.footerLeftInfo {
+		width: 67%;
+	}
+}
+@media screen and (min-width: 1041px) and (max-width: 1279px) {
+	.footerLeftInfo {
+		width: 630px;
+	}
+}
+@media screen and (min-width: 1280px) {
+	.footerLeftInfo {
+	    width: 916px;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.footerLeftInfo {
+		float: none;
+		margin-bottom: 30px;
+	}
+}

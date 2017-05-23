@@ -118,6 +118,18 @@
 				<li class="menu__item">
 					<a class="menu__link" href="#">Развлечения</a>
 				</li>
+				<li class="menu__item view_mobileOnly">
+					<a class="menu__link" href="#">Авторские колонки</a>
+				</li>
+				<li class="menu__item view_mobileOnly">
+					<a class="menu__link" href="#">Сюжеты</a>
+				</li>
+				<li class="menu__item view_mobileOnly">
+					<a class="menu__link" href="#">Тэги</a>
+				</li>
+				<li class="menu__item view_mobileOnly">
+					<a class="menu__link" href="#">Фото репортаж</a>
+				</li>
 				<li class="menu__item">
 					<a class="menu__link view_menuIcon" href="#">
 						Еще
@@ -127,7 +139,9 @@
 			</ul>
 			<div class="subMenu">
 				<nav class="submenuContent wrapper paddings_side">
-					<!--#include virtual="_taglist.shtml"-->
+					<!--#include virtual="_taglist.shtml" -->
+					<hr class="taglist-separator" />
+					<!--#include virtual="_tagadditionallist.shtml"-->
 				</nav>
 			</div>
 		</menu>

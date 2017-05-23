@@ -3,8 +3,12 @@
 	<section class="footerLinks">
 		<div class="wrapper paddings_side clearfix">
 
-			<!--#include virtual="_taglist.shtml"-->
-
+			<div class="footerLeftInfo">
+				<!--#include virtual="_taglist.shtml"-->
+				<hr class="taglist-separator" />
+				<!--#include virtual="_direction.shtml"-->
+				<!--#include virtual="_tagadditionallist.shtml"-->
+			</div>
 			<div class="footerInfo">
 
 				<ul class="footerSocials">

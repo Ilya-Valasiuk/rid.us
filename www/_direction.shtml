@@ -1,0 +1,7 @@
+<div class="directionList padding_bottom">
+    <a href="#" class="directionList__link">Картина дня</a>
+    <a href="#" class="directionList__link">Гражданская журналистика</a>
+    <a href="#" class="directionList__link">Интересное</a>
+    <a href="#" class="directionList__link">Полезное</a>
+    <a href="#" class="directionList__link">Развлечения</a>
+</div>
