@@ -214,7 +214,13 @@ h1 .threeDot {
 .contentBackground_blue .threeDot:after,
 .contentBackground_yellow-dark .threeDot,
 .contentBackground_yellow-dark .threeDot:before,
-.contentBackground_yellow-dark .threeDot:after {
+.contentBackground_yellow-dark .threeDot:after,
+.contentBackground_ededce .threeDot,
+.contentBackground_ededce .threeDot:before,
+.contentBackground_ededce .threeDot:after,
+.contentBackground_light-green .threeDot,
+.contentBackground_light-green .threeDot:before,
+.contentBackground_light-green .threeDot:after {
 	 background: #9caab3;
 }
 /* технологии */
@@ -619,6 +625,9 @@ blockquote b {
 .contentBackground_blue {
 	background: #cee0ed; 
 }
+.contentBackground_light-green {
+	background: #cce0be;
+}
 /*развлечение*/
 .contentBackground_yellow {
 	background: #ffc336;
@@ -656,7 +665,7 @@ blockquote b {
 }
 
 .contentBackground_ededce {
-	background: #ede7ce;
+	background: #ffe5ad;
 }
 
 .contentBackground_yellow-dark {
@@ -753,6 +762,10 @@ blockquote b {
 		box-shadow: -40px 0 0 #cee0ed,
 					 40px 0 0 #cee0ed;
 	}
+	.table__mainColumn .contentBackground_light-green {
+		box-shadow: -40px 0 0 #cce0be,
+					 40px 0 0 #cce0be;
+	}
 	.table__mainColumn .contentBackground_gunmetal {
 		box-shadow: -40px 0 0 #2b3336,
 					 40px 0 0 #2b3336;
@@ -778,8 +791,8 @@ blockquote b {
 					 40px 0 0 #252525;
 	}
 	.table__mainColumn .contentBackground_ededce {
-		box-shadow: -40px 0 0 #ede7ce,
-					 40px 0 0 #ede7ce;
+		box-shadow: -40px 0 0 #ffe5ad,
+					 40px 0 0 #ffe5ad;
 	}
 }
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -790,6 +803,10 @@ blockquote b {
 	.table__mainColumn .contentBackground_blue {
 		box-shadow: -40px 0 0 #cee0ed,
 					 10px 0 0 #cee0ed;
+	}
+	.table__mainColumn .contentBackground_light-green {
+		box-shadow: -40px 0 0 #cce0be,
+					 10px 0 0 #cce0be;
 	}
 	.table__mainColumn .contentBackground_yellow {
 		box-shadow: -40px 0 0 #ffc336,
@@ -816,8 +833,8 @@ blockquote b {
 					 10px 0 0 #252525;
 	}
 	.table__mainColumn .contentBackground_ededce {
-		box-shadow: -40px 0 0 #ede7ce,
-					 10px 0 0 #ede7ce;
+		box-shadow: -40px 0 0 #ffe5ad,
+					 10px 0 0 #ffe5ad;
 	}
 }
 @media screen and (min-width: 1280px) {
@@ -828,6 +845,10 @@ blockquote b {
 	.table__mainColumn .contentBackground_blue {
 		box-shadow: -16px 0 0 #cee0ed,
 					  8px 0 0 #cee0ed;
+	}
+	.table__mainColumn .contentBackground_light-green {
+		box-shadow: -16px 0 0 #cce0be,
+					 8px 0 0 #cce0be;
 	}
 	.table__mainColumn .contentBackground_yellow {
 		box-shadow: -16px 0 0 #ffc336,
@@ -854,8 +875,8 @@ blockquote b {
 					  8px 0 0 #252525;
 	}
 	.table__mainColumn .contentBackground_ededce {
-		box-shadow: -16px 0 0 #ede7ce,
-					 8px 0 0 #ede7ce;
+		box-shadow: -16px 0 0 #ffe5ad,
+					 8px 0 0 #ffe5ad;
 	}
 }
 

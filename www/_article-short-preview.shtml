@@ -14,6 +14,9 @@
 <!--#if expr="\"$QUERY_STRING\" = /tag=([a-zA-Z0-9]+)/" -->
 <!--#set var="tag" value="$1" -->
 <!--#endif -->
+<!--#if expr="\"$QUERY_STRING\" = /stringName=([a-zA-Z0-9]+)/" -->
+<!--#set var="stringName" value="$1" -->
+<!--#endif -->
 
 
 <!-- //// конец --> 
@@ -54,10 +57,20 @@
                      <!--#if expr="$tag = 5" -->
                     <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Полезное</a></li>
                     <!--#endif -->
+                    <!--#if expr="$tag = 6" -->
+                    <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Картина Дня</a></li>
+                    <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Политика</a></li>
+                    <!--#endif -->
                 </ul>
             </div>
 
+            <!--#if expr="$stringName = 1" -->
             <a href="#" class="article-short__header">Виталий Кличко возглавил партию Петра Порошенко</a>
+            <!--#endif -->
+            <!--#if expr="$stringName = 2" -->
+            <a href="#" class="article-short__header">Виталий Кличко оченьдлинноесловотут партию Петра Порошенко</a>
+            <!--#endif -->
+            
 
             <div class="countersBlock">
                 <span class="countersBlock__item view_count1">
