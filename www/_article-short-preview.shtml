@@ -14,7 +14,7 @@
 <!--#if expr="$QUERY_STRING = /tag=([a-zA-Z0-9]+)/" -->
 <!--#set var="tag" value="$1" -->
 <!--#endif -->
-<!--#if expr="\"$QUERY_STRING\" = /stringName=([a-zA-Z0-9]+)/" -->
+<!--#if expr="$QUERY_STRING = /stringName=([a-zA-Z0-9]+)/" -->
 <!--#set var="stringName" value="$1" -->
 <!--#endif -->
 
