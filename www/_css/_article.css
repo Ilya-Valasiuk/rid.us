@@ -300,6 +300,7 @@
     width: .286em;
     height: .286em;
     margin-left: .6em;
+	margin-right: .3em;
     margin-bottom: .24em;
     background-color: #fdab1c;
 }
@@ -343,11 +344,16 @@
 
 .article-short__header {
 	font-size: 32px;
-	line-height: 31px;
-	margin-bottom: 100px;
-	font-weight: bold;
-	font-family: 'Roboto Slab', serif;
-	text-decoration: none;
+    display: block;
+    line-height: 31px;
+    height: 100%;
+    overflow: hidden;
+    max-height: 220px;
+    margin-top: 5px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+	word-break: break-word;
 }
 
 .article-short__header:hover {

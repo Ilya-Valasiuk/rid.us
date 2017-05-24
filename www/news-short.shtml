@@ -446,6 +446,101 @@
             </div>
             <br><br>
 
+             <div class="bread__crumbs">
+                <ul class="textTabs view_dotBetween view_h5 clearfix">
+                    <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Гражданская журналистика</a></li>
+                    <li class="textTabs__item"><a href="#" class="textTabs__link" title="">Политика</a></li>
+                </ul>
+                <div class="countersBlock">
+                    <span class="countersBlock__item view_count1">
+                        123 <i class="icon"><!-- icon --></i>
+                    </span>
+                    <span class="countersBlock__item view_count2">
+                        557 <i class="icon"><!-- icon --></i>
+                    </span>
+                    <span class="countersBlock__item view_count3">
+                        99 <i class="icon"><!-- icon --></i>
+                    </span>
+                </div>
+            </div>
+            
+            <div class="article__container">
+                <div class="article">
+                    <!--#include virtual="_article-short.shtml?sidebanner=1&counter=0"-->
+                    <div class="text">
+                        <p>
+                            Виталий Кличко избран лидером партии Петра Порошенко «Солидарность». На этом посту он сменил ранее возглавлявшего ее Юрия Луценко.
+                            Избрание на мэра Киева на пост лидера пропрезидентской партии состоялось по инициативе самого Юрия Луценко, передает «Интерфакс».
+                        </p>
+                    </div>
+
+                    <div class="readAlso">
+                        Читайте также:
+                        <ul class="readAlso__list">
+                            <li class="readAlso__item"><a class="readAlso__link" href="#" title="">Тысяча читинцев митинговала «за солнце»</a></li>
+                            <li class="readAlso__item"><a class="readAlso__link" href="#" title="">К осени россиянам вернут зимнее время</a></li>
+                            <li class="readAlso__item"><a class="readAlso__link" href="#" title="">Время России подвластно ее парламентариям</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="articleSocials__wrapper clearfix ridusLikes-hide">
+                        <div class="ridusLikes view_sideBorder">
+                            <p class="hint">
+                                Нам важно ваше мнение!
+                            </p>
+                            <div class="ridusLikesButton">
+                                <a href="#" class="ridusLikesButton__link">+</a>
+                                <span>123</span>
+                                <a href="#" class="ridusLikesButton__link">−</a>
+                            </div>
+                        </div>
+                        <div class="articleSocials">
+                            <p class="hint">
+                                Нашли опечатку? Выделите её мышкой и нажмите: Ctrl+Enter
+                            </p>
+                            <!--#include virtual="_socials-article.shtml"-->
+                        </div>
+                    </div>
+
+                    <p class="article__tags">
+                        Теги: 
+                        <a href="#" title="">нефть</a>, 
+                        <a href="#" title="">Казахстан</a>, 
+                        <a href="#" title="">прогнозы</a>, 
+                        <a href="#" title="">Назарбаев</a>
+                    </p>
+
+                    <!--#include virtual="_comments.shtml"-->
+                </div>
+            </div>
+
+            <div class="contentBackground_light-green clearfix padding_top">
+                <h1 class="view_centred">
+                    <i class="threeDot"></i>
+                    полезное
+                    <i class="threeDot"></i>
+                </h1>
+
+                <!-- заменить на картинку -->
+                <div class="bricks__wrapper padding_bottom clearfix">
+                    <div class="brick aLaSlideImage">
+                        <!--#include virtual="bricks/alaslideimage.shtml?image=3"-->
+                    </div>
+
+                    <div class="brick not_for_hover hideOn_1024 hideOn_768">
+                        <div class="brick view_floatText">
+                            <!--#include virtual="bricks/mini-full.shtml?image=1&data=1&label=11"-->
+                        </div>
+                        <div class="brick view_floatText">
+                            <!--#include virtual="bricks/mini-full.shtml?image=2&data=3&label=13"-->
+                        </div>
+                        <div class="brick view_floatText">
+                            <!--#include virtual="bricks/mini-full.shtml?image=3&data=2&label=12"-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br></br>
 
 
 
@@ -624,15 +719,17 @@
                 </div>
             </div>
 
-            <!--#include virtual="_article-short-preview.shtml?color=1&img=1&tag=1"-->
+            <!--#include virtual="_article-short-preview.shtml?color=1&img=1&tag=1&stringName=1"-->
 
-            <!--#include virtual="_article-short-preview.shtml?color=2&img=2&tag=2"-->
+            <!--#include virtual="_article-short-preview.shtml?color=2&img=2&tag=2&stringName=1"-->
 
-            <!--#include virtual="_article-short-preview.shtml?color=3&img=3&tag=3"-->
+            <!--#include virtual="_article-short-preview.shtml?color=3&img=3&tag=3&stringName=1"-->
 
-            <!--#include virtual="_article-short-preview.shtml?color=4&img=4&tag=4"-->
+            <!--#include virtual="_article-short-preview.shtml?color=4&img=4&tag=4&stringName=1"-->
 
-            <!--#include virtual="_article-short-preview.shtml?color=5&img=5&tag=5"-->
+            <!--#include virtual="_article-short-preview.shtml?color=5&img=5&tag=5&stringName=1"-->
+
+            <!--#include virtual="_article-short-preview.shtml?color=5&img=5&tag=6&stringName=2"-->
 
 
 
