@@ -341,7 +341,7 @@
 				</div>
 				
 				<div class="brick view_yellow hideOn_768 swiper-slide">
-                        <a href="#" class="brick__header view_arrowed" title="">Трансляция</a>
+                        <a href="#" class="brick__header" title="">Трансляция</a>
                         <!--#include virtual="bricks/live-news-list.shtml"-->
                     </div>
 				<div class="brick swiper-slide view_banner hideOn_1024 hideOn_1280">
