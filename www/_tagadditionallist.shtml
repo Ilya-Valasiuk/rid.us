@@ -1,6 +1,6 @@
 <div class="tagAdditionalList">
-    <a href="#" class="tagAdditionalList__link">Авторские колонки</a>
-    <a href="#" class="tagAdditionalList__link">Сюжеты</a>
-    <a href="#" class="tagAdditionalList__link">Теги</a>
-    <a href="#" class="tagAdditionalList__link">Фоторепортаж</a>
+    <a href="#" class="tagAdditionalList__link"><span class="tagAdditionalList__icon tagAdditionalList__icon-author"></span>Авторские колонки</a>
+    <a href="#" class="tagAdditionalList__link"><span class="tagAdditionalList__icon tagAdditionalList__icon-articles"></span>Сюжеты</a>
+    <a href="#" class="tagAdditionalList__link"><span class="tagAdditionalList__icon tagAdditionalList__icon-tags"></span>Теги</a>
+    <a href="#" class="tagAdditionalList__link"><span class="tagAdditionalList__icon tagAdditionalList__icon-photo"></span>Фоторепортажи</a>
 </div>

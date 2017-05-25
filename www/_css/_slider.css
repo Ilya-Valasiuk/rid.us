@@ -175,10 +175,11 @@
     transform: translateY(-50%);
 }
 .slider__text .brick__label {
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
     z-index: 20;
     position: relative;
 }
+
 
 
 
