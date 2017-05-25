@@ -672,6 +672,11 @@ blockquote b {
 	background-color: #e2dcc3;
 }
 
+.contentBackground_ededce .countersBlock__item,
+.contentBackground_ededce .brick__mainLinkDate {
+	color: #a89773;
+}
+
 /* технологии */
 .pageSwiper__container.contentBackground_deepblue .pageSwiper,
 .pageSwiper__container.contentBackground_deepblue .flexSlider,
@@ -1538,7 +1543,7 @@ blockquote b {
 	width: 24px;
 	height: 24px;
 	display: inline-block;
-	margin-right: 2px;
+	margin-right: 5px;
 }
 
 .photoNumber-video {
@@ -1547,6 +1552,7 @@ blockquote b {
 	width: 24px;
 	height: 24px;
 	display: inline-block;
+	margin-right: 3px;
 }
 
 .aLaSlideImage:hover .photoNumber,

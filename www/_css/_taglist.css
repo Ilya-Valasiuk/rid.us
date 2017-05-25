@@ -97,14 +97,55 @@
 }
 
 .taglist-separator {
-	margin-top: 10px;
-	margin-bottom: 10px;
+	opacity: 0.3;
+    margin: 10px -15px;
+}
+
+.taglist-separator--footer {
+	margin-left: -26px;
+    margin-right: -17px;
+}
+
+@media screen and (max-width: 1023px) {
+	.taglist-separator--footer {
+		margin-left: -40px;
+		margin-right: -40px;
+	}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+	.taglist-separator--footer {
+		margin-left: -40px;
+		margin-right: -6px;
+	}
 }
 
 .tagAdditionalList,
 .directionList {
 	display: flex;
-    justify-content: center;
+}
+
+.tagAdditionalList__icon {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background-size: cover;
+	margin-right: 5px;
+}
+.tagAdditionalList__icon-author {
+	background-image: url('./../_images/ic_people_white.png');
+}
+
+.tagAdditionalList__icon-articles {
+	background-image: url('./../_images/ic_library_books_white.png');
+}
+
+.tagAdditionalList__icon-tags {
+	background-image: url('./../_images/ic_book_white.png');
+}
+
+.tagAdditionalList__icon-photo {
+	background-image: url('./../_images/ic_photo_camera_white.png');
 }
 
 .tagAdditionalList__link,
@@ -112,6 +153,17 @@
 	color: white;
 	margin-right: 20px;
 	text-decoration: none;
-	font-size: 20px;
-	text-align: center;
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+}
+
+.footerLinks .tagAdditionalList__link,
+.footerLinks .directionList__link {
+	font-size: 13px;
+}
+
+.footerLinks .tagAdditionalList__icon {
+	width: 20px;
+	height: 20px;
 }
