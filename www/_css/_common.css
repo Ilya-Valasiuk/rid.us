@@ -330,6 +330,10 @@ p {
     padding: 20px 15px 0 15px;
     font-size: 15px;
 }
+.livelist__news .brick__footer {
+	width: calc(100% + 30px);
+    margin-left: -15px;
+}
 .brick.view_yellow .liveList__item {
     padding-left: 60px;
 }
