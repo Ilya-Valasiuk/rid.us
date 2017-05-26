@@ -43,7 +43,8 @@
 </a>
 
 <div class="slider__text">
-	<a href="#life" class="brick__label" title="">жизнь</a>				            		
+	<a href="#life" class="brick__label" title="">жизнь</a>
+	<a href="#life" class="brick__label" title="">здоровье</a>				            		
 	<h1>
 		<a href="#" title="">
 	<!--#if expr="$image = 1" -->
