@@ -105,9 +105,9 @@
                     <div class="bricks__wrapper clearfix">
 
                         <div class="brick view_articlePhoto">
-                            <a class="articlePhoto__link" href="#" title="">
+                            <span class="articlePhoto__link" href="#" title="">
                                 <img class="article__image" src="http://www.ridus.ru/images/2015/10/13/330776/in_article_e7d6680551.jpg" alt="">
-                            </a>
+                            </span>
                             <p class="articlePhoto__info">
                                 снимок с места происшествия
                             </p>
@@ -115,7 +115,7 @@
                                 &copy; Маша Росс/РИА Новости
                             </p>
                         </div>
-                        <div class="brick view_banner hideOn_1024 hideOn_768">
+                        <div class="brick m-t-0-2 view_banner hideOn_1024 hideOn_768">
                             <!--#include virtual="bricks/banner-mts.shtml"-->
                         </div>
 

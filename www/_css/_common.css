@@ -1634,3 +1634,7 @@ iframe.instagram {
     max-width: 715px;
     max-height: 675px;
 }
+
+.m-t-0-2 {
+	margin-top: 2px !important;
+}
