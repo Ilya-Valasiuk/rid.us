@@ -102,9 +102,9 @@
                     </p>
 
                     <div class="article__picture">
-                        <a class="articlePhoto__link" href="#" title="">
+                        <div class="articlePhoto__link" href="#" title="">
                             <img class="article__image" src="http://dev.ridus.ru/images/2016/11/10/499079/in_article_095673f20c.jpg" alt="">
-                        </a>
+                        </div>
                         <h3 class="article__picture__name">
                             Храмы Пальмиры
                         </h3>
@@ -118,9 +118,9 @@
                     </p>
 
                     <div class="article__picture">
-                        <a class="articlePhoto__link" href="#" title="">
+                        <div class="articlePhoto__link" href="#" title="">
                             <img class="article__image" src="http://www.ridus.ru/images/2016/3/28/382524/hd_615a72c05d.jpg" alt="">
-                        </a>
+                        </div>
                         <h3 class="article__picture__name">
                             Храмы Пальмиры
                         </h3>
@@ -134,9 +134,9 @@
                     </p>
 
                     <div class="article__picture">
-                        <a class="articlePhoto__link" href="#" title="">
+                        <div class="articlePhoto__link" href="#" title="">
                             <img class="article__image" src="http://www.ridus.ru/images/2016/3/28/382528/hd_230c437033.jpg" alt="">
-                        </a>
+                        </div>
                         <h3 class="article__picture__name">
                             Храмы Пальмиры
                         </h3>
@@ -146,9 +146,9 @@
                     </div>
 
                     <div class="article__picture">
-                        <a class="articlePhoto__link" href="#" title="">
+                        <div class="articlePhoto__link" href="#" title="">
                             <img class="article__image" src="http://www.ridus.ru/images/2016/3/28/382538/hd_0428e017d3.jpg" alt="">
-                        </a>
+                        </div>
                         <h3 class="article__picture__name">
                             Храмы Пальмиры
                         </h3>
