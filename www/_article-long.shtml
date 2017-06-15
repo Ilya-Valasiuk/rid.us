@@ -16,8 +16,9 @@
     </div>
 </div>
 
-<div class="article__container">
-    <div class="article">
+
+<div class="article">
+    <div class="article__container">
 
         <h1 class="article__title">
             Кличко возглавил партию Порошенко
@@ -56,34 +57,34 @@
             </p>
 
         </div>
-        
-        <div class="articleSocials__wrapper clearfix">
-            <div class="ridusLikes view_sideBorder">
-                <p class="hint">
-                    Нам важно ваше мнение!
-                </p>
-                <div class="ridusLikesButton">
-                    <a href="#" class="ridusLikesButton__link">+</a>
-                    <span>123</span>
-                    <a href="#" class="ridusLikesButton__link">−</a>
-                </div>
-            </div>
-            <div class="articleSocials">
-                <p class="hint">
-                    Нашли опечатку? Выделите её мышкой и нажмите: Ctrl+Enter
-                </p>
-                <!--#include virtual="_socials-article.shtml"-->
+    </div>
+    
+    <div class="articleSocials__wrapper clearfix">
+        <div class="ridusLikes view_sideBorder">
+            <p class="hint">
+                Нам важно ваше мнение!
+            </p>
+            <div class="ridusLikesButton">
+                <a href="#" class="ridusLikesButton__link">+</a>
+                <span>123</span>
+                <a href="#" class="ridusLikesButton__link">−</a>
             </div>
         </div>
-
-        <p class="article__tags">
-            Теги: 
-            <a href="#" title="">нефть</a>, 
-            <a href="#" title="">Казахстан</a>, 
-            <a href="#" title="">прогнозы</a>, 
-            <a href="#" title="">Назарбаев</a>
-        </p>
-
-        <!--#include virtual="_comments.shtml"-->
+        <div class="articleSocials">
+            <p class="hint">
+                Нашли опечатку? Выделите её мышкой и нажмите: Ctrl+Enter
+            </p>
+            <!--#include virtual="_socials-article.shtml"-->
+        </div>
     </div>
+
+    <p class="article__tags">
+        Теги: 
+        <a href="#" title="">нефть</a>, 
+        <a href="#" title="">Казахстан</a>, 
+        <a href="#" title="">прогнозы</a>, 
+        <a href="#" title="">Назарбаев</a>
+    </p>
+
+    <!--#include virtual="_comments.shtml"-->
 </div>

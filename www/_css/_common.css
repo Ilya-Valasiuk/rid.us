@@ -1541,6 +1541,10 @@ blockquote b {
 	transition:         all .3s ease-in-out;
 }
 
+.photoNumber--second {
+	top: 55px;
+}
+
 .photoNumber-photo {
 	background-image: url('../_images/ic_photo_camera_white.png'); /* with class ModalCarrot ??*/
 	position:relative; /*or absolute*/
