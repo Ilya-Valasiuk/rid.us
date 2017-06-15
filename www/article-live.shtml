@@ -80,141 +80,143 @@
                 </div>
             </div>
 
-            <div class="article article__container">
+            <div class="article">
+                <div class="article__container">
 
-                <h1 class="article__title">
-                    Кличко возглавил партию Порошенко
-                    <!-- используй countersBlock-inline что бы было в одну строчку с загаловком -->
-                </h1>
+                    <h1 class="article__title">
+                        Кличко возглавил партию Порошенко
+                        <!-- используй countersBlock-inline что бы было в одну строчку с загаловком -->
+                    </h1>
 
-                <div class="articleInfo__avatarContainer clearfix">
-                    <a class="articleInfo__avatar" href="" title="">
-                        <img src="http://www.ridus.ru/images/avatars/141718/large_b7147dcd85.jpg" alt=""/>
-                    </a>
-                    <ul class="articleInfo view_dotBetween">
-                        <li>21 августа, 12:29</li>
-                        <li><a href="" title="">Екатерина Трофимова</a>, журналист-эксперт в международной сфере</li>
-                    </ul>
-                </div>
-
-                <div class="text">
-                    <p>
-                        «Ридус» ведет онлайн-трансляцию события.
-                    </p>
-
-                    <div class="bricks__wrapper clearfix">
-
-                        <div class="brick view_articlePhoto">
-                            <span class="articlePhoto__link" href="#" title="">
-                                <img class="article__image" src="http://www.ridus.ru/images/2015/10/13/330776/in_article_e7d6680551.jpg" alt="">
-                            </span>
-                            <p class="articlePhoto__info">
-                                снимок с места происшествия
-                            </p>
-                            <p class="articlePhoto__author">
-                                &copy; Маша Росс/РИА Новости
-                            </p>
-                        </div>
-                        <div class="brick m-t-0-2 view_banner hideOn_1024 hideOn_768">
-                            <!--#include virtual="bricks/banner-mts.shtml"-->
-                        </div>
-
+                    <div class="articleInfo__avatarContainer clearfix">
+                        <a class="articleInfo__avatar" href="" title="">
+                            <img src="http://www.ridus.ru/images/avatars/141718/large_b7147dcd85.jpg" alt=""/>
+                        </a>
+                        <ul class="articleInfo view_dotBetween">
+                            <li>21 августа, 12:29</li>
+                            <li><a href="" title="">Екатерина Трофимова</a>, журналист-эксперт в международной сфере</li>
+                        </ul>
                     </div>
 
-                    <p>
-                        Совет безопасности Нидерландов публикует доклад о крушении боинга на Украине. Эксперты сосредоточатся на 4 главных вопросах: причинах катастрофы, проблеме полета над зоной конфликта, осознавали ли пассажиры, что происходило в тот злополучный момент, и почему родственники погибших были вынуждены несколько дней ждать подтверждения властей, летели ли их близкие на этом рейсе.
-                    </p>
+                    <div class="text">
+                        <p>
+                            «Ридус» ведет онлайн-трансляцию события.
+                        </p>
 
-                    <p>
-                        Первыми с докладом ознакомились родственники погибших, журналисты пока ждут своей очереди. Пресс-конференция начнется в два часа по московскому времени.
-                    </p>
+                        <div class="bricks__wrapper clearfix">
 
-                    <div class="show-updates">
-                        Показать 1 обновление
-                        <a class="show-updates__expand" href="" title=""></a>
+                            <div class="brick view_articlePhoto">
+                                <span class="articlePhoto__link" href="#" title="">
+                                    <img class="article__image" src="http://www.ridus.ru/images/2015/10/13/330776/in_article_e7d6680551.jpg" alt="">
+                                </span>
+                                <p class="articlePhoto__info">
+                                    снимок с места происшествия
+                                </p>
+                                <p class="articlePhoto__author">
+                                    &copy; Маша Росс/РИА Новости
+                                </p>
+                            </div>
+                            <div class="brick m-t-0-2 view_banner hideOn_1024 hideOn_768">
+                                <!--#include virtual="bricks/banner-mts.shtml"-->
+                            </div>
+
+                        </div>
+
+                        <p>
+                            Совет безопасности Нидерландов публикует доклад о крушении боинга на Украине. Эксперты сосредоточатся на 4 главных вопросах: причинах катастрофы, проблеме полета над зоной конфликта, осознавали ли пассажиры, что происходило в тот злополучный момент, и почему родственники погибших были вынуждены несколько дней ждать подтверждения властей, летели ли их близкие на этом рейсе.
+                        </p>
+
+                        <p>
+                            Первыми с докладом ознакомились родственники погибших, журналисты пока ждут своей очереди. Пресс-конференция начнется в два часа по московскому времени.
+                        </p>
+
+                        <div class="show-updates">
+                            Показать 1 обновление
+                            <a class="show-updates__expand" href="" title=""></a>
+                        </div>
+
+                        <ul class="liveList">
+                            <li class="liveList__item" data-time="16:44">
+                                «Никто не должен был там летать, ни единый самолет, так как это было слишком опасно. Мы все видели это по ТВ, я не верила своим ушам, когда услышала, что они летели в том районе» — заявила БиБиСи Селена Фредрикз, мать погибшего на борту MH17 Брайса Фредрикза.
+                                <!--#include virtual="_comments-live.shtml"-->
+                            </li>
+                            <li class="liveList__item" data-time="16:20">
+                                «Результаты расследования СБ Нидерландов крушения MH17 носили предвзятый характер», — заявил заместитель министра иностранных дел России Сергей Рябков.
+                                <!--#include virtual="_comments-live.shtml"-->
+                            </li>
+                            <li class="liveList__item" data-time="16:08">
+                                <p>Представитель Белого дома назвал доклад голландской комиссии «важной вехой в процессе установления и наказания виновных».
+                                </p>
+                                <blockquote>
+                                    США полностью поддерживают все попытки привести к ответственности виновных в трагедии. Наше мнение остается неизменным: MH17 был сбит ракетой земля-воздух, выпущенной с территории, контролируемой сепаратистами, <b>— Нед Прайс, представитель Совета по национальной безопасности</b>
+                                </blockquote>
+                                <!--#include virtual="_comments-live.shtml"-->
+                            </li>
+                            <li class="liveList__item" data-time="16:00">
+                                «Никто не должен был там летать, ни единый самолет, так как это было слишком опасно. Мы все видели это по ТВ, я не верила своим ушам, когда услышала, что они летели в том районе» — заявила БиБиСи Селена Фредрикз, мать погибшего на борту MH17 Брайса Фредрикза.
+                                <!--#include virtual="_comments-live.shtml"-->
+                            </li>
+                            <li class="liveList__item" data-time="15:20">
+                                «Результаты расследования СБ Нидерландов крушения MH17 носили предвзятый характер», — заявил заместитель министра иностранных дел России Сергей Рябков.
+                                <!--#include virtual="_comments-live.shtml"-->
+                            </li>
+                            <li class="liveList__item" data-time="15:00">
+                                <p>Комиссия опубликовала видеореконструкцию катастрофы.</p>
+                                <p>
+                                <iframe width="540" height="315" src="https://www.youtube.com/embed/xLfZeMlf7Ok" frameborder="0" allowfullscreen></iframe>
+                                </p>
+                                <!--#include virtual="_comments-live.shtml"-->
+                            </li>
+                            <li class="liveList__item" data-time="14:44">
+                                «Никто не должен был там летать, ни единый самолет, так как это было слишком опасно. Мы все видели это по ТВ, я не верила своим ушам, когда услышала, что они летели в том районе» — заявила БиБиСи Селена Фредрикз, мать погибшего на борту MH17 Брайса Фредрикза.
+                                <!--#include virtual="_comments-live.shtml"-->
+                            </li>
+                            <li class="liveList__item" data-time="14:20">
+                                «Результаты расследования СБ Нидерландов крушения MH17 носили предвзятый характер», — заявил заместитель министра иностранных дел России Сергей Рябков.
+                                <!--#include virtual="_comments-live.shtml"-->
+                            </li>
+                            <li class="liveList__item" data-time="14:44">
+                                «Никто не должен был там летать, ни единый самолет, так как это было слишком опасно. Мы все видели это по ТВ, я не верила своим ушам, когда услышала, что они летели в том районе» — заявила БиБиСи Селена Фредрикз, мать погибшего на борту MH17 Брайса Фредрикза.
+                                <!--#include virtual="_comments-live.shtml"-->
+                            </li>
+                            <li class="liveList__item" data-time="14:20">
+                                «Результаты расследования СБ Нидерландов крушения MH17 носили предвзятый характер», — заявил заместитель министра иностранных дел России Сергей Рябков.
+                                <!--#include virtual="_comments-live.shtml"-->
+                            </li>
+                            <li class="liveList__item" data-time="14:44">
+                                «Никто не должен был там летать, ни единый самолет, так как это было слишком опасно. Мы все видели это по ТВ, я не верила своим ушам, когда услышала, что они летели в том районе» — заявила БиБиСи Селена Фредрикз, мать погибшего на борту MH17 Брайса Фредрикза.
+                                <!--#include virtual="_comments-live.shtml"-->
+                            </li>
+                            <li class="liveList__item" data-time="14:20">
+                                «Результаты расследования СБ Нидерландов крушения MH17 носили предвзятый характер», — заявил заместитель министра иностранных дел России Сергей Рябков.
+                                <!--#include virtual="_comments-live.shtml"-->
+                            </li>
+                            <li class="liveList__item" data-time="14:44">
+                                <p>Родственники погибших в авиакатастрофе пассажиров получили на руки доклад совета безопасности Голландии.</p>
+                                <blockquote class="twitter-tweet" lang="ru"><p lang="en" dir="ltr">Last night, The <a href="https://twitter.com/libertines">@Libertines</a> at <a href="https://twitter.com/BSTHydePark">@BSTHydePark</a>: <a href="http://t.co/IwcxwjZmnw">pic.twitter.com/IwcxwjZmnw</a></p>&mdash; Carolina Faruolo (@cfaruolo) <a href="https://twitter.com/cfaruolo/status/485819617664065537">6 июля 2014</a></blockquote>
+                                <!--#include virtual="_comments-live.shtml"-->
+                            </li>
+                            <li class="liveList__item" data-time="14:20">
+                                «Результаты расследования СБ Нидерландов крушения MH17 носили предвзятый характер», — заявил заместитель министра иностранных дел России Сергей Рябков.
+                                <!--#include virtual="_comments-live.shtml"-->
+                            </li>
+                            <li class="liveList__item" data-time="14:44">
+                                «Никто не должен был там летать, ни единый самолет, так как это было слишком опасно. Мы все видели это по ТВ, я не верила своим ушам, когда услышала, что они летели в том районе» — заявила БиБиСи Селена Фредрикз, мать погибшего на борту MH17 Брайса Фредрикза.
+                                <!--#include virtual="_comments-live.shtml"-->
+                            </li>
+                            <li class="liveList__item" data-time="14:20">
+                                «Результаты расследования СБ Нидерландов крушения MH17 носили предвзятый характер», — заявил заместитель министра иностранных дел России Сергей Рябков.
+                                <!--#include virtual="_comments-live.shtml"-->
+                            </li>
+                            <li class="liveList__item" data-time="14:44">
+                                «Никто не должен был там летать, ни единый самолет, так как это было слишком опасно. Мы все видели это по ТВ, я не верила своим ушам, когда услышала, что они летели в том районе» — заявила БиБиСи Селена Фредрикз, мать погибшего на борту MH17 Брайса Фредрикза.
+                                <!--#include virtual="_comments-live.shtml"-->
+                            </li>
+                        </ul>
+
                     </div>
-
-                    <ul class="liveList">
-                        <li class="liveList__item" data-time="16:44">
-                            «Никто не должен был там летать, ни единый самолет, так как это было слишком опасно. Мы все видели это по ТВ, я не верила своим ушам, когда услышала, что они летели в том районе» — заявила БиБиСи Селена Фредрикз, мать погибшего на борту MH17 Брайса Фредрикза.
-                            <!--#include virtual="_comments-live.shtml"-->
-                        </li>
-                        <li class="liveList__item" data-time="16:20">
-                            «Результаты расследования СБ Нидерландов крушения MH17 носили предвзятый характер», — заявил заместитель министра иностранных дел России Сергей Рябков.
-                            <!--#include virtual="_comments-live.shtml"-->
-                        </li>
-                        <li class="liveList__item" data-time="16:08">
-                            <p>Представитель Белого дома назвал доклад голландской комиссии «важной вехой в процессе установления и наказания виновных».
-                            </p>
-                            <blockquote>
-                                США полностью поддерживают все попытки привести к ответственности виновных в трагедии. Наше мнение остается неизменным: MH17 был сбит ракетой земля-воздух, выпущенной с территории, контролируемой сепаратистами, <b>— Нед Прайс, представитель Совета по национальной безопасности</b>
-                            </blockquote>
-                            <!--#include virtual="_comments-live.shtml"-->
-                        </li>
-                        <li class="liveList__item" data-time="16:00">
-                            «Никто не должен был там летать, ни единый самолет, так как это было слишком опасно. Мы все видели это по ТВ, я не верила своим ушам, когда услышала, что они летели в том районе» — заявила БиБиСи Селена Фредрикз, мать погибшего на борту MH17 Брайса Фредрикза.
-                            <!--#include virtual="_comments-live.shtml"-->
-                        </li>
-                        <li class="liveList__item" data-time="15:20">
-                            «Результаты расследования СБ Нидерландов крушения MH17 носили предвзятый характер», — заявил заместитель министра иностранных дел России Сергей Рябков.
-                            <!--#include virtual="_comments-live.shtml"-->
-                        </li>
-                        <li class="liveList__item" data-time="15:00">
-                            <p>Комиссия опубликовала видеореконструкцию катастрофы.</p>
-                            <p>
-                            <iframe width="540" height="315" src="https://www.youtube.com/embed/xLfZeMlf7Ok" frameborder="0" allowfullscreen></iframe>
-                            </p>
-                            <!--#include virtual="_comments-live.shtml"-->
-                        </li>
-                        <li class="liveList__item" data-time="14:44">
-                            «Никто не должен был там летать, ни единый самолет, так как это было слишком опасно. Мы все видели это по ТВ, я не верила своим ушам, когда услышала, что они летели в том районе» — заявила БиБиСи Селена Фредрикз, мать погибшего на борту MH17 Брайса Фредрикза.
-                            <!--#include virtual="_comments-live.shtml"-->
-                        </li>
-                        <li class="liveList__item" data-time="14:20">
-                            «Результаты расследования СБ Нидерландов крушения MH17 носили предвзятый характер», — заявил заместитель министра иностранных дел России Сергей Рябков.
-                            <!--#include virtual="_comments-live.shtml"-->
-                        </li>
-                        <li class="liveList__item" data-time="14:44">
-                            «Никто не должен был там летать, ни единый самолет, так как это было слишком опасно. Мы все видели это по ТВ, я не верила своим ушам, когда услышала, что они летели в том районе» — заявила БиБиСи Селена Фредрикз, мать погибшего на борту MH17 Брайса Фредрикза.
-                            <!--#include virtual="_comments-live.shtml"-->
-                        </li>
-                        <li class="liveList__item" data-time="14:20">
-                            «Результаты расследования СБ Нидерландов крушения MH17 носили предвзятый характер», — заявил заместитель министра иностранных дел России Сергей Рябков.
-                            <!--#include virtual="_comments-live.shtml"-->
-                        </li>
-                        <li class="liveList__item" data-time="14:44">
-                            «Никто не должен был там летать, ни единый самолет, так как это было слишком опасно. Мы все видели это по ТВ, я не верила своим ушам, когда услышала, что они летели в том районе» — заявила БиБиСи Селена Фредрикз, мать погибшего на борту MH17 Брайса Фредрикза.
-                            <!--#include virtual="_comments-live.shtml"-->
-                        </li>
-                        <li class="liveList__item" data-time="14:20">
-                            «Результаты расследования СБ Нидерландов крушения MH17 носили предвзятый характер», — заявил заместитель министра иностранных дел России Сергей Рябков.
-                            <!--#include virtual="_comments-live.shtml"-->
-                        </li>
-                        <li class="liveList__item" data-time="14:44">
-                            <p>Родственники погибших в авиакатастрофе пассажиров получили на руки доклад совета безопасности Голландии.</p>
-                            <blockquote class="twitter-tweet" lang="ru"><p lang="en" dir="ltr">Last night, The <a href="https://twitter.com/libertines">@Libertines</a> at <a href="https://twitter.com/BSTHydePark">@BSTHydePark</a>: <a href="http://t.co/IwcxwjZmnw">pic.twitter.com/IwcxwjZmnw</a></p>&mdash; Carolina Faruolo (@cfaruolo) <a href="https://twitter.com/cfaruolo/status/485819617664065537">6 июля 2014</a></blockquote>
-                            <!--#include virtual="_comments-live.shtml"-->
-                        </li>
-                        <li class="liveList__item" data-time="14:20">
-                            «Результаты расследования СБ Нидерландов крушения MH17 носили предвзятый характер», — заявил заместитель министра иностранных дел России Сергей Рябков.
-                            <!--#include virtual="_comments-live.shtml"-->
-                        </li>
-                        <li class="liveList__item" data-time="14:44">
-                            «Никто не должен был там летать, ни единый самолет, так как это было слишком опасно. Мы все видели это по ТВ, я не верила своим ушам, когда услышала, что они летели в том районе» — заявила БиБиСи Селена Фредрикз, мать погибшего на борту MH17 Брайса Фредрикза.
-                            <!--#include virtual="_comments-live.shtml"-->
-                        </li>
-                        <li class="liveList__item" data-time="14:20">
-                            «Результаты расследования СБ Нидерландов крушения MH17 носили предвзятый характер», — заявил заместитель министра иностранных дел России Сергей Рябков.
-                            <!--#include virtual="_comments-live.shtml"-->
-                        </li>
-                        <li class="liveList__item" data-time="14:44">
-                            «Никто не должен был там летать, ни единый самолет, так как это было слишком опасно. Мы все видели это по ТВ, я не верила своим ушам, когда услышала, что они летели в том районе» — заявила БиБиСи Селена Фредрикз, мать погибшего на борту MH17 Брайса Фредрикза.
-                            <!--#include virtual="_comments-live.shtml"-->
-                        </li>
-                    </ul>
-
                 </div>
-                
+
                 <div class="articleSocials__wrapper clearfix">
                     <div class="ridusLikes view_sideBorder">
                         <p class="hint">

@@ -80,83 +80,85 @@
                 </div>
             </div>
 
-            <div class="article article__container">
+            <div class="article">
+                <div class="article__container">
 
-                <h1 class="article__title">
-                    Кличко возглавил партию Порошенко
-                </h1>
+                    <h1 class="article__title">
+                        Кличко возглавил партию Порошенко
+                    </h1>
 
-                <div class="articleInfo__avatarContainer clearfix">
-                    <a class="articleInfo__avatar" href="" title="">
-                        <img src="http://www.ridus.ru/images/avatars/141718/large_b7147dcd85.jpg" alt=""/>
-                    </a>
-                    <ul class="articleInfo view_dotBetween">
-                        <li>21 августа, 12:29</li>
-                        <li><a href="" title="">Екатерина Трофимова</a>, журналист-эксперт в международной сфере</li>
-                    </ul>
-                </div>
-
-                <div class="text">
-                    <p>
-                        «Ридус» ведет онлайн-трансляцию события.
-                    </p>
-
-                    <div class="article__picture">
-                        <div class="articlePhoto__link" href="#" title="">
-                            <img class="article__image" src="http://dev.ridus.ru/images/2016/11/10/499079/in_article_095673f20c.jpg" alt="">
-                        </div>
-                        <h3 class="article__picture__name">
-                            Храмы Пальмиры
-                        </h3>
-                        <p class="article__picture__author">
-                            &copy; kelin/pixabay.com
-                        </p>
+                    <div class="articleInfo__avatarContainer clearfix">
+                        <a class="articleInfo__avatar" href="" title="">
+                            <img src="http://www.ridus.ru/images/avatars/141718/large_b7147dcd85.jpg" alt=""/>
+                        </a>
+                        <ul class="articleInfo view_dotBetween">
+                            <li>21 августа, 12:29</li>
+                            <li><a href="" title="">Екатерина Трофимова</a>, журналист-эксперт в международной сфере</li>
+                        </ul>
                     </div>
 
-                    <p>
-                        Совет безопасности Нидерландов публикует доклад о крушении боинга на Украине. Эксперты сосредоточатся на 4 главных вопросах: причинах катастрофы, проблеме полета над зоной конфликта, осознавали ли пассажиры, что происходило в тот злополучный момент, и почему родственники погибших были вынуждены несколько дней ждать подтверждения властей, летели ли их близкие на этом рейсе.
-                    </p>
-
-                    <div class="article__picture">
-                        <div class="articlePhoto__link" href="#" title="">
-                            <img class="article__image" src="http://www.ridus.ru/images/2016/3/28/382524/hd_615a72c05d.jpg" alt="">
-                        </div>
-                        <h3 class="article__picture__name">
-                            Храмы Пальмиры
-                        </h3>
-                        <p class="article__picture__author">
-                            &copy; kelin/pixabay.com
+                    <div class="text">
+                        <p>
+                            «Ридус» ведет онлайн-трансляцию события.
                         </p>
-                    </div>
 
-                    <p>
-                        Первыми с докладом ознакомились родственники погибших, журналисты пока ждут своей очереди. Пресс-конференция начнется в два часа по московскому времени.
-                    </p>
-
-                    <div class="article__picture">
-                        <div class="articlePhoto__link" href="#" title="">
-                            <img class="article__image" src="http://www.ridus.ru/images/2016/3/28/382528/hd_230c437033.jpg" alt="">
+                        <div class="article__picture">
+                            <div class="articlePhoto__link" href="#" title="">
+                                <img class="article__image" src="http://dev.ridus.ru/images/2016/11/10/499079/in_article_095673f20c.jpg" alt="">
+                            </div>
+                            <h3 class="article__picture__name">
+                                Храмы Пальмиры
+                            </h3>
+                            <p class="article__picture__author">
+                                &copy; kelin/pixabay.com
+                            </p>
                         </div>
-                        <h3 class="article__picture__name">
-                            Храмы Пальмиры
-                        </h3>
-                        <p class="article__picture__author">
-                            &copy; kelin/pixabay.com
-                        </p>
-                    </div>
 
-                    <div class="article__picture">
-                        <div class="articlePhoto__link" href="#" title="">
-                            <img class="article__image" src="http://www.ridus.ru/images/2016/3/28/382538/hd_0428e017d3.jpg" alt="">
+                        <p>
+                            Совет безопасности Нидерландов публикует доклад о крушении боинга на Украине. Эксперты сосредоточатся на 4 главных вопросах: причинах катастрофы, проблеме полета над зоной конфликта, осознавали ли пассажиры, что происходило в тот злополучный момент, и почему родственники погибших были вынуждены несколько дней ждать подтверждения властей, летели ли их близкие на этом рейсе.
+                        </p>
+
+                        <div class="article__picture">
+                            <div class="articlePhoto__link" href="#" title="">
+                                <img class="article__image" src="http://www.ridus.ru/images/2016/3/28/382524/hd_615a72c05d.jpg" alt="">
+                            </div>
+                            <h3 class="article__picture__name">
+                                Храмы Пальмиры
+                            </h3>
+                            <p class="article__picture__author">
+                                &copy; kelin/pixabay.com
+                            </p>
                         </div>
-                        <h3 class="article__picture__name">
-                            Храмы Пальмиры
-                        </h3>
-                        <p class="article__picture__author">
-                            &copy; kelin/pixabay.com
-                        </p>
-                    </div>
 
+                        <p>
+                            Первыми с докладом ознакомились родственники погибших, журналисты пока ждут своей очереди. Пресс-конференция начнется в два часа по московскому времени.
+                        </p>
+
+                        <div class="article__picture">
+                            <div class="articlePhoto__link" href="#" title="">
+                                <img class="article__image" src="http://www.ridus.ru/images/2016/3/28/382528/hd_230c437033.jpg" alt="">
+                            </div>
+                            <h3 class="article__picture__name">
+                                Храмы Пальмиры
+                            </h3>
+                            <p class="article__picture__author">
+                                &copy; kelin/pixabay.com
+                            </p>
+                        </div>
+
+                        <div class="article__picture">
+                            <div class="articlePhoto__link" href="#" title="">
+                                <img class="article__image" src="http://www.ridus.ru/images/2016/3/28/382538/hd_0428e017d3.jpg" alt="">
+                            </div>
+                            <h3 class="article__picture__name">
+                                Храмы Пальмиры
+                            </h3>
+                            <p class="article__picture__author">
+                                &copy; kelin/pixabay.com
+                            </p>
+                        </div>
+
+                    </div>
                 </div>
                 
                 <div class="articleSocials__wrapper clearfix">

@@ -312,7 +312,8 @@
 	font-size: 21px;
 	text-decoration: none;
 }
-.brick:hover .brick__mainLink {
+.brick:hover .brick__mainLink,
+.brick-text__wrapper:hover .brick__mainLink {
 	color: #c64a1b;
 }
 

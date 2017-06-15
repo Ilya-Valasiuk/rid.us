@@ -39,7 +39,8 @@
 
 
 
-.brick {
+.brick,
+.brick-text {
 	overflow: visible;
 	height: 400px;
 	float: left;
@@ -108,24 +109,28 @@
 
 
 @media screen and (max-width: 1023px) {
-	.brick {
+	.brick,
+	.brick-text {
 		width: 47%;
 		margin: 0 3% 22px 0;
 	}
 }
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-	.brick {
+	.brick,
+	.brick-text {
 		width: 300px;
 		margin: 0 22px 22px 0;
 	}
 }
 @media screen and (min-width: 1024px) and (max-width: 1041px) {
-	.brick {
+	.brick,
+	.brick-text {
 		margin-right: 15px;
 	}
 }
 @media screen and (min-width: 1280px) {
-	.brick {
+	.brick,
+	.brick-text {
 		width: 295px;
 		margin: 0 16px 16px 0;
 	}

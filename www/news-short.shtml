@@ -81,8 +81,9 @@
                 </div>
             </div>
 
-            <div class="article__container">
-                <div class="article">
+            
+            <div class="article">
+                <div class="article__container">
                     <!--#include virtual="_article-short.shtml?sidebanner=1&counter=0"-->
                     <div class="text">
                         <p>
@@ -90,45 +91,45 @@
                             Избрание на мэра Киева на пост лидера пропрезидентской партии состоялось по инициативе самого Юрия Луценко, передает «Интерфакс».
                         </p>
                     </div>
-
-                    <div class="readAlso">
-                        Читайте также:
-                        <ul class="readAlso__list">
-                            <li class="readAlso__item"><a class="readAlso__link" href="#" title="">Тысяча читинцев митинговала «за солнце»</a></li>
-                            <li class="readAlso__item"><a class="readAlso__link" href="#" title="">К осени россиянам вернут зимнее время</a></li>
-                            <li class="readAlso__item"><a class="readAlso__link" href="#" title="">Время России подвластно ее парламентариям</a></li>
-                        </ul>
-                    </div>
-                    
-                    <div class="articleSocials__wrapper clearfix ridusLikes-hide">
-                        <div class="ridusLikes view_sideBorder">
-                            <p class="hint">
-                                Нам важно ваше мнение!
-                            </p>
-                            <div class="ridusLikesButton">
-                                <a href="#" class="ridusLikesButton__link">+</a>
-                                <span>123</span>
-                                <a href="#" class="ridusLikesButton__link">−</a>
-                            </div>
-                        </div>
-                        <div class="articleSocials">
-                            <p class="hint">
-                                Нашли опечатку? Выделите её мышкой и нажмите: Ctrl+Enter
-                            </p>
-                            <!--#include virtual="_socials-article.shtml"-->
-                        </div>
-                    </div>
-
-                    <p class="article__tags">
-                        Теги: 
-                        <a href="#" title="">нефть</a>, 
-                        <a href="#" title="">Казахстан</a>, 
-                        <a href="#" title="">прогнозы</a>, 
-                        <a href="#" title="">Назарбаев</a>
-                    </p>
-
-                    <!--#include virtual="_comments.shtml"-->
                 </div>
+
+                <div class="readAlso">
+                    Читайте также:
+                    <ul class="readAlso__list">
+                        <li class="readAlso__item"><a class="readAlso__link" href="#" title="">Тысяча читинцев митинговала «за солнце»</a></li>
+                        <li class="readAlso__item"><a class="readAlso__link" href="#" title="">К осени россиянам вернут зимнее время</a></li>
+                        <li class="readAlso__item"><a class="readAlso__link" href="#" title="">Время России подвластно ее парламентариям</a></li>
+                    </ul>
+                </div>
+                
+                <div class="articleSocials__wrapper clearfix ridusLikes-hide">
+                    <div class="ridusLikes view_sideBorder">
+                        <p class="hint">
+                            Нам важно ваше мнение!
+                        </p>
+                        <div class="ridusLikesButton">
+                            <a href="#" class="ridusLikesButton__link">+</a>
+                            <span>123</span>
+                            <a href="#" class="ridusLikesButton__link">−</a>
+                        </div>
+                    </div>
+                    <div class="articleSocials">
+                        <p class="hint">
+                            Нашли опечатку? Выделите её мышкой и нажмите: Ctrl+Enter
+                        </p>
+                        <!--#include virtual="_socials-article.shtml"-->
+                    </div>
+                </div>
+
+                <p class="article__tags">
+                    Теги: 
+                    <a href="#" title="">нефть</a>, 
+                    <a href="#" title="">Казахстан</a>, 
+                    <a href="#" title="">прогнозы</a>, 
+                    <a href="#" title="">Назарбаев</a>
+                </p>
+
+                <!--#include virtual="_comments.shtml"-->
             </div>
 
 
@@ -162,54 +163,54 @@
                 </div>
             </div>
             
-            <div class="article__container">
-                <div class="article">
-                    <!--#include virtual="_article-short.shtml?sidebanner=1&display=0&counter=0"-->
+            <div class="article">
+                <div class="article__container">
+                    <!--#include virtual="_article-short.shtml?sidebanner=1&counter=0"-->
                     <div class="text">
                         <p>
                             Виталий Кличко избран лидером партии Петра Порошенко «Солидарность». На этом посту он сменил ранее возглавлявшего ее Юрия Луценко.
                             Избрание на мэра Киева на пост лидера пропрезидентской партии состоялось по инициативе самого Юрия Луценко, передает «Интерфакс».
                         </p>
                     </div>
-
-                    <div class="readAlso">
-                        Читайте также:
-                        <ul class="readAlso__list">
-                            <li class="readAlso__item"><a class="readAlso__link" href="#" title="">Тысяча читинцев митинговала «за солнце»</a></li>
-                            <li class="readAlso__item"><a class="readAlso__link" href="#" title="">К осени россиянам вернут зимнее время</a></li>
-                            <li class="readAlso__item"><a class="readAlso__link" href="#" title="">Время России подвластно ее парламентариям</a></li>
-                        </ul>
-                    </div>
-                    
-                    <div class="articleSocials__wrapper clearfix ridusLikes-hide">
-                        <div class="ridusLikes view_sideBorder">
-                            <p class="hint">
-                                Нам важно ваше мнение!
-                            </p>
-                            <div class="ridusLikesButton">
-                                <a href="#" class="ridusLikesButton__link">+</a>
-                                <span>123</span>
-                                <a href="#" class="ridusLikesButton__link">−</a>
-                            </div>
-                        </div>
-                        <div class="articleSocials">
-                            <p class="hint">
-                                Нашли опечатку? Выделите её мышкой и нажмите: Ctrl+Enter
-                            </p>
-                            <!--#include virtual="_socials-article.shtml"-->
-                        </div>
-                    </div>
-
-                    <p class="article__tags">
-                        Теги: 
-                        <a href="#" title="">нефть</a>, 
-                        <a href="#" title="">Казахстан</a>, 
-                        <a href="#" title="">прогнозы</a>, 
-                        <a href="#" title="">Назарбаев</a>
-                    </p>
-
-                    <!--#include virtual="_comments.shtml"-->
                 </div>
+
+                <div class="readAlso">
+                    Читайте также:
+                    <ul class="readAlso__list">
+                        <li class="readAlso__item"><a class="readAlso__link" href="#" title="">Тысяча читинцев митинговала «за солнце»</a></li>
+                        <li class="readAlso__item"><a class="readAlso__link" href="#" title="">К осени россиянам вернут зимнее время</a></li>
+                        <li class="readAlso__item"><a class="readAlso__link" href="#" title="">Время России подвластно ее парламентариям</a></li>
+                    </ul>
+                </div>
+                
+                <div class="articleSocials__wrapper clearfix ridusLikes-hide">
+                    <div class="ridusLikes view_sideBorder">
+                        <p class="hint">
+                            Нам важно ваше мнение!
+                        </p>
+                        <div class="ridusLikesButton">
+                            <a href="#" class="ridusLikesButton__link">+</a>
+                            <span>123</span>
+                            <a href="#" class="ridusLikesButton__link">−</a>
+                        </div>
+                    </div>
+                    <div class="articleSocials">
+                        <p class="hint">
+                            Нашли опечатку? Выделите её мышкой и нажмите: Ctrl+Enter
+                        </p>
+                        <!--#include virtual="_socials-article.shtml"-->
+                    </div>
+                </div>
+
+                <p class="article__tags">
+                    Теги: 
+                    <a href="#" title="">нефть</a>, 
+                    <a href="#" title="">Казахстан</a>, 
+                    <a href="#" title="">прогнозы</a>, 
+                    <a href="#" title="">Назарбаев</a>
+                </p>
+
+                <!--#include virtual="_comments.shtml"-->
             </div>
 
 
@@ -264,8 +265,8 @@
                 </div>
             </div>
             
-            <div class="article__container">
-                <div class="article">
+            <div class="article">
+                <div class="article__container">
                     <!--#include virtual="_article-short.shtml?sidebanner=1&counter=0"-->
                     <div class="text">
                         <p>
@@ -273,45 +274,45 @@
                             Избрание на мэра Киева на пост лидера пропрезидентской партии состоялось по инициативе самого Юрия Луценко, передает «Интерфакс».
                         </p>
                     </div>
-
-                    <div class="readAlso">
-                        Читайте также:
-                        <ul class="readAlso__list">
-                            <li class="readAlso__item"><a class="readAlso__link" href="#" title="">Тысяча читинцев митинговала «за солнце»</a></li>
-                            <li class="readAlso__item"><a class="readAlso__link" href="#" title="">К осени россиянам вернут зимнее время</a></li>
-                            <li class="readAlso__item"><a class="readAlso__link" href="#" title="">Время России подвластно ее парламентариям</a></li>
-                        </ul>
-                    </div>
-                    
-                    <div class="articleSocials__wrapper clearfix ridusLikes-hide">
-                        <div class="ridusLikes view_sideBorder">
-                            <p class="hint">
-                                Нам важно ваше мнение!
-                            </p>
-                            <div class="ridusLikesButton">
-                                <a href="#" class="ridusLikesButton__link">+</a>
-                                <span>123</span>
-                                <a href="#" class="ridusLikesButton__link">−</a>
-                            </div>
-                        </div>
-                        <div class="articleSocials">
-                            <p class="hint">
-                                Нашли опечатку? Выделите её мышкой и нажмите: Ctrl+Enter
-                            </p>
-                            <!--#include virtual="_socials-article.shtml"-->
-                        </div>
-                    </div>
-
-                    <p class="article__tags">
-                        Теги: 
-                        <a href="#" title="">нефть</a>, 
-                        <a href="#" title="">Казахстан</a>, 
-                        <a href="#" title="">прогнозы</a>, 
-                        <a href="#" title="">Назарбаев</a>
-                    </p>
-
-                    <!--#include virtual="_comments.shtml"-->
                 </div>
+
+                <div class="readAlso">
+                    Читайте также:
+                    <ul class="readAlso__list">
+                        <li class="readAlso__item"><a class="readAlso__link" href="#" title="">Тысяча читинцев митинговала «за солнце»</a></li>
+                        <li class="readAlso__item"><a class="readAlso__link" href="#" title="">К осени россиянам вернут зимнее время</a></li>
+                        <li class="readAlso__item"><a class="readAlso__link" href="#" title="">Время России подвластно ее парламентариям</a></li>
+                    </ul>
+                </div>
+                
+                <div class="articleSocials__wrapper clearfix ridusLikes-hide">
+                    <div class="ridusLikes view_sideBorder">
+                        <p class="hint">
+                            Нам важно ваше мнение!
+                        </p>
+                        <div class="ridusLikesButton">
+                            <a href="#" class="ridusLikesButton__link">+</a>
+                            <span>123</span>
+                            <a href="#" class="ridusLikesButton__link">−</a>
+                        </div>
+                    </div>
+                    <div class="articleSocials">
+                        <p class="hint">
+                            Нашли опечатку? Выделите её мышкой и нажмите: Ctrl+Enter
+                        </p>
+                        <!--#include virtual="_socials-article.shtml"-->
+                    </div>
+                </div>
+
+                <p class="article__tags">
+                    Теги: 
+                    <a href="#" title="">нефть</a>, 
+                    <a href="#" title="">Казахстан</a>, 
+                    <a href="#" title="">прогнозы</a>, 
+                    <a href="#" title="">Назарбаев</a>
+                </p>
+
+                <!--#include virtual="_comments.shtml"-->
             </div>
 
 
@@ -363,8 +364,8 @@
                 </div>
             </div>
             
-            <div class="article__container">
-                <div class="article">
+            <div class="article">
+                <div class="article__container">
                     <!--#include virtual="_article-short.shtml?sidebanner=1&counter=0"-->
                     <div class="text">
                         <p>
@@ -372,45 +373,45 @@
                             Избрание на мэра Киева на пост лидера пропрезидентской партии состоялось по инициативе самого Юрия Луценко, передает «Интерфакс».
                         </p>
                     </div>
-
-                    <div class="readAlso">
-                        Читайте также:
-                        <ul class="readAlso__list">
-                            <li class="readAlso__item"><a class="readAlso__link" href="#" title="">Тысяча читинцев митинговала «за солнце»</a></li>
-                            <li class="readAlso__item"><a class="readAlso__link" href="#" title="">К осени россиянам вернут зимнее время</a></li>
-                            <li class="readAlso__item"><a class="readAlso__link" href="#" title="">Время России подвластно ее парламентариям</a></li>
-                        </ul>
-                    </div>
-                    
-                    <div class="articleSocials__wrapper clearfix ridusLikes-hide">
-                        <div class="ridusLikes view_sideBorder">
-                            <p class="hint">
-                                Нам важно ваше мнение!
-                            </p>
-                            <div class="ridusLikesButton">
-                                <a href="#" class="ridusLikesButton__link">+</a>
-                                <span>123</span>
-                                <a href="#" class="ridusLikesButton__link">−</a>
-                            </div>
-                        </div>
-                        <div class="articleSocials">
-                            <p class="hint">
-                                Нашли опечатку? Выделите её мышкой и нажмите: Ctrl+Enter
-                            </p>
-                            <!--#include virtual="_socials-article.shtml"-->
-                        </div>
-                    </div>
-
-                    <p class="article__tags">
-                        Теги: 
-                        <a href="#" title="">нефть</a>, 
-                        <a href="#" title="">Казахстан</a>, 
-                        <a href="#" title="">прогнозы</a>, 
-                        <a href="#" title="">Назарбаев</a>
-                    </p>
-
-                    <!--#include virtual="_comments.shtml"-->
                 </div>
+
+                <div class="readAlso">
+                    Читайте также:
+                    <ul class="readAlso__list">
+                        <li class="readAlso__item"><a class="readAlso__link" href="#" title="">Тысяча читинцев митинговала «за солнце»</a></li>
+                        <li class="readAlso__item"><a class="readAlso__link" href="#" title="">К осени россиянам вернут зимнее время</a></li>
+                        <li class="readAlso__item"><a class="readAlso__link" href="#" title="">Время России подвластно ее парламентариям</a></li>
+                    </ul>
+                </div>
+                
+                <div class="articleSocials__wrapper clearfix ridusLikes-hide">
+                    <div class="ridusLikes view_sideBorder">
+                        <p class="hint">
+                            Нам важно ваше мнение!
+                        </p>
+                        <div class="ridusLikesButton">
+                            <a href="#" class="ridusLikesButton__link">+</a>
+                            <span>123</span>
+                            <a href="#" class="ridusLikesButton__link">−</a>
+                        </div>
+                    </div>
+                    <div class="articleSocials">
+                        <p class="hint">
+                            Нашли опечатку? Выделите её мышкой и нажмите: Ctrl+Enter
+                        </p>
+                        <!--#include virtual="_socials-article.shtml"-->
+                    </div>
+                </div>
+
+                <p class="article__tags">
+                    Теги: 
+                    <a href="#" title="">нефть</a>, 
+                    <a href="#" title="">Казахстан</a>, 
+                    <a href="#" title="">прогнозы</a>, 
+                    <a href="#" title="">Назарбаев</a>
+                </p>
+
+                <!--#include virtual="_comments.shtml"-->
             </div>
 
 
@@ -464,8 +465,8 @@
                 </div>
             </div>
             
-            <div class="article__container">
-                <div class="article">
+            <div class="article">
+                <div class="article__container">
                     <!--#include virtual="_article-short.shtml?sidebanner=1&counter=0"-->
                     <div class="text">
                         <p>
@@ -473,45 +474,45 @@
                             Избрание на мэра Киева на пост лидера пропрезидентской партии состоялось по инициативе самого Юрия Луценко, передает «Интерфакс».
                         </p>
                     </div>
-
-                    <div class="readAlso">
-                        Читайте также:
-                        <ul class="readAlso__list">
-                            <li class="readAlso__item"><a class="readAlso__link" href="#" title="">Тысяча читинцев митинговала «за солнце»</a></li>
-                            <li class="readAlso__item"><a class="readAlso__link" href="#" title="">К осени россиянам вернут зимнее время</a></li>
-                            <li class="readAlso__item"><a class="readAlso__link" href="#" title="">Время России подвластно ее парламентариям</a></li>
-                        </ul>
-                    </div>
-                    
-                    <div class="articleSocials__wrapper clearfix ridusLikes-hide">
-                        <div class="ridusLikes view_sideBorder">
-                            <p class="hint">
-                                Нам важно ваше мнение!
-                            </p>
-                            <div class="ridusLikesButton">
-                                <a href="#" class="ridusLikesButton__link">+</a>
-                                <span>123</span>
-                                <a href="#" class="ridusLikesButton__link">−</a>
-                            </div>
-                        </div>
-                        <div class="articleSocials">
-                            <p class="hint">
-                                Нашли опечатку? Выделите её мышкой и нажмите: Ctrl+Enter
-                            </p>
-                            <!--#include virtual="_socials-article.shtml"-->
-                        </div>
-                    </div>
-
-                    <p class="article__tags">
-                        Теги: 
-                        <a href="#" title="">нефть</a>, 
-                        <a href="#" title="">Казахстан</a>, 
-                        <a href="#" title="">прогнозы</a>, 
-                        <a href="#" title="">Назарбаев</a>
-                    </p>
-
-                    <!--#include virtual="_comments.shtml"-->
                 </div>
+
+                <div class="readAlso">
+                    Читайте также:
+                    <ul class="readAlso__list">
+                        <li class="readAlso__item"><a class="readAlso__link" href="#" title="">Тысяча читинцев митинговала «за солнце»</a></li>
+                        <li class="readAlso__item"><a class="readAlso__link" href="#" title="">К осени россиянам вернут зимнее время</a></li>
+                        <li class="readAlso__item"><a class="readAlso__link" href="#" title="">Время России подвластно ее парламентариям</a></li>
+                    </ul>
+                </div>
+                
+                <div class="articleSocials__wrapper clearfix ridusLikes-hide">
+                    <div class="ridusLikes view_sideBorder">
+                        <p class="hint">
+                            Нам важно ваше мнение!
+                        </p>
+                        <div class="ridusLikesButton">
+                            <a href="#" class="ridusLikesButton__link">+</a>
+                            <span>123</span>
+                            <a href="#" class="ridusLikesButton__link">−</a>
+                        </div>
+                    </div>
+                    <div class="articleSocials">
+                        <p class="hint">
+                            Нашли опечатку? Выделите её мышкой и нажмите: Ctrl+Enter
+                        </p>
+                        <!--#include virtual="_socials-article.shtml"-->
+                    </div>
+                </div>
+
+                <p class="article__tags">
+                    Теги: 
+                    <a href="#" title="">нефть</a>, 
+                    <a href="#" title="">Казахстан</a>, 
+                    <a href="#" title="">прогнозы</a>, 
+                    <a href="#" title="">Назарбаев</a>
+                </p>
+
+                <!--#include virtual="_comments.shtml"-->
             </div>
 
             <div class="contentBackground_light-green clearfix padding_top">
@@ -565,8 +566,8 @@
                 </div>
             </div>
             
-            <div class="article__container">
-                <div class="article">
+            <div class="article">
+                <div class="article__container">
                     <!--#include virtual="_article-short.shtml?sidebanner=1&counter=0"-->
                     <div class="text">
                         <p>
@@ -574,45 +575,45 @@
                             Избрание на мэра Киева на пост лидера пропрезидентской партии состоялось по инициативе самого Юрия Луценко, передает «Интерфакс».
                         </p>
                     </div>
-
-                    <div class="readAlso">
-                        Читайте также:
-                        <ul class="readAlso__list">
-                            <li class="readAlso__item"><a class="readAlso__link" href="#" title="">Тысяча читинцев митинговала «за солнце»</a></li>
-                            <li class="readAlso__item"><a class="readAlso__link" href="#" title="">К осени россиянам вернут зимнее время</a></li>
-                            <li class="readAlso__item"><a class="readAlso__link" href="#" title="">Время России подвластно ее парламентариям</a></li>
-                        </ul>
-                    </div>
-                    
-                    <div class="articleSocials__wrapper clearfix ridusLikes-hide">
-                        <div class="ridusLikes view_sideBorder">
-                            <p class="hint">
-                                Нам важно ваше мнение!
-                            </p>
-                            <div class="ridusLikesButton">
-                                <a href="#" class="ridusLikesButton__link">+</a>
-                                <span>123</span>
-                                <a href="#" class="ridusLikesButton__link">−</a>
-                            </div>
-                        </div>
-                        <div class="articleSocials">
-                            <p class="hint">
-                                Нашли опечатку? Выделите её мышкой и нажмите: Ctrl+Enter
-                            </p>
-                            <!--#include virtual="_socials-article.shtml"-->
-                        </div>
-                    </div>
-
-                    <p class="article__tags">
-                        Теги: 
-                        <a href="#" title="">нефть</a>, 
-                        <a href="#" title="">Казахстан</a>, 
-                        <a href="#" title="">прогнозы</a>, 
-                        <a href="#" title="">Назарбаев</a>
-                    </p>
-
-                    <!--#include virtual="_comments.shtml"-->
                 </div>
+
+                <div class="readAlso">
+                    Читайте также:
+                    <ul class="readAlso__list">
+                        <li class="readAlso__item"><a class="readAlso__link" href="#" title="">Тысяча читинцев митинговала «за солнце»</a></li>
+                        <li class="readAlso__item"><a class="readAlso__link" href="#" title="">К осени россиянам вернут зимнее время</a></li>
+                        <li class="readAlso__item"><a class="readAlso__link" href="#" title="">Время России подвластно ее парламентариям</a></li>
+                    </ul>
+                </div>
+                
+                <div class="articleSocials__wrapper clearfix ridusLikes-hide">
+                    <div class="ridusLikes view_sideBorder">
+                        <p class="hint">
+                            Нам важно ваше мнение!
+                        </p>
+                        <div class="ridusLikesButton">
+                            <a href="#" class="ridusLikesButton__link">+</a>
+                            <span>123</span>
+                            <a href="#" class="ridusLikesButton__link">−</a>
+                        </div>
+                    </div>
+                    <div class="articleSocials">
+                        <p class="hint">
+                            Нашли опечатку? Выделите её мышкой и нажмите: Ctrl+Enter
+                        </p>
+                        <!--#include virtual="_socials-article.shtml"-->
+                    </div>
+                </div>
+
+                <p class="article__tags">
+                    Теги: 
+                    <a href="#" title="">нефть</a>, 
+                    <a href="#" title="">Казахстан</a>, 
+                    <a href="#" title="">прогнозы</a>, 
+                    <a href="#" title="">Назарбаев</a>
+                </p>
+
+                <!--#include virtual="_comments.shtml"-->
             </div>
 
 
@@ -667,56 +668,54 @@
                 </div>
             </div>
             
-            <div class="article__container">
-                <div class="article">
-                
+            <div class="article">
+                <div class="article__container">
                     <!--#include virtual="_article-short.shtml?sidebanner=1&counter=0"-->
-
                     <div class="text">
                         <p>
                             Виталий Кличко избран лидером партии Петра Порошенко «Солидарность». На этом посту он сменил ранее возглавлявшего ее Юрия Луценко.
                             Избрание на мэра Киева на пост лидера пропрезидентской партии состоялось по инициативе самого Юрия Луценко, передает «Интерфакс».
                         </p>
                     </div>
-
-                    <div class="readAlso">
-                        Читайте также:
-                        <ul class="readAlso__list">
-                            <li class="readAlso__item"><a class="readAlso__link" href="#" title="">Тысяча читинцев митинговала «за солнце»</a></li>
-                            <li class="readAlso__item"><a class="readAlso__link" href="#" title="">К осени россиянам вернут зимнее время</a></li>
-                            <li class="readAlso__item"><a class="readAlso__link" href="#" title="">Время России подвластно ее парламентариям</a></li>
-                        </ul>
-                    </div>
-                    
-                    <div class="articleSocials__wrapper clearfix ridusLikes-hide">
-                        <div class="ridusLikes  view_sideBorder">
-                            <p class="hint">
-                                Нам важно ваше мнение!
-                            </p>
-                            <div class="ridusLikesButton">
-                                <a href="#" class="ridusLikesButton__link">+</a>
-                                <span>123</span>
-                                <a href="#" class="ridusLikesButton__link">−</a>
-                            </div>
-                        </div>
-                        <div class="articleSocials">
-                            <p class="hint">
-                                Нашли опечатку? Выделите её мышкой и нажмите: Ctrl+Enter
-                            </p>
-                            <!--#include virtual="_socials-article.shtml"-->
-                        </div>
-                    </div>
-
-                    <p class="article__tags">
-                        Теги: 
-                        <a href="#" title="">нефть</a>, 
-                        <a href="#" title="">Казахстан</a>, 
-                        <a href="#" title="">прогнозы</a>, 
-                        <a href="#" title="">Назарбаев</a>
-                    </p>
-
-                    <!--#include virtual="_comments.shtml"-->
                 </div>
+
+                <div class="readAlso">
+                    Читайте также:
+                    <ul class="readAlso__list">
+                        <li class="readAlso__item"><a class="readAlso__link" href="#" title="">Тысяча читинцев митинговала «за солнце»</a></li>
+                        <li class="readAlso__item"><a class="readAlso__link" href="#" title="">К осени россиянам вернут зимнее время</a></li>
+                        <li class="readAlso__item"><a class="readAlso__link" href="#" title="">Время России подвластно ее парламентариям</a></li>
+                    </ul>
+                </div>
+                
+                <div class="articleSocials__wrapper clearfix ridusLikes-hide">
+                    <div class="ridusLikes view_sideBorder">
+                        <p class="hint">
+                            Нам важно ваше мнение!
+                        </p>
+                        <div class="ridusLikesButton">
+                            <a href="#" class="ridusLikesButton__link">+</a>
+                            <span>123</span>
+                            <a href="#" class="ridusLikesButton__link">−</a>
+                        </div>
+                    </div>
+                    <div class="articleSocials">
+                        <p class="hint">
+                            Нашли опечатку? Выделите её мышкой и нажмите: Ctrl+Enter
+                        </p>
+                        <!--#include virtual="_socials-article.shtml"-->
+                    </div>
+                </div>
+
+                <p class="article__tags">
+                    Теги: 
+                    <a href="#" title="">нефть</a>, 
+                    <a href="#" title="">Казахстан</a>, 
+                    <a href="#" title="">прогнозы</a>, 
+                    <a href="#" title="">Назарбаев</a>
+                </p>
+
+                <!--#include virtual="_comments.shtml"-->
             </div>
 
             <!--#include virtual="_article-short-preview.shtml?color=1&img=1&tag=1&stringName=1"-->
