@@ -1,0 +1,28 @@
+<section class="photostory-brick">
+	<div class="photostory-brick__info">
+        <div class="photostory-brick__section">
+            фоторепортаж
+        </div>	
+        <a href="#" class="photostory-brick__link" title="">
+            В медвежьем краю не хотят становиться японцами
+        </a>
+        <p class="photostory-brick__text">
+            Зданий выше трёх этажей нет - сейсмическая активность. Везде таблички
+        </p>
+        <div class="countersBlock">
+            <span class="countersBlock__item view_count1">
+                100 <i class="icon"><!-- icon --></i>
+            </span>
+            <span class="countersBlock__item view_count2">
+                200 <i class="icon"><!-- icon --></i>
+            </span>
+            <span class="countersBlock__item view_count3">
+                300 <i class="icon"><!-- icon --></i>
+            </span>
+        </div>
+    </div>
+    <div class="photostory-brick__image" style="background-image: url('http://68.media.tumblr.com/0f1c18d44a4c0dc5fc75da5a88869f56/tumblr_n159pn7T7I1qigj88o1_500.jpg')">
+        <span class="photoNumber"><span class="photoNumber-photo"></span>+12</span>
+    </div>
+    <a href="" class="clickable"></a>
+</section>
