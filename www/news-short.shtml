@@ -729,7 +729,20 @@
             <!--#include virtual="_article-short-preview.shtml?color=5&img=5&tag=5&stringName=1"-->
 
             <!--#include virtual="_article-short-preview.shtml?color=5&img=5&tag=6&stringName=2"-->
+            
+            <div class="article">
+            <!--#include virtual="bricks/photostory.shtml"-->
+            </div>
 
+            <div class="article">
+            <!--#include virtual="bricks/videosectionnews.shtml"-->
+            </div>
+
+            <div class="article">
+            <!--#include virtual="bricks/authors-articles.shtml"-->
+            </div>
+
+          
 
 
             <div class="clearfix" style="margin-bottom: 30px; background: #eee">

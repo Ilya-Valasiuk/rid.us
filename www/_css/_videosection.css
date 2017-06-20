@@ -83,7 +83,10 @@
 
 
 
-.videoSection .label {
+.videoSection .label,
+.videoSection-news .label {
+	display: flex;
+    align-items: center;
 	position: absolute;
 	background: #000;
 	color: #fff;
@@ -91,12 +94,13 @@
 	left: -10px;
 	font-size: 24px;
 	z-index: 13;
-	padding: 11px 120px 11px 40px;
+	padding: 11px 80px 11px 30px;
 	font-weight: bold;
 	text-transform: uppercase;
 	text-decoration: none;
 }
-.videoSection .label:after {
+.videoSection .label:after,
+.videoSection-news .label:after {
     display: block;
 	content: "";
 	position: absolute;
@@ -107,14 +111,20 @@
     background: url(../_images/icons_sprite.png);
     background-position: 0px -234px;
 }
+.videoSection .photoNumber-video,
+.videoSection-news .photoNumber-video {
+	margin-right: 10px;
+}
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { 
-	.videoSection .label:after {
+	.videoSection .label:after,
+	.videoSection-news .label:after {
 		background-image: url(../_images/icons_sprite_2x.png);
 		background-size: 282px 500px;
 	}
 }
 
-.videoSection .label:before {
+.videoSection .label:before,
+.videoSection-news .label:before {
     display: block;
 	content: "";
 	position: absolute;
@@ -247,5 +257,62 @@
 	.videoSection .table__mainColumn .table__mainColumn {
 		width: 100%;
 		padding: 0;
+	}
+}
+
+.videoSection-news {
+	display: flex;
+	height: 350px;
+	background: #ffd051;
+}
+
+.videoSection-news__video {
+	flex: 1;
+}
+
+.videoSection-news .brick {
+	width: 350px;
+	height: 100%;
+	padding: 85px 20px 20px;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+	.videoSection-news {
+		height: 300px;
+	}
+
+	.videoSection-news .brick {
+		width: 235px;
+		padding: 85px 15px 15px;	
+	}
+
+	.videoSection-news .brick__text {
+		font-size: 12px;
+	}
+
+	.videoSection-news .brick h2 {
+		line-height: 20px;
+	}
+
+	.videoSection-news .brick__mainLink {
+		font-size: 20px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.videoSection-news .brick {
+		width: 265px;
+	}
+
+	.videoSection-news .brick h2 {
+		line-height: 20px;
+	}
+
+	.videoSection-news .brick__text {
+		font-size: 14px;
 	}
 }

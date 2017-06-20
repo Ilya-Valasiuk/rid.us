@@ -1,0 +1,36 @@
+<section class="videoSection-news">
+
+	<div class="videoSection-news__left">
+
+		<div class="brick">
+			<h2>
+				<a href="#" class="brick__mainLink" title="">
+					У пожарных на страшном пожаре не пошла вода, они не растерялись
+				</a>
+			</h2>
+			<p class="brick__text">
+				Каждый старшеклассник знает, что сила тока измеряется в амперах. В чем измеряется напряжение криминогенной обстановки и как измерить уровень безопасности на улице, знают только в полиции.
+			</p>
+			<div class="countersBlock">
+				<span class="countersBlock__item view_count1">
+					100 <i class="icon"><!-- icon --></i>
+				</span>
+				<span class="countersBlock__item view_count2">
+					200 <i class="icon"><!-- icon --></i>
+				</span>
+				<span class="countersBlock__item view_count3">
+					300 <i class="icon"><!-- icon --></i>
+				</span>
+			</div>
+			<a href="#" class="label"><span class="photoNumber-video"></span>Видео</a>
+			<a href="videos.shtml" class="clickable"></a>
+		</div>
+
+
+	</div>
+
+	
+	<div class="videoSection-news__video">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/KxZQG0C0J88" frameborder="0" allowfullscreen></iframe>
+	</div>
+</section>

@@ -514,13 +514,16 @@
 
 
 /* на желтой видосекции */
-.videoSection .countersBlock__item .icon {
+.videoSection .countersBlock__item .icon,
+.videoSection-news .countersBlock__item .icon {
 	opacity: .76;
 }
-.videoSection .countersBlock__item {
+.videoSection .countersBlock__item,
+.videoSection-news .countersBlock__item {
 	color: #000;
 }
-.videoPlaylist .countersBlock__item {
+.videoPlaylist .countersBlock__item,
+.videoPlaylist-news .countersBlock__item {
 	color: #a1a1a1;
 }
 
@@ -532,7 +535,8 @@
 .contentBackground_red .countersBlock__item .icon,
 .videoPlaylist .countersBlock__item .icon,
 .aLaSlideImage .countersBlock__item .icon,
-.slider .countersBlock__item .icon {
+.slider .countersBlock__item .icon,
+.photostory-brick .countersBlock__item .icon {
     opacity: .55;
 }
 .contentBackground_deepblue .countersBlock__item.view_count1 .icon,
@@ -543,7 +547,8 @@
 .aLaSlideImage .countersBlock__item.view_count1 .icon,
 .slider .countersBlock__item.view_count1 .icon,
 .article-short--blue .countersBlock__item.view_count1 .icon,
-.article-short--red .countersBlock__item.view_count1 .icon {
+.article-short--red .countersBlock__item.view_count1 .icon,
+.photostory-brick .countersBlock__item.view_count1 .icon {
     background-position: -0px -301px;
 }
 .contentBackground_deepblue .countersBlock__item.view_count2 .icon,
@@ -554,7 +559,8 @@
 .aLaSlideImage .countersBlock__item.view_count2 .icon,
 .slider .countersBlock__item.view_count2 .icon,
 .article-short--blue .countersBlock__item.view_count2 .icon,
-.article-short--red .countersBlock__item.view_count2 .icon {
+.article-short--red .countersBlock__item.view_count2 .icon,
+.photostory-brick .countersBlock__item.view_count2 .icon {
     background-position: -11px -301px;
 }
 .contentBackground_deepblue .countersBlock__item.view_count3 .icon,
@@ -565,7 +571,8 @@
 .aLaSlideImage .countersBlock__item.view_count3 .icon,
 .slider .countersBlock__item.view_count3 .icon,
 .article-short--blue .countersBlock__item.view_count3 .icon,
-.article-short--red .countersBlock__item.view_count3 .icon {
+.article-short--red .countersBlock__item.view_count3 .icon,
+.photostory-brick .countersBlock__item.view_count3 .icon {
     background-position: -25px -301px;
 }
 

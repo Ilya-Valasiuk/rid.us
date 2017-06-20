@@ -1,0 +1,35 @@
+<div class="authors-articles-brick">
+    <div class="authors-articles-brick__left" >
+        <div class="authors-articles-brick__image" style="background-image: url('_images/Untitled-2.jpg')">
+            <div class="authors-articles-brick__author">
+                <span class="authors-articles-brick__name">Евгения Селькова</span>
+                <span class="authors-articles-brick__title">Политолог, обозреватель, комерсант FM</span>
+            </div>
+        </div>
+    </div>
+    <div class="authors-articles-brick__content">
+        <a href="#12" class="authors-articles-brick__label brick__label" title="">Степан липсченко</a>
+        <a class="authors-articles-brick__header">Чем отличается каждая новая вспышка?</a>
+        <p class="authors-articles-brick__text">Падение стоимости черного золота провоцирует 
+            гонку девальваций. Тот же Назарбаев сделал свое 
+            заяаление накануне объявления об освобождении тенге 
+            и последовавшего затем его масштабного обвала.
+        </p>
+        <div class="countersBlock">
+            <span class="countersBlock__item view_count1">
+                100 <i class="icon"><!-- icon --></i>
+            </span>
+            <span class="countersBlock__item view_count2">
+                200 <i class="icon"><!-- icon --></i>
+            </span>
+            <span class="countersBlock__item view_count3">
+                300 <i class="icon"><!-- icon --></i>
+            </span>
+            <a href="#" class="countersBlock__item readLater">
+				<span>читать позже</span>
+				<span class="state_hidderHidden">читаю позже</span>
+				<i class="icon"><!-- icon --></i>
+			</a>
+        </div>
+    </div>
+</div>
