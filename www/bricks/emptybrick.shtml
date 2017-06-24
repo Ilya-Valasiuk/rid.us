@@ -1,0 +1,33 @@
+<div class="empty-brick">
+
+    <div class="empty-brick__ridus"></div>
+    <div class="empty-brick__content">
+        <div class="empty-brick__content-bg">
+        </div>
+        <div class="empty-brick__labels">
+            <a href="#life" class="brick__label" title="">Политика</a>
+        </div>
+        <a href="#" class="empty-brick__link">Ученые выявили слабое звено харизматичных политиков</a>
+        <div class="countersBlock">
+            <span class="countersBlock__item view_count1">
+                12 <i class="icon"><!-- icon --></i>
+            </span>
+            <span class="countersBlock__item view_count2">
+                34 <i class="icon"><!-- icon --></i>
+            </span>
+            <span class="countersBlock__item view_count3">
+                57 <i class="icon"><!-- icon --></i>
+            </span>
+            <a href="#" class="countersBlock__item readLater">
+                <span>читать позже</span>
+                <span class="state_hidderHidden">читаю позже</span>
+                <i class="icon"><!-- icon --></i>
+            </a>
+        </div>
+        <a href="" class="clickable"></a>
+    </div>
+    <div class="emty-brick__line"></div>
+
+    <a href="#" class="clickable"></a>
+
+</div>

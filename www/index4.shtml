@@ -543,7 +543,7 @@
             <div class="bricks__wrapper swiper-wrapper">
 
                 <div class="brick swiper-slide width_twice aLaSlideImage">
-                    <!--#include virtual="bricks/alaslideimage.shtml?image=2"-->
+                    <!--#include virtual="bricks/emptybrick.shtml"-->
                 </div>
 	            <div class="brick swiper-slide not_for_hover hideOn_1024 hideOn_1280">
 		            <div class="brick view_floatText">
@@ -581,7 +581,7 @@
                     <!--#include virtual="bricks/news-simple.shtml?image=1&data=1&label=31&count1=120&count2=35&count3=3812"-->
                 </div>
 	            <div class="brick swiper-slide">
-		            <!--#include virtual="bricks/news-simple.shtml?image=2&data=1&label=31&count1=120&count2=35&count3=3812"-->
+		            <!--#include virtual="bricks/news-simple.shtml?image=8&data=1&label=31&count1=120&count2=35&count3=3812"-->
 	            </div>
                 <div class="brick swiper-slide">
                     <!--#include virtual="bricks/news-simple.shtml?image=2&data=3&label=21&count1=120&count2=35&count3=3812"-->
