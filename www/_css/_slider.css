@@ -373,3 +373,99 @@
 .pageSwiper .swiper-slide.swiper-slide-active {
     opacity: 1;
 }
+
+.empty-brick {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    background-image: url('../_images/empty-brick.png');
+    background-repeat: no-repeat;
+}
+
+@media screen and  (max-width: 1023px) {
+    .empty-brick {
+        background-size: cover;
+    }
+}
+
+.empty-brick__ridus {
+    background-image: url('../_images/ridus-empty.png');
+    height: 100%;
+    background-repeat: no-repeat;
+    width: 220px;
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+    z-index: 1;
+    background-position-y: 100%;
+}
+
+.emty-brick__line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: calc(100% - 102px);
+    height: 9px;
+    background: linear-gradient(90deg, #fbb035, #ed5c32)
+}
+
+.emty-brick__line:after {
+    content: '';
+    position: absolute;
+    right: -17px;
+    bottom: 0;
+    border: 9px solid transparent;
+    border-left: 8px solid #ed5c32;
+    border-top: 0px solid #ed5c32;
+}
+
+.empty-brick__content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    bottom: 9px;
+    left: 0;
+    height: 210px;
+    width: calc(100% - 30px - 93px);
+    
+    padding: 15px;
+}
+
+.empty-brick__content-bg {
+    background-color: #a09fa0;
+    z-index: -1;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.empty-brick__content-bg:after {
+    border-top: 182px solid #a09fa0;
+    border-left: 35px solid #a09fa0;
+    content: "";
+    height: 0;
+    right: -34px;
+    position: absolute;
+    top: 0;
+    width: 0;
+    border-bottom: 34px solid transparent;
+}
+
+.empty-brick__link {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.empty-brick__labels {
+    z-index: 20;
+}
