@@ -9,6 +9,7 @@ function PhotoStory() {
     var PHOTO_STORY_STARTER_ELEMENT = 'photo_story-clickable';
 
     var slider;
+    var currentScrollPosition;
 
     init();
 
@@ -24,6 +25,7 @@ function PhotoStory() {
         var $photoStoryView = $('.' + PHOTO_STORY_CLASS);
 
         if ($photoStoryView) {
+            currentScrollPosition = document.body.scrollTop;
             show($photoStoryView);
             slider = new Slider();
             slider.init($photoStoryView, position);
@@ -57,6 +59,7 @@ function PhotoStory() {
 
             $closeBtn.off('click', closeAndCleanHandlers);
             $(document).off('keyup', closeAndCleanHandlers);
+            document.body.scrollTop = currentScrollPosition;
         }
     }
 
