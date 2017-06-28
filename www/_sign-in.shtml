@@ -1,0 +1,29 @@
+<form action="" class="sign-in contentBackground_white paddings_side padding_top padding_bottom">
+    <h2>Войти</h2>
+
+    <a class="sign-in__close">x</a>
+
+    <div class="padding_top">
+        <div class="">
+            <label>Электронная почта</label><br>
+            <input type="text" placeholder="Ваш e-mail">
+        </div>
+        
+    </div>
+
+    <div class="padding_top">
+        <div class="clearfix">
+            <label>Пароль</label>
+            <a href="" class="sign-in__forgot-password">Забыли пароль?</a>
+            <input type="password" placeholder="">
+        </div>
+    </div>    
+    
+    <div class="sign-in__enter padding_top">
+        <button class="yellowButton view_big" title="">
+            Войти
+            <i class="corner"><!-- corner --></i>
+        </button>   
+        <a href="./signup.shtml" class="sign-in__registration">Регистрация</a>
+    </div>
+</form>

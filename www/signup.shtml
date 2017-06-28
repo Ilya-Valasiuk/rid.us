@@ -22,49 +22,50 @@
 
 <section class="wrapper contentBackground_white paddings_side padding_top padding_bottom clearfix">
 
-    <h2>Регистрация нового пользователя</h2>
+	<form action="">
+		<h2>Регистрация нового пользователя</h2>
 
-    <div class="bricks__wrapper clearfix padding_top">
-	    <div class="brick view_noHeight">
-		    <label>Электронная почта</label><br>
-		    <input type="text" placeholder="Ваш e-mail">
-	    </div>
-	</div>
-    <div class="bricks__wrapper clearfix">
-	    <div class="brick view_noHeight">
-		    <label>Имя</label><br>
-		    <input type="text" placeholder="Ваше имя">
-	    </div>
-	    <div class="brick view_noHeight">
-		    <label>Фамилия</label><br>
-		    <input type="text" placeholder="Ваша фамилия">
-	    </div>
-	</div>
-    <div class="bricks__wrapper clearfix">
-	    <div class="brick view_noHeight">
-		    <label>Пароль</label><br>
-		    <input type="password" placeholder="">
-	    </div>
-	    <div class="brick view_noHeight">
-		    <label>Подтвердите пароль</label><br>
-		    <input type="password" placeholder="">
-	    </div>
-	</div>
+		<div class="bricks__wrapper clearfix padding_top">
+			<div class="brick view_noHeight">
+				<label>Электронная почта</label><br>
+				<input type="text" placeholder="Ваш e-mail">
+			</div>
+		</div>
+		<div class="bricks__wrapper clearfix">
+			<div class="brick view_noHeight">
+				<label>Имя</label><br>
+				<input type="text" placeholder="Ваше имя">
+			</div>
+			<div class="brick view_noHeight">
+				<label>Фамилия</label><br>
+				<input type="text" placeholder="Ваша фамилия">
+			</div>
+		</div>
+		<div class="bricks__wrapper clearfix">
+			<div class="brick view_noHeight">
+				<label>Пароль</label><br>
+				<input type="password" placeholder="">
+			</div>
+			<div class="brick view_noHeight">
+				<label>Подтвердите пароль</label><br>
+				<input type="password" placeholder="">
+			</div>
+		</div>
 
-	<label>
-		<input type="checkbox" checked="checked">
-		Я хочу получать рассылку свежих новостей
-	</label>
+		<label>
+			<input type="checkbox" checked="checked">
+			Я хочу получать рассылку свежих новостей
+		</label>
 
-	<br>
-	<br>
-	<br>
-	
-	<a class="yellowButton view_big" href="" title="">
-		Зарегистрироваться
-		<i class="corner"><!-- corner --></i>
-	</a>   
-
+		<br>
+		<br>
+		<br>
+		
+		<button class="yellowButton view_big" title="">
+			Зарегистрироваться
+			<i class="corner"><!-- corner --></i>
+		</button>   
+	</form>
 	<br>
 	<br>
 	<br>

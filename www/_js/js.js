@@ -2217,3 +2217,19 @@ $(function() {
 
     });
 });
+
+
+$(function() {
+    $(document).ready(function() {
+        var commentsSignIn = $('.comments--sign-in');
+        var signInForm = $('#popup-sign-in');
+
+        commentsSignIn.click(function (e) {
+            e.preventDefault();
+
+            signInForm.bPopup({
+                closeClass: 'sign-in__close'
+            });
+        })
+    })
+});
