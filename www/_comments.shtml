@@ -16,11 +16,15 @@
 		<a class="comments__expandButton" href="" title=""></a>
 	</h2>
 
+	<div class="comments-sign-in__content" id="popup-sign-in">
+		<!--#include virtual="_sign-in.shtml"-->
+	</div>
+
 	<div class="commentsContent">
 
 		<!--#if expr="$auth = 0" -->
 		<div class="comments__login">
-			<b>Для комментирования новости <a href="#" title="">авторизуйтесь</a> или войдите через социальные сети:</b>
+			<b>Для комментирования новости <a href="#" title="" class="comments--sign-in">авторизуйтесь</a> или войдите через социальные сети:</b>
 			<ul class="commentsSocials">
 				<li class="socialNetwork__item">
 					<a class="socialNetwork__link view_iconFacebook" href="#" title="">

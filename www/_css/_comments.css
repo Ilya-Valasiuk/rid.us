@@ -279,3 +279,7 @@
 .comment__item--removed .comment__text {
     color: #b1b1b1;
 }
+
+.comments-sign-in__content {
+    display: none;
+}
