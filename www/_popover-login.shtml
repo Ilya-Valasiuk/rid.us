@@ -53,10 +53,15 @@
 					<label><input type="checkbox" checked>Запомнить меня</label>
 					<span class="popoverLogin__tip">Забыли пароль? <a href="#" title="">Восстановить</a></span>
 				</div>
-				<a class="yellowButton" href="" title="">
-					Войти в систему
-					<i class="corner"><!-- corner --></i>
-				</a>
+				<div class="popoverLogin__buttons">
+					<a class="yellowButton" href="" title="">
+						Войти в систему
+						<i class="corner"><!-- corner --></i>
+					</a>
+					<a class="popoverLogin__close" href="" title="">
+						 Закрыть
+					</a>
+				</div>
 			</form>
 		</div>
 		 
