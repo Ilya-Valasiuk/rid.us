@@ -214,6 +214,11 @@
                             </li>
                         </ul>
 
+                        <div class="show-updates">
+                            Смотреть ещё
+                            <a class="show-updates__expand" href="" title=""></a>
+                        </div>
+
                     </div>
                 </div>
 
