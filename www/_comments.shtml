@@ -289,4 +289,7 @@
 			</li>
 		</ul>
 	</div>
+	<section class="pagination">
+		<!--#include virtual="_pagination.shtml?page=1"-->
+	</section>
 </div>
