@@ -112,17 +112,37 @@
 .popoverLogin__loginForm label {
 	font-size: 13px;
 }
+.popoverLogin__buttons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 18px 0 10px;
+	
+}
 .headerPanel .popoverLogin__loginForm .yellowButton {
     float: none;
     display: inline-block;
-    margin-left: 50%;
+    /*margin-left: 50%;
     -webkit-transform: translateX(-54%);
     -moz-transform: translateX(-54%);
     -ms-transform: translateX(-54%);
     transform: translateX(-54%);  
-    margin-top: 5px;
+    margin-top: 5px;*/
 }
 
+.headerPanel .popoverLogin__buttons {
+	padding: 0;
+}
+
+.popoverLogin__close {
+	margin-left: 40px;
+	text-decoration: none;
+}
+
+
+.headerPanel .popoverLogin__close {
+	display: none;
+}
 
 
 

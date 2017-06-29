@@ -1656,39 +1656,10 @@ iframe.instagram {
 	margin-top: 2px !important;
 }
 
-.sign-in__forgot-password {
-	font: 100 10px/12px 'Roboto', sans-serif;
-    color: #8f8f8f;
-    text-decoration: none;
-	float: right;
-	margin-top: 5px;
+.comments-sign-in__content .popoverLogin {
+	position: relative;
 }
 
-.sign-in__close {
-	position: absolute;
-	right: 45px;
-	top: 22px;
-}
-
-@media screen and (min-width: 1280px) {
-	.sign-in__close {
-		position: absolute;
-		right: 21px;
-		top: 22px;
-	}
-}
-
-
-.sign-in__close:hover {
-	cursor: pointer;
-}
-
-.sign-in__forgot-password:hover {
-	text-decoration: underline;
-}
-
-.sign-in__enter {
-	display: flex;
-    justify-content: space-between;
-    align-items: center;
+.comments-sign-in__content .popoverLogin:after {
+	display: none;
 }

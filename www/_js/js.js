@@ -2228,7 +2228,7 @@ $(function() {
             e.preventDefault();
 
             signInForm.bPopup({
-                closeClass: 'sign-in__close'
+                closeClass: 'popoverLogin__close'
             });
         })
     })

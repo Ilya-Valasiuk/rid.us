@@ -18,7 +18,7 @@
 	</h2>
 
 	<div class="comments-sign-in__content" id="popup-sign-in">
-		<!--#include virtual="_sign-in.shtml"-->
+		<!--#include virtual="_popover-login.shtml"-->
 	</div>
 
 	<div class="commentsContent">
