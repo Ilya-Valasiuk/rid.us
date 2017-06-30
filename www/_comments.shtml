@@ -289,8 +289,8 @@
 				<!--#include virtual="_comments-form.shtml?auth=$auth"-->
 			</li>
 		</ul>
+		<section class="pagination">
+			<!--#include virtual="_pagination.shtml?page=1"-->
+		</section>
 	</div>
-	<section class="pagination">
-		<!--#include virtual="_pagination.shtml?page=1"-->
-	</section>
 </div>
