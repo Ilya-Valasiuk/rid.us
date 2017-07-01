@@ -133,23 +133,26 @@
 	display: inline-block;
 	width: 24px;
 	height: 24px;
-	background-size: cover;
 	margin-right: 5px;
 }
 .tagAdditionalList__icon-author {
-	background-image: url('./../_images/ic_people_white.png');
+	background-image: url('./../_images/sprite2.png');
+	background-position: -162px -630px; width: 24px; height: 24px;
 }
 
 .tagAdditionalList__icon-articles {
-	background-image: url('./../_images/ic_library_books_white.png');
+	background-image: url('./../_images/sprite2.png');
+	background-position: -138px -630px; width: 24px; height: 24px;
 }
 
 .tagAdditionalList__icon-tags {
-	background-image: url('./../_images/ic_book_white.png');
+	background-image: url('./../_images/sprite2.png');
+	 background-position: -114px -630px; width: 24px; height: 24px;
 }
 
 .tagAdditionalList__icon-photo {
-	background-image: url('./../_images/ic_photo_camera_white.png');
+	background-image: url('./../_images/sprite2.png');
+	background-position: -186px -630px; width: 24px; height: 24px;
 }
 
 .tagAdditionalList__link,
@@ -166,8 +169,8 @@
 .footerLinks .directionList__link {
 	font-size: 13px;
 }
-
+/*
 .footerLinks .tagAdditionalList__icon {
 	width: 20px;
 	height: 20px;
-}
+}*/
