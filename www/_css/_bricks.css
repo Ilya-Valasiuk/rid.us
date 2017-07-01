@@ -1410,26 +1410,28 @@
 .brick.view_more a:before {
 	display: block;
 	content: "";
-    background: url(../_images/arrow-block.png) no-repeat 50% 25%;
-    width: 170px;
-    height: 126px;
+    background: url(../_images/sprite2.png) no-repeat 50% 25%;
+	background-position: -170px -504px; width: 170px; height: 126px;
     opacity: .17;
     margin: 0 auto 33px;
 }
 .contentBackground_dark .brick.view_more a:before,
 .contentBackground_red .brick.view_more a:before,
 .contentBackground_gunmetal .brick.view_more a:before {
-    background-image: url(../_images/arrow-block-w.png);
+    background-image: url(../_images/sprite2.png);
+	background-position: -0px -504px; width: 170px; height: 126px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { 
 	.brick.view_more a:before {
-		background-image: url(../_images/arrow-block_2x.png);
-		background-size: 170px 126px;
+		background-image: url(../_images/sprite2.png);
+		/*background-size: 170px 126px;*/
+		background-position: -0px -252px; width: 340px; height: 252px;
 	}
 	.contentBackground_dark .brick.view_more a:before,
 	.contentBackground_red .brick.view_more a:before,
 	.contentBackground_gunmetal .brick.view_more a:before {
-	    background-image: url(../_images/arrow-block-w_2x.png);
+	    background-image: url(../_images/sprite2.png);
+		background-position: -0px -0px; width: 340px; height: 252px;
 	}
 }
 

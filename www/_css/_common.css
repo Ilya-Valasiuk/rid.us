@@ -1558,16 +1558,16 @@ blockquote b {
 }
 
 .photoNumber-photo {
-	background-image: url('../_images/ic_photo_camera_white.png'); /* with class ModalCarrot ??*/
+	background-image: url('./../_images/sprite2.png');
+	background-position: -186px -630px; width: 24px; height: 24px; /* with class ModalCarrot ??*/
 	position:relative; /*or absolute*/
-	width: 24px;
-	height: 24px;
 	display: inline-block;
 	margin-right: 5px;
 }
 
 .photoNumber-video {
-	background-image: url('../_images/ic_videocam_white.png'); /* with class ModalCarrot ??*/
+	background-image: url('../_images/sprite2.png'); /* with class ModalCarrot ??*/
+	background-position: -210px -630px; width: 24px; height: 24px;
 	position:relative; /*or absolute*/
 	width: 24px;
 	height: 24px;
