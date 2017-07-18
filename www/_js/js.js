@@ -2260,13 +2260,14 @@ function PhotoStory() {
         e.preventDefault();
 
         var $element = $(this);
+        var imageIndex = $element.data('imageNumber') - 1;
         var $photoStoryView = $('[data-for-content-id="'+ $element.data('contentId') +'"]');
 
         if ($photoStoryView.length) {
             currentScrollPosition = document.body.scrollTop;
             show($photoStoryView);
             slider = new Slider();
-            slider.init($photoStoryView, position);
+            slider.init($photoStoryView, position || imageIndex);
         }
     }
 

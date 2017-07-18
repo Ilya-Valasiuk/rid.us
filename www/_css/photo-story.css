@@ -315,7 +315,7 @@
 
 .photo-with-images__header p {
     position: relative;
-    z-index: 2;
+    z-index: 3;
     color: white;
     margin-bottom: 0;
     font-size: 26px;
@@ -328,11 +328,13 @@
     top: 0;
     width: 100%;
     height: 100%;
+    z-index: 2;
     background-color: black;
     opacity: .5;
 }
 
 .photo-with-images__main-image {
+    position: relative;
     width: 100%;
     display: inline-flex;
     cursor: pointer;
@@ -341,6 +343,7 @@
 
 .photo-with-images__main-image img {
     width: 100%;
+    height: 100%;
 }
 
 .photo-with-images__carousel {
@@ -396,7 +399,7 @@
 
 .photo-with-images__item:hover img,
 .photo-with-images__main-image:hover img {
-    opacity: .7;
+    opacity: .8;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {

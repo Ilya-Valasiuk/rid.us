@@ -3,20 +3,20 @@
         <p>В медвежьем краю не хотят становиться японцами</p>
         <div class="photo-with-images__header-bg"></div>
     </div>
-    <div class="photo-with-images__main-image photo_story-clickable" data-content-id="1">
+    <div class="photo-with-images__main-image photo_story-clickable" data-content-id="1" data-image-number="1">
         <img src="_images/img-carousel-1.jpg" alt="">
     </div>
     <div class="photo-with-images__carousel">
-        <div class="photo-with-images__item photo_story-clickable" data-content-id="1">
+        <div class="photo-with-images__item photo_story-clickable" data-content-id="1"  data-image-number="2">
             <img src="_images/img-carousel-2.jpg" alt="">
         </div>
-        <div class="photo-with-images__item photo_story-clickable" data-content-id="1">
+        <div class="photo-with-images__item photo_story-clickable" data-content-id="1"  data-image-number="3">
             <img src="_images/img-carousel-3.jpg" alt="">
         </div>
-         <div class="photo-with-images__item photo_story-clickable" data-content-id="1">
+         <div class="photo-with-images__item photo_story-clickable" data-content-id="1"  data-image-number="4">
             <img src="_images/img-carousel-1.jpg" alt="">
         </div>
-        <div class="photo-with-images__item photo_story-clickable" data-content-id="1">
+        <div class="photo-with-images__item photo_story-clickable" data-content-id="1"  data-image-number="5">
             <img src="_images/img-carousel-2.jpg" alt="">
         </div>
         <div class="photo-with-images__item photo-with-images__more photo_story-clickable" data-content-id="1">
