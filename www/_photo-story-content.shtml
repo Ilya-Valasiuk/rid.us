@@ -1,4 +1,4 @@
-<div class="photo_story-view">
+<div class="photo_story-view" data-for-content-id="1">
     <div class="photo_story-header">
         <span class="photo_story-logo"></span>
         <div class="photo_story-title">
