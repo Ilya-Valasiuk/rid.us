@@ -53,6 +53,32 @@
             </div>
         </div>
 
+        <div class="photo_story-item">
+            <div class="photo_story-item-left">
+                <div class="photo_story-images"><img src="https://www.ridus.ru/images/2015/1/20/264183/hd_a813849858.png" alt=""/></div>
+            </div>
+            <div class="photo_story-item-right">
+                <div class="photo_story-author">Екатерина Трофимова</div>
+                <div class="photo_story-description"><b>Олег, 25 лет, лидер Русского объединенного национального альянса (слева):</b> «"Новороссия" — это чужеродное образование для любого русского человека. Просто какой-то волк в овечьей шкуре».
+                </br>
+                </br>
+                <b>Александр, 28 лет, рабочий (справа):</b> «Сейчас "Новороссия" — это отдельное государство. Эти территории никогда Украине не принадлежали. К тому же сейчас в Киеве сидит фашистская хунта».</div>
+            </div>
+        </div>
+
+        <div class="photo_story-item">
+            <div class="photo_story-item-left">
+                <div class="photo_story-images"><img src="https://www.ridus.ru/images/2015/1/20/264183/hd_a813849858.png" alt=""/></div>
+            </div>
+            <div class="photo_story-item-right">
+                <div class="photo_story-author">Екатерина Трофимова</div>
+                <div class="photo_story-description"><b>Олег, 25 лет, лидер Русского объединенного национального альянса (слева):</b> «"Новороссия" — это чужеродное образование для любого русского человека. Просто какой-то волк в овечьей шкуре».
+                </br>
+                </br>
+                <b>Александр, 28 лет, рабочий (справа):</b> «Сейчас "Новороссия" — это отдельное государство. Эти территории никогда Украине не принадлежали. К тому же сейчас в Киеве сидит фашистская хунта».</div>
+            </div>
+        </div>
+
         <div class="photo_story-another">
             <a class="photo_story-another-item" href="#">
                 <img src="https://img.gazeta.ru/files3/269/5276269/upload-02-pic280-280x187-83177.jpg" alt="text">
