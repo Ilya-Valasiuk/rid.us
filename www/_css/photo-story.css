@@ -1,7 +1,3 @@
-.photo_story-clickable {
-    padding: 100px;
-    text-align: center;
-}
 .photo_story-header {
     display: flex;
     margin: 40px;
@@ -74,6 +70,7 @@
 
 .photo_story-another {
     display: none;
+    width: 100%;
     justify-content: space-between;
 }
 .photo_story-another img {
@@ -297,5 +294,142 @@
 
     .photo_story-author {
         margin-bottom: 10px;
+    }
+}
+
+
+.photo-with-images {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.photo-with-images__header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - 44px);
+    padding: 22px;
+}
+
+.photo-with-images__header p {
+    position: relative;
+    z-index: 2;
+    color: white;
+    margin-bottom: 0;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.photo-with-images__header-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .5;
+}
+
+.photo-with-images__main-image {
+    width: 100%;
+    display: inline-flex;
+    cursor: pointer;
+    background-color: #000;
+}
+
+.photo-with-images__main-image img {
+    width: 100%;
+}
+
+.photo-with-images__carousel {
+    display: flex;
+    padding: 25px 20px;
+    height: 120px;
+    background-color: #000;
+}
+
+.photo-with-images__item {
+    width: calc(100% / 5);
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.photo-with-images__item:last-child {
+    margin-right: 0;
+}
+
+.photo-with-images__item img {
+    height: 100%;
+    width: 100%;
+}
+
+.photo-with-images__more {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fecf5c;
+    cursor: pointer;
+    font-size: 32px;
+    transition: all 0.3s ease-in-out;
+}
+
+.photo-with-images__more:hover {
+    font-size: 40px;
+}
+
+.photo-with-images__more-icon {
+    background-image: url(./../_images/ic_photo_camera_36pt.png);
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin-right: 5px;
+    background-size: cover;
+}
+
+.photo-with-images__more-number {
+    font-weight: 100;
+    
+}
+
+.photo-with-images__item:hover img,
+.photo-with-images__main-image:hover img {
+    opacity: .7;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .photo-with-images__header p {
+        font-size: 22px;
+    }
+
+    .photo-with-images__carousel {
+        padding: 15px;
+        height: 80px;
+    }
+
+    .photo-with-images__more {
+        font-size: 26px;
+    }
+
+    .photo-with-images__more-icon {
+        width: 32px;
+        height: 32px;
+    }
+
+    .photo-with-images__more:hover {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .photo-with-images__header p {
+        font-size: 22px;
+    }
+
+    .photo-with-images__carousel {
+        height: 90px;
+        padding: 20px 15px;
     }
 }

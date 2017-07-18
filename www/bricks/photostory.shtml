@@ -24,5 +24,5 @@
     <div class="photostory-brick__image" style="background-image: url('http://68.media.tumblr.com/0f1c18d44a4c0dc5fc75da5a88869f56/tumblr_n159pn7T7I1qigj88o1_500.jpg')">
         <span class="photoNumber"><span class="photoNumber-photo"></span>+12</span>
     </div>
-    <a href="#" class="clickable photo_story-clickable"></a>
+    <a href="#" class="clickable photo_story-clickable" data-content-id="1"></a>
 </section>
