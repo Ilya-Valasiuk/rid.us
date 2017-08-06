@@ -261,10 +261,12 @@
     color: #667887;
     font-size: 13px;
 }
-.comment__likes.view_up {
+.comment__likes.view_up,
+.comments__number.view_up {
     color: #84c61b;
 }
-.comment__likes.view_down {
+.comment__likes.view_down,
+.comments__number.view_down {
     color: #c64a1b;
 }
 .comment__text {
