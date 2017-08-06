@@ -65,6 +65,10 @@
   text-align: center;
   line-height: 30px;
   text-decoration: none;
+  margin-right: 5px;
+}
+.comments__link:last-child {
+  margin-right: 0;
 }
 .comments__list {
   font: normal 13px 'Roboto';
@@ -113,11 +117,13 @@
 
 .comments__name {
   font-weight: 600;
+  text-decoration: none;
 }
 .comments__time {
   color: #c2c2c2;
   line-height: 23px;
   font-weight: 200;
+  text-decoration: none;
 }
 .comments__time:before {
   content: ' | ';

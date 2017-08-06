@@ -55,7 +55,7 @@
 		<ul class="comments__list">
 			<li>
 				<div class="comments__avatar">
-					<img src="http://www.ridus.ru/images/avatars/141718/large_b7147dcd85.jpg" alt="avatar">
+					<img src="http://www.ridus.ru/images/avatars/141718/large_b7147dcd8k5.jpg" alt="avatar">
 				</div>
 				<div class="comments__body">
 					<header>
@@ -72,7 +72,7 @@
 							Ответить
 						</span>
 						<div class="comments__button">
-							<span class="comments__number">3</span>
+							<span class="comments__number view_down">-3</span>
 							<a href="#" class="comments__link">+</a>
 							<a href="#" class="comments__link">−</a>
 						</div>
