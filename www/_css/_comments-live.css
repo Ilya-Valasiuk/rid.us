@@ -72,6 +72,7 @@
 }
 .comments__list {
   font: normal 13px 'Roboto';
+  flex: 1;
 }
 .comments__list li {
   display: flex;
@@ -139,6 +140,8 @@
 }
 .comments__avatar img {
   width: 100%;
+  color: #5e5c5c;
+  font-size: 11px;
 }
 .comments__answer {
   font: 600 13px 'Roboto', serif;
