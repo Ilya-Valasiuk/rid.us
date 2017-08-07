@@ -71,6 +71,10 @@
     cursor: pointer;
 }
 
+.comments__comment-button:hover {
+    color: #c64a1b;
+}
+
 .comments-form {
     text-align: right;
     margin-bottom: 20px;
