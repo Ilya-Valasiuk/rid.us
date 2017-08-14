@@ -82,7 +82,7 @@
 
 .commentsContent {
 	display: none;
-	margin-top: 15px;
+    margin-top: 15px;
 }
 .commentsContent.state_open {
 	display: block;
@@ -113,6 +113,10 @@
 
 .comments__comment-wrapper {
     display: flex;
+}
+
+.commentsContent .pagination {
+    border-bottom: 1px solid #c2c2c2;
 }
 
 .comments__comment-wrapper .comments-form {
@@ -288,4 +292,21 @@
 
 .comments-sign-in__content {
     display: none;
+}
+
+.comments__select {
+    width: 108px;
+    height: 25px;
+    border: 0;
+    color: white;
+    font: normal 13px/13px 'Roboto Slab', sans-serif;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 0 0 10px;
+    background-color: #657788;
+    border-radius: 0;
+    margin-top: -7px;
+    margin-bottom: 6px;
 }
