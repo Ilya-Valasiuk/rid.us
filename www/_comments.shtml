@@ -62,6 +62,11 @@
 						<span class="comments__name">Strelok</span>
 						<span class="comments__time">сегодня, 18:35</span>
 					</header>
+					<select name="select" class="comments__select">
+						<option value="new" class="comments__select-new" selected>НОВЫЙ</option> 
+						<option value="accept" class="comments__select-accepted">ОДОБРЕН</option>
+						<option value="discard" class="comments__select-discard">ЗАБАНЕН</option>
+					</select>
 					<!--#if expr="$auth = 1" -->
 					<!--#include virtual="_comments-select.shtml"-->
 					<!--#endif -->

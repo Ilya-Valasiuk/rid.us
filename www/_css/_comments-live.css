@@ -9,6 +9,7 @@
 .liveList .comments {
   border: 1px dashed #e8e8e8;
   padding: 20px 0;
+  border-top: none;
   border-left: none;
   border-right: none;
 }
@@ -80,7 +81,7 @@
   border-bottom: 1px solid #c2c2c2;
 }
 .comments__list li:first-child {
-  border-top: 1px solid #c2c2c2;
+  border-top: none;
 }
 .comments__list li.comments__second-level {
   border: none;
