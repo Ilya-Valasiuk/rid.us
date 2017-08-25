@@ -2448,3 +2448,13 @@ function Slider() {
         prev: prev
     }
 }
+
+
+$(function() {
+    $('.comments__avatar img').error(function() {
+        var $this = $(this);
+        var text = $this.attr('alt');
+        $this.hide();
+        $this.parent().append('<span class="comments__avatar__error">' + text + '</span>');
+    });
+});

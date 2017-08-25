@@ -227,3 +227,7 @@
 .comments__answer {
     cursor: pointer;
 }
+
+.comments__avatar__error {
+  color: #5e5c5c;
+}
