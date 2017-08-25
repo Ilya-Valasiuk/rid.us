@@ -311,3 +311,7 @@
     margin-top: -7px;
     margin-bottom: 6px;
 }
+
+.comments__avatar__error {
+    color: #5e5c5c;
+}
