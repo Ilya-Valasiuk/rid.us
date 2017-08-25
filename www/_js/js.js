@@ -2451,7 +2451,7 @@ function Slider() {
 
 
 $(document).ready(function(){
-    $('.comments__avatar img').error(function() {
+    $('.comments__avatar img').on('error', function() {
         var $this = $(this);
         var text = $this.attr('alt');
         $this.hide();
