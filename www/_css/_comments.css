@@ -5,7 +5,8 @@
 	border-left: none;
 	border-right: none;
     border-bottom: 0;
-	padding: 35px 0 20px 0;
+    padding: 35px 0 20px 0;
+    border-bottom: 1px solid #c2c2c2;
 }
 
 .comments h2 {
@@ -116,7 +117,7 @@
 }
 
 .commentsContent .pagination {
-    border-bottom: 1px solid #c2c2c2;
+    padding-bottom: 0;
 }
 
 .comments__comment-wrapper .comments-form {
