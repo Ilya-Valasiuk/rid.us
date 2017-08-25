@@ -2450,7 +2450,7 @@ function Slider() {
 }
 
 
-$(function() {
+$(document).ready(function(){
     $('.comments__avatar img').error(function() {
         var $this = $(this);
         var text = $this.attr('alt');
