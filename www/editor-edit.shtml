@@ -1,0 +1,113 @@
+<!doctype html>
+<html itemscope itemtype="http://schema.org/WebSite" prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+    <!--#include virtual="_head.shtml"-->
+    <link href="_css/my.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="page_my-profile" itemscope itemtype="http://schema.org/WebPage">
+
+<header itemscope itemtype="http://schema.org/WPHeader">
+    <!--#include virtual="_menu.shtml?float=true"-->
+    <a href="" class="banner_top wrapper" title="">
+        <img src="_images/header_banner.jpg" alt="" />
+    </a>
+    <section class="globalInfo wrapper paddings_side clearfix">
+        <!--#include virtual="_dayinfo.shtml"-->
+        <!--#include virtual="_yellowbutton.shtml?text=1"-->
+        <!--#include virtual="_socials-header.shtml"-->
+    </section>
+</header>
+
+<section class="wrapper contentBackground_white paddings_side padding_top padding_bottom clearfix">
+
+    <h2>Добавление новости</h2>
+
+    <br>
+
+    <div class="bricks__wrapper clearfix">
+	    <div class="brick view_noHeight view_doubleWidth">
+		    <label>Заголовок</label><br>
+		    <input type="text" placeholder="Введите заголовок">
+	    </div>
+	</div>
+
+    <div class="bricks__wrapper clearfix">
+	    <label>Фотография для анонса</label><br>
+	    <div class="brick view_noHeight view_doubleWidth contentBackground_grey paddings_side padding_top padding_bottom">
+			<i>Для того, чтобы загрузить фотографию просто перетяните её.</i><br>
+			<a class="show_user_upload_form" href="javascript:void(0)">Или загрузите вручную</a>
+	    </div>
+	</div>
+
+    <div class="bricks__wrapper clearfix">
+	    <div class="brick view_noHeight view_doubleWidth">
+		    <label>Краткий анонс новости</label><span class="editorCounter">200</span><br>
+		    <textarea placeholder="Краткий анонс новости не более 200 символов"></textarea>
+	    </div>
+	</div>
+
+	<hr class="view__dashed">
+	<br>
+
+    <div class="bricks__wrapper clearfix">
+	    <label>Фотографии</label><br>
+	    <div class="brick view_noHeight view_doubleWidth contentBackground_grey paddings_side padding_top padding_bottom">
+			<i>Для того, чтобы загрузить фотографию просто перетяните её.</i><br>
+			<a class="show_user_upload_form" href="javascript:void(0)">Или загрузите вручную</a>
+	    </div>
+	</div>
+
+    <div class="bricks__wrapper clearfix">
+	    <div class="brick view_noHeight view_doubleWidth">
+		    <label>Полный текст новости</label><br>
+		    <div class="myLabel__wrapper">
+			<a href="#" class="myLabel view_hdr">
+				заголовок
+			</a>
+			<a href="#" class="myLabel view_i">
+				курсив
+			</a>
+			<a href="#" class="myLabel view_b">
+				жирный
+			</a>
+			<a href="#" class="myLabel view_a">
+				ссылка
+			</a>
+			<a href="#" class="myLabel view_video">
+				видео
+			</a>
+			</div>
+		    <textarea placeholder=""></textarea>
+	    </div>
+	</div>
+
+
+	<hr class="view__dashed">
+	<br>	
+	<br>
+	<br>
+	
+	<a class="yellowButton view_big" href="" title="">
+		Опубликовать
+    </a>   
+    <a class="yellowButton view_big" href="" title="">
+        Сохранить
+    </a>  
+    <a class="yellowButton view_big" href="" title="">
+        Удалить
+    </a>  
+
+	<br>
+	<br>
+	<br>
+	<br>
+
+</section>
+
+
+<!--#include virtual="_footer.shtml"-->
+
+</body>
+</html>
