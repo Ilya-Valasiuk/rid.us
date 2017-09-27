@@ -1422,11 +1422,13 @@
 	background-position: -0px -504px; width: 170px; height: 126px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { 
-	.brick.view_more a:before {
+	/* .brick.view_more a:before {
 		background-image: url(../_images/sprite2.png);
-		/*background-size: 170px 126px;*/
-		background-position: -0px -252px; width: 340px; height: 252px;
-	}
+		background-size: 170px 126px;
+		background-position: -150px -504px;
+        width: 200px;
+        height: 126px;
+	} */
 	.contentBackground_dark .brick.view_more a:before,
 	.contentBackground_red .brick.view_more a:before,
 	.contentBackground_gunmetal .brick.view_more a:before {
@@ -1628,7 +1630,8 @@
 	margin-right: 0;
 }
 .brick__article-preview {
-	display: flex;
+    display: flex;
+    width: 100%;
 	/*height: 100%;*/
 	box-sizing: border-box;
 	padding: 12px 12px 8px 12px;

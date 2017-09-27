@@ -286,4 +286,4 @@
 </span>
         <!--#endif -->
 
-        <a href="#" class="clickable hideOn_1024 hideOn_768"></a>
+<a href="#" class="clickable"></a>

@@ -3,9 +3,10 @@
 }
 
 .article__title {
-    font-size: 36px;
-    text-transform: none;
-    margin-bottom: 15px;
+	font-size: 36px;
+	text-transform: none;
+	margin-bottom: 15px;
+	text-decoration: none;
 }
 
 

@@ -28,4 +28,6 @@
 
 @import "md-preloader.min.css";
 
+@import "_photosection.css";
+
 /* СЮДА НЕ ПИСАТЬ СТИЛИ! ЭТОТ ФАЙЛ ДЛЯ СБОРКИ! */

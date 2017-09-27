@@ -457,13 +457,14 @@
 }
 
 .empty-brick__link {
-    font-size: 40px;
+    font-size: 38px;
     line-height: 40px;
     font-weight: bold;
     color: white;
     margin-bottom: 20px;
     margin-top: 10px;
     text-decoration: none;
+    font-family: 'Roboto Slab', serif;
 }
 
 .empty-brick__labels {
