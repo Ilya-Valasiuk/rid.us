@@ -1429,12 +1429,12 @@
         width: 200px;
         height: 126px;
 	} */
-	.contentBackground_dark .brick.view_more a:before,
+	/* .contentBackground_dark .brick.view_more a:before,
 	.contentBackground_red .brick.view_more a:before,
 	.contentBackground_gunmetal .brick.view_more a:before {
 	    background-image: url(../_images/sprite2.png);
 		background-position: -0px -0px; width: 340px; height: 252px;
-	}
+	} */
 }
 
 
