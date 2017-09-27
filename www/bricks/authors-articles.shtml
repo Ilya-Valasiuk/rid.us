@@ -2,13 +2,13 @@
     <div class="authors-articles-brick__left" >
         <div class="authors-articles-brick__image" style="background-image: url('_images/Untitled-2.jpg')">
             <div class="authors-articles-brick__author">
-                <span class="authors-articles-brick__name">Авторские Колонки</span>
+                <span class="authors-articles-brick__name">Евгения Селькова</span>
                 <span class="authors-articles-brick__title">Политолог, обозреватель, комерсант FM</span>
             </div>
         </div>
     </div>
     <div class="authors-articles-brick__content">
-        <a href="#12" class="authors-articles-brick__label brick__label" title="">Степан липсченко</a>
+        <a href="#12" class="authors-articles-brick__label brick__label" title="">Авторские Колонки</a>
         <a class="authors-articles-brick__header">Чем отличается каждая новая вспышка?</a>
         <p class="authors-articles-brick__text">Падение стоимости черного золота провоцирует 
             гонку девальваций. Тот же Назарбаев сделал свое 
