@@ -565,7 +565,7 @@
 	background: #c64a1b;
 	color: #ffd051;
 }
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1040px) {
 	.header__loginButton,
 	.header__searchButton,
 	.header__userButton,

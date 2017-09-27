@@ -752,11 +752,12 @@
 
 </div>
 
-
+<!--#include virtual="bricks/photosection.shtml"-->
 
 <div class="pageSwiper__container">
 
-    <section class="flexSlider wrapper paddings_side padding_top padding_bottom clearfix contentBackground_ededce">
+	
+    <section class="flexSlider wrapper paddings_side padding_top padding_bottom clearfix contentBackground_white">
 
         <h1 class="view_centred">
             <i class="threeDot"></i>
