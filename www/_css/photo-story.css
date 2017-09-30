@@ -53,14 +53,14 @@
     background-color: black;
 }
 
-.photo_story-view-visible .photo_story-view {
+.photo_story-view-visible.photo_story-view {
     display: -webkit-flex;
     display: flex;
     -webkit-flex-direction: column;
     flex-direction: column;
 }
 
-.photo_story-view-visible > *:not(.photo_story-view) {
+.photo_story-view-visible-body > *:not(.photo_story-view) {
     display: none;
 }
 

@@ -6,11 +6,17 @@
 </head>
 <body class="photo_story" itemscope itemtype="http://schema.org/WebPage">
 
-<div class="photo_story-clickable" data-content-id="1" data-image-number="1">
+<div class="photo_story-clickable" data-content-id="1" data-image-number="1" data-story-name="test">
     <span class='preview-info'>Открыть фоторепортаж</span>
 </div>
 
+<div class="photo_story-clickable" data-content-id="2" data-image-number="1" data-story-name="test1">
+    <span class='preview-info'>Открыть фоторепортаж1</span>
+</div>
+
+
 <!--#include virtual="_photo-story-content.shtml"-->
+<!--#include virtual="_photo-story-content-1.shtml"-->
 
 <!--#include virtual="_footer.shtml"-->
 

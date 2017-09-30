@@ -2241,6 +2241,7 @@ $(document).ready(function () {
 function PhotoStory() {
 
     var PHOTO_STORY_VISIBLE_CLASS = 'photo_story-view-visible';
+    var PHOTO_STORY_VISIBLE_CLASS_BODY = 'photo_story-view-visible-body';
     var PHOTO_STORY_CLASS = 'photo_story-view';
     var PHOTO_STORY_STARTER_ELEMENT = 'photo_story-clickable';
 
@@ -2257,17 +2258,20 @@ function PhotoStory() {
     }
 
     function openPhotoStory(e, position){
-        e.preventDefault();
+        if (e && e.preventDefault) {
+            e.preventDefault();
+        }
 
         var $element = $(this);
         var imageIndex = $element.data('imageNumber') - 1;
+        var storyName = $element.data('storyName');
         var $photoStoryView = $('[data-for-content-id="'+ $element.data('contentId') +'"]');
 
         if ($photoStoryView.length) {
             currentScrollPosition = document.body.scrollTop;
             show($photoStoryView);
             slider = new Slider();
-            slider.init($photoStoryView, position || imageIndex);
+            slider.init($photoStoryView, position || imageIndex, storyName);
         }
     }
 
@@ -2277,7 +2281,8 @@ function PhotoStory() {
     }
 
     function togglePhotoStoryView(element) {
-        $(document.body).toggleClass(PHOTO_STORY_VISIBLE_CLASS);
+        $(document.body).toggleClass(PHOTO_STORY_VISIBLE_CLASS_BODY);
+        $(element).toggleClass(PHOTO_STORY_VISIBLE_CLASS);
     }
 
     function bindHandlers(element) {
@@ -2303,13 +2308,16 @@ function PhotoStory() {
     }
 
     function checkUrlAndOpenIfNeed() {
-        var hash = window.location.hash;
-        var position = +hash.split('#')[1];
+        var hash = window.location.hash.split('#')[1];
+        var name = hash && hash.split('=')[0];
+        var position = hash && +hash.split('=')[1];
 
-        if (hash && !isNaN(position)) {
-            var $element = $('.' + PHOTO_STORY_STARTER_ELEMENT);
-            if ($element) {
-                openPhotoStory.call($element, undefined, position - 1);
+        if (hash && name && !isNaN(position)) {
+            var $element = $('.' + PHOTO_STORY_STARTER_ELEMENT).filter(function(idx, el) {
+                return $(el).data('storyName') === name;
+            });
+            if ($element.length) {
+                openPhotoStory.call($element, undefined, position - 1, name);
             } else {
                 removeHash();
             }
@@ -2350,14 +2358,16 @@ function Slider() {
     var PHOTO_STORY_ANOTHER_LINKS = 'photo_story-another';
     var PHOTO_STORY_ANOTHER_OPEN = 'photo_story-another--open';
 
+    var sliderName;
     var currentPosition;
     var totalSize;
     var parentElement;
     var $elements;
     var isAnotherShow = false;
 
-    function initSlider(element, position) {
+    function initSlider(element, position, storyName) {
         parentElement = element;
+        sliderName = storyName;
 
         initHandlers();
         initItems(position || 0);
@@ -2425,7 +2435,7 @@ function Slider() {
             // set new active element
             $($elements[index]).addClass(PHOTO_STORY_ITEM_ACTIVE_CLASS);
 
-            window.location.hash = index + 1;
+            window.location.hash = sliderName + '=' + (index + 1);
 
             currentPosition = index;
 
