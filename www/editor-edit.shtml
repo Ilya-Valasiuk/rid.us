@@ -89,13 +89,13 @@
 	<br>
 	<br>
 	
-	<a class="yellowButton view_big" href="" title="">
+	<a class="yellowButton yellowButton_equal mr-2 view_big" href="" title="">
 		Опубликовать
     </a>   
-    <a class="yellowButton view_big" href="" title="">
+    <a class="yellowButton yellowButton_equal mr-2 view_big" href="" title="">
         Сохранить
     </a>  
-    <a class="yellowButton view_big" href="" title="">
+    <a class="shadowLightButton yellowButton_equal view_big" href="" title="">
         Удалить
     </a>  
 

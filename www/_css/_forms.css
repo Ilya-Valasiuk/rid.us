@@ -376,9 +376,26 @@ input[type="submit"]:hover {
 }
 
 
+.yellowButton_equal {
+	padding: 10px 18px;
+}
 
+.mr-2 {
+	margin-right: 32px;
+}
 
+.shadowLightButton {
+	font-family: 'Roboto Slab', serif;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: bold;
+	background-color: #f1f0f0;
+	text-decoration: none;
+}
 
+.shadowLightButton:hover {
+	background-color: #f0eeee;
+}
 
 
 /* лэйблы, чекбоксы, радиобатоны */
