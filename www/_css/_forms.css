@@ -384,6 +384,10 @@ input[type="submit"]:hover {
 	margin-right: 32px;
 }
 
+.mr-0 {
+	margin-right: 0;
+}
+
 .shadowLightButton {
 	font-family: 'Roboto Slab', serif;
 	text-transform: uppercase;

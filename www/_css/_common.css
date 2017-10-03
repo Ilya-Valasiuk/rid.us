@@ -1663,3 +1663,17 @@ iframe.instagram {
 .comments-sign-in__content .popoverLogin:after {
 	display: none;
 }
+
+.editor-btn-group {
+	display: flex;
+}
+
+.editor-btn-group-left {
+	display: flex;
+	flex: 1;
+}
+
+.editor-btn-group-right {
+	display: flex;
+	overflow: hidden;
+}
