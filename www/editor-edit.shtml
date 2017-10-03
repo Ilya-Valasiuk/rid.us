@@ -89,15 +89,22 @@
 	<br>
 	<br>
 	
-	<a class="yellowButton yellowButton_equal mr-2 view_big" href="" title="">
-		Опубликовать
-    </a>   
-    <a class="yellowButton yellowButton_equal mr-2 view_big" href="" title="">
-        Сохранить
-    </a>  
-    <a class="shadowLightButton yellowButton_equal view_big" href="" title="">
-        Удалить
-    </a>  
+	<div class="editor-btn-group">
+		<div class="editor-btn-group-left">
+			<a class="shadowLightButton yellowButton_equal view_big" href="" title="">
+				Удалить
+			</a> 
+		</div> 
+
+		<div class="editor-btn-group-right">
+			<a class="yellowButton yellowButton_equal mr-2 view_big" href="" title="">
+				Опубликовать
+			</a>   
+			<a class="yellowButton yellowButton_equal mr-0 view_big" href="" title="">
+				Сохранить
+			</a>
+		</div>
+	</div> 
 
 	<br>
 	<br>
