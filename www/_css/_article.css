@@ -9,6 +9,10 @@
 	text-decoration: none;
 }
 
+.article__container p > img {
+	width: 100%;
+}
+
 
 
 .article__title .countersBlock {
