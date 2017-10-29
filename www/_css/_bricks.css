@@ -20,6 +20,8 @@
 
 
 .brick.view_banner {
+	display: flex;
+	justify-content: center;
 	border: 1px dashed rgba(140,140,140,.35);
 	border-top: 0;
 	border-bottom: 0;
