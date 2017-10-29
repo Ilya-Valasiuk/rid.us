@@ -1,0 +1,226 @@
+<!doctype html>
+<html itemscope itemtype="http://schema.org/WebSite" prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+    <!--#include virtual="_head.shtml"-->
+    <link href="_css/authors.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="page_authors" itemscope itemtype="http://schema.org/WebPage">
+
+<header itemscope itemtype="http://schema.org/WPHeader">
+    <!--#include virtual="_menu.shtml?float=true"-->
+    <a href="" class="banner_top wrapper" title="">
+        <img src="_images/header_banner.jpg" alt="" />
+    </a>
+    <section class="globalInfo wrapper paddings_side clearfix">
+        <!--#include virtual="_dayinfo.shtml"-->
+        <!--#include virtual="_yellowbutton.shtml?text=1"-->
+        <!--#include virtual="_socials-header.shtml"-->
+    </section>
+</header>
+
+<section class="wrapper contentBackground_white paddings_side padding_top clearfix">
+
+    <div class="authorProfile clearfix">
+
+        <div class="authorPhoto">
+            <a href="#" title="">
+                <img class="authorPhoto__image" src="https://pp.vk.me/c405016/v405016400/3291/QZGuxhoNmxM.jpg" alt="автор" />
+            </a>
+        </div>
+
+        <div class="authorInfo">
+
+            <h2>Hard Ingush</h2>
+
+
+        <div class="hideOn_1024 hideOn_1280">
+            <p>
+                Эксперт в вопросах борьбы с терроризмом, профессор МГИМО.   
+            </p>
+            <p id="authorDetails" class="state_hidderHidden">
+                Доиндустриальный тип политической культуры доказывает христианско-демократический национализм.
+                Субъект власти верифицирует эмпирический тоталитарный тип политической культуры.
+            </p>
+
+            <a href="#" class="author__readmore hider" data-id="authorDetails" title="">
+                <span>Развернуть</span>
+                <span class="state_hidderHidden">Свернуть</span>
+            </a>
+        </div>
+
+        <div class="hideOn_768">
+            <p>
+                Эксперт в вопросах борьбы с терроризмом, профессор МГИМО. Доиндустриальный тип политической культуры доказывает христианско-демократический национализм.
+                Субъект власти верифицирует эмпирический тоталитарный тип политической культуры. 
+            </p>
+        </div>
+            
+
+
+        </div>
+
+        <!-- <div class="athorProfile-buttons">
+            <button>Редактировать</button>
+            <button>Статистика публикаций</button>
+        </div> -->
+
+        <div class="authorInfoDetails">
+
+            <ul class="authorPopularity">
+                <li class="watchers">
+                    <b>408 <span class="eye-icon"></span></b>
+                </li>
+                <li class="rating">
+                    <b>Рейтинг #<span>56</span></b>
+                </li>
+                <li class="rate">
+                    <b>Оценки:
+                        <span class="positive">+234</span> /
+                        <span class="negative">-33</span>
+                    </b>
+                </li>
+            </ul>
+
+            <ul class="authorSocialsLinks">
+					<li class="socialNetwork__item">
+						<a class="socialNetwork__link view_iconFacebook" href="#" title="">
+						</a>
+					</li>
+					<li class="socialNetwork__item">
+						<a class="socialNetwork__link view_iconvKontakte" href="#" title="">
+						</a>
+					</li>
+					<li class="socialNetwork__item">
+						<a class="socialNetwork__link view_iconGoogle" href="#" title="">
+						</a>
+					</li>
+					<li class="socialNetwork__item">
+						<a class="socialNetwork__link view_iconTwitter" href="#" title="">
+						</a>
+					</li>
+                    <li class="socialNetwork__item">
+                        <a class="socialNetwork__link view_iconOkRu" href="#" title="">
+                        </a>
+                    </li>
+				</ul>
+
+            
+            
+        </div>
+
+
+        <div class="borderedSection view_authorMaterials">
+            <ul class="textTabs view_dotBetween view_h5">
+                <li class="textTabs__item">
+                    <a href="user.shtml" class="textTabs__link state_current" title="">Статьи (<span>15</span>)</a>
+                </li>
+                <li class="textTabs__item">
+                    <a href="user-comments.shtml" class="textTabs__link" title="">Комментарии (<span>133</span>)</a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+
+    <div class="bricks__wrapper clearfix">
+        
+        <div class="brick">
+            <!--#include virtual="bricks/news-simple.shtml?image=3&data=2&label=22&count1=120&count2=35&count3=3812"-->
+        </div>
+        <div class="brick">
+            <!--#include virtual="bricks/news-simple.shtml?image=1&data=1&label=21&count1=120&count2=35&count3=3812"-->
+        </div>
+        <div class="brick">
+            <!--#include virtual="bricks/news-simple.shtml?image=2&data=2&label=31&count1=120&count2=35&count3=3812"-->
+        </div>
+        <div class="brick">
+            <!--#include virtual="bricks/news-simple.shtml?image=3&data=2&label=22&count1=120&count2=35&count3=3812"-->
+        </div>
+        <div class="brick">
+            <!--#include virtual="bricks/news-simple.shtml?image=1&data=1&label=21&count1=120&count2=35&count3=3812"-->
+        </div>
+        <div class="brick">
+            <!--#include virtual="bricks/news-simple.shtml?image=2&data=2&label=31&count1=120&count2=35&count3=3812"-->
+        </div>
+        <div class="brick">
+            <!--#include virtual="bricks/news-simple.shtml?image=3&data=2&label=22&count1=120&count2=35&count3=3812"-->
+        </div>
+        <div class="brick">
+            <!--#include virtual="bricks/news-simple.shtml?image=1&data=1&label=21&count1=120&count2=35&count3=3812"-->
+        </div>
+        <div class="brick">
+            <!--#include virtual="bricks/news-simple.shtml?image=2&data=2&label=31&count1=120&count2=35&count3=3812"-->
+        </div>
+        <div class="brick">
+            <!--#include virtual="bricks/news-simple.shtml?image=3&data=2&label=22&count1=120&count2=35&count3=3812"-->
+        </div>
+        <div class="brick">
+            <!--#include virtual="bricks/news-simple.shtml?image=1&data=1&label=21&count1=120&count2=35&count3=3812"-->
+        </div>
+        <div class="brick">
+            <!--#include virtual="bricks/news-simple.shtml?image=2&data=2&label=31&count1=120&count2=35&count3=3812"-->
+        </div>
+        <div class="brick">
+            <!--#include virtual="bricks/news-simple.shtml?image=3&data=2&label=22&count1=120&count2=35&count3=3812"-->
+        </div>
+        <div class="brick">
+            <!--#include virtual="bricks/news-simple.shtml?image=1&data=1&label=21&count1=120&count2=35&count3=3812"-->
+        </div>
+        <div class="brick">
+            <!--#include virtual="bricks/news-simple.shtml?image=2&data=2&label=31&count1=120&count2=35&count3=3812"-->
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<section class="contentBackground_grey paddings_side padding_top wrapper">
+    <h2>Читайте также:</h2>
+    <div class="bricks__wrapper clearfix">
+        <div class="brick view_mini">
+            <!--#include virtual="bricks/mini.shtml?image=1&data=1&label=11"-->
+        </div>
+        <div class="brick view_mini">
+            <!--#include virtual="bricks/mini.shtml?image=2&data=2&label=12"-->
+        </div>
+        <div class="brick view_mini">
+            <!--#include virtual="bricks/mini.shtml?image=3&data=3&label=13"-->
+        </div>
+        <div class="brick view_mini">
+            <!--#include virtual="bricks/mini.shtml?image=1&data=1&label=11"-->
+        </div>
+        <div class="brick view_mini hideOn_768">
+            <!--#include virtual="bricks/mini.shtml?image=2&data=2&label=12"-->
+        </div>
+        <div class="brick view_mini hideOn_768">
+            <!--#include virtual="bricks/mini.shtml?image=3&data=3&label=13"-->
+        </div>
+        <div class="brick view_mini hideOn_1024 hideOn_768">
+            <!--#include virtual="bricks/mini.shtml?image=2&data=2&label=12"-->
+        </div>
+        <div class="brick view_mini hideOn_1024 hideOn_768">
+            <!--#include virtual="bricks/mini.shtml?image=3&data=3&label=13"-->
+        </div>
+    </div>
+</section>
+
+<section class="bottomDatapicker contentBackground_white padding_top padding_bottom wrapper clearfix">
+    <!--#include virtual="_datapicker-bottom.shtml"-->
+</section>
+
+<section class="pagination wrapper contentBackground_grey">
+    <!--#include virtual="_pagination.shtml?page=1"-->
+</section>
+
+<a href="#" class="banner_footer">
+    <img src="_images/footer_banner.jpg" alt="">
+</a>
+
+<!--#include virtual="_footer.shtml"-->
+
+</body>
+</html>
