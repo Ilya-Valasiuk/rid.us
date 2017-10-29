@@ -27,24 +27,26 @@
     <br>
 
     <div class="bricks__wrapper clearfix">
-	    <div class="brick view_noHeight view_doubleWidth">
+	    <div class="brick view_noHeight view_doubleWidth error">
 		    <label>Заголовок</label><br>
-		    <input type="text" placeholder="Введите заголовок">
+			<input type="text" placeholder="Введите заголовок">
+			<span class="brick-error">Обязательное поле</span>
 	    </div>
 	</div>
 
     <div class="bricks__wrapper clearfix">
 	    <label>Фотография для анонса</label><br>
-	    <div class="brick view_noHeight view_doubleWidth contentBackground_grey paddings_side padding_top padding_bottom">
+	    <div class="brick view_noHeight view_doubleWidth contentBackground_grey paddings_side padding_top padding_bottom error">
 			<i>Для того, чтобы загрузить фотографию просто перетяните её.</i><br>
 			<a class="show_user_upload_form" href="javascript:void(0)">Или загрузите вручную</a>
 	    </div>
 	</div>
 
     <div class="bricks__wrapper clearfix">
-	    <div class="brick view_noHeight view_doubleWidth">
+	    <div class="brick view_noHeight view_doubleWidth error">
 		    <label>Краткий анонс новости</label><span class="editorCounter">200</span><br>
-		    <textarea placeholder="Краткий анонс новости не более 200 символов"></textarea>
+			<textarea placeholder="Краткий анонс новости не более 200 символов"></textarea>
+			<span class="brick-error">Обязательное поле</span>
 	    </div>
 	</div>
 
@@ -53,14 +55,14 @@
 
     <div class="bricks__wrapper clearfix">
 	    <label>Фотографии</label><br>
-	    <div class="brick view_noHeight view_doubleWidth contentBackground_grey paddings_side padding_top padding_bottom">
+	    <div class="brick view_noHeight view_doubleWidth contentBackground_grey paddings_side padding_top padding_bottom error">
 			<i>Для того, чтобы загрузить фотографию просто перетяните её.</i><br>
 			<a class="show_user_upload_form" href="javascript:void(0)">Или загрузите вручную</a>
 	    </div>
 	</div>
 
     <div class="bricks__wrapper clearfix">
-	    <div class="brick view_noHeight view_doubleWidth">
+	    <div class="brick view_noHeight view_doubleWidth error">
 		    <label>Полный текст новости</label><br>
 		    <div class="myLabel__wrapper">
 			<a href="#" class="myLabel view_hdr">
@@ -79,17 +81,21 @@
 				видео
 			</a>
 			</div>
-		    <textarea placeholder=""></textarea>
+			<textarea placeholder=""></textarea>
+			<span class="brick-error">Обязательное поле</span>
 	    </div>
 	</div>
 
 
 	<hr class="view__dashed">
 	<br>
-	<label>
-		<input type="checkbox" checked="checked">
-		Я согласен с <a href="#" title="">правилами</a>
-	</label>
+	<div class="brick-rules error">
+		<label>
+			<input type="checkbox" checked="checked">
+			Я согласен с <a href="#" title="">правилами</a>
+		</label>
+		<span class="brick-error">Необходимо согласие с правилами</span>
+	</div>
 
 	<br>
 	<br>

@@ -78,8 +78,15 @@
    	padding-top: 24px;
    	padding-bottom: 50px;
 }
+
+.athorProfile-buttons {
+	margin-left: 324px;
+}
 @media screen and (max-width: 1023px) {
 	.authorInfo {
+		margin-left: 260px;
+	}
+	.athorProfile-buttons {
 		margin-left: 260px;
 	}
 }

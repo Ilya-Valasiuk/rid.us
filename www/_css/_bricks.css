@@ -1750,3 +1750,27 @@
     z-index: 1;
     background-position-y: 100%;
 }
+
+.brick-error {
+    display: none;
+	margin-top: 6px;
+    font-size: 12px;
+    color: red;
+}
+
+.brick-rules .brick-error {
+	margin-left: 20px;
+}
+
+.error .brick-error {
+	display: block;
+}
+
+.brick.error input,
+.brick.error textarea {
+	border-color: red;
+}
+
+.brick.error .show_user_upload_form {
+	color: red;
+}
