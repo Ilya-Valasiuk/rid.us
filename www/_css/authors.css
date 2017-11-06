@@ -20,6 +20,7 @@
 
 
 .authorProfile {
+	display: flex;
 	margin-bottom: 38px;
 	position: relative;
 }
@@ -34,7 +35,7 @@
 .authorPhoto {
 	position: relative;
 	padding-top: 24px;
-	float: left;
+	/* float: left; */
 	font-size: 0;
 }
 .authorPhoto__label {
@@ -74,22 +75,44 @@
 
 
 .authorInfo {
-    margin-left: 324px;
-   	padding-top: 24px;
-   	padding-bottom: 50px;
+    /* margin-left: 324px; */
+	padding-top: 24px;
+	display: flex;
+	flex-direction: column;
+	padding-left: 20px;
+	padding-right: 20px;
+	justify-content: space-between;
+   	/* padding-bottom: 50px; */
 }
 
-.athorProfile-buttons {
+/* .athorProfile-buttons {
 	margin-left: 324px;
+} */
+
+.athorProfile-buttons button {
+	padding: 7px;
+    background-color: white;
+    border: 1px solid #d4d4d4;
+	border-radius: 7px;
+	cursor: pointer;
 }
-@media screen and (max-width: 1023px) {
+
+.athorProfile-buttons button:hover {
+	opacity: .7;
+}
+
+.athorProfile-buttons select {
+	width: 100px;
+}
+
+/* @media screen and (max-width: 1023px) {
 	.authorInfo {
 		margin-left: 260px;
 	}
 	.athorProfile-buttons {
 		margin-left: 260px;
 	}
-}
+} */
 .authorInfo p {
 	font-weight: 300;
 }
@@ -99,16 +122,17 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
-	position: absolute;
-	bottom: 46px;
+	width: 100%;
+	/* position: absolute; */
+	/* bottom: 46px; */
 }
-@media screen and (max-width: 1023px) {
+/* @media screen and (max-width: 1023px) {
 	.authorInfoDetails {
 	    margin-left: 255px;
 	    width: calc(100% - 253px);
 	}
-}
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+} */
+/* @media screen and (min-width: 1024px) and (max-width: 1279px) {
 	.authorInfoDetails {
 		margin-left: 320px;
 		width: calc(100% - 318px);
@@ -119,7 +143,7 @@
 		margin-left: 305px;
 		width: calc(100% - 309px);
 	}
-}
+} */
 
 
 

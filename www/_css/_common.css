@@ -1177,14 +1177,20 @@ blockquote b {
 	margin-bottom: 20px;
 	padding: 9px 10px 4px;
 }
+
+.borderedSection.view_authorMaterials {
+	width: 100%;
+	margin-bottom: 0;
+}
+
 .borderedSection.view_nullpaddings {
 	padding: 0;
 }
-.borderedSection.view_authorMaterials {
+/* .borderedSection.view_authorMaterials {
 	position: absolute;
 	bottom: -20px;
-}
-@media screen and (max-width: 1023px) {
+} */
+/* @media screen and (max-width: 1023px) {
 	.borderedSection.view_authorMaterials {
 	    margin-left: 260px;
 	    width: calc(100% - 280px);
@@ -1201,7 +1207,7 @@ blockquote b {
 		margin-left: 311px;
 		width: calc(100% - 336px);
 	}
-}
+} */
 
 
 .borderedSection__separatedItem {
