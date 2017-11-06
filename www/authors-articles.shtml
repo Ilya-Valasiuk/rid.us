@@ -30,12 +30,11 @@
     </h1>
 
     <div class="authorProfile clearfix">
-
+            
         <div class="authorPhoto">
             <a href="#" title="">
                 <img class="authorPhoto__image" src="https://pp.vk.me/c405016/v405016400/3291/QZGuxhoNmxM.jpg" alt="автор" />
             </a>
-            <span class="authorPhoto__label">Я &mdash; Автор</span>
         </div>
 
         <div class="authorInfo">
@@ -43,85 +42,86 @@
             <h2>Hard Ingush</h2>
 
 
-        <div class="hideOn_1024 hideOn_1280">
-            <p>
-                Эксперт в вопросах борьбы с терроризмом, профессор МГИМО.   
-            </p>
-            <p id="authorDetails" class="state_hidderHidden">
-                Доиндустриальный тип политической культуры доказывает христианско-демократический национализм.
-                Субъект власти верифицирует эмпирический тоталитарный тип политической культуры.
-            </p>
+            <div class="hideOn_1024 hideOn_1280">
+                <p>
+                    Эксперт в вопросах борьбы с терроризмом, профессор МГИМО.   
+                </p>
+                <p id="authorDetails" class="state_hidderHidden">
+                    Доиндустриальный тип политической культуры доказывает христианско-демократический национализм.
+                    Субъект власти верифицирует эмпирический тоталитарный тип политической культуры.
+                </p>
 
-            <a href="#" class="author__readmore hider" data-id="authorDetails" title="">
-                <span>Развернуть</span>
-                <span class="state_hidderHidden">Свернуть</span>
-            </a>
-        </div>
+                <a href="#" class="author__readmore hider" data-id="authorDetails" title="">
+                    <span>Развернуть</span>
+                    <span class="state_hidderHidden">Свернуть</span>
+                </a>
+            </div>
 
-        <div class="hideOn_768">
-            <p>
-                Эксперт в вопросах борьбы с терроризмом, профессор МГИМО. Доиндустриальный тип политической культуры доказывает христианско-демократический национализм.
-                Субъект власти верифицирует эмпирический тоталитарный тип политической культуры. 
-            </p>
-        </div>
+            <div class="hideOn_768">
+                <p>
+                    Эксперт в вопросах борьбы с терроризмом, профессор МГИМО. Доиндустриальный тип политической культуры доказывает христианско-демократический национализм.
+                    Субъект власти верифицирует эмпирический тоталитарный тип политической культуры. 
+                </p>
+            </div>
             
-
-
-        </div>
-
-        <div class="authorInfoDetails">
-
-            <ul class="authorPopularity">
-                <li class="watchers">
-                    <b>408 <span class="eye-icon"></span></b>
-                </li>
-                <li class="rating">
-                    <b>Рейтинг #<span>56</span></b>
-                </li>
-                <li class="rate">
-                    <b>Оценки:
-                        <span class="positive">+234</span> /
-                        <span class="negative">-33</span>
-                    </b>
-                </li>
-            </ul>
-
-            <ul class="authorSocialsLinks">
-					<li class="socialNetwork__item">
-						<a class="socialNetwork__link view_iconFacebook" href="#" title="">
-						</a>
-					</li>
-					<li class="socialNetwork__item">
-						<a class="socialNetwork__link view_iconvKontakte" href="#" title="">
-						</a>
-					</li>
-					<li class="socialNetwork__item">
-						<a class="socialNetwork__link view_iconGoogle" href="#" title="">
-						</a>
-					</li>
-					<li class="socialNetwork__item">
-						<a class="socialNetwork__link view_iconTwitter" href="#" title="">
-						</a>
-					</li>
-                    <li class="socialNetwork__item">
-                        <a class="socialNetwork__link view_iconOkRu" href="#" title="">
-                        </a>
+            <div class="authorInfoDetails">
+    
+                <ul class="authorPopularity">
+                    <li class="watchers">
+                        <b>408 <span class="eye-icon"></span></b>
                     </li>
-				</ul>
+                    <li class="rating">
+                        <b>Рейтинг #<span>56</span></b>
+                    </li>
+                    <li class="rate">
+                        <b>Оценки:
+                            <span class="positive">+234</span> /
+                            <span class="negative">-33</span>
+                        </b>
+                    </li>
+                </ul>
+    
+                <ul class="authorSocialsLinks">
+                        <li class="socialNetwork__item">
+                            <a class="socialNetwork__link view_iconFacebook" href="#" title="">
+                            </a>
+                        </li>
+                        <li class="socialNetwork__item">
+                            <a class="socialNetwork__link view_iconvKontakte" href="#" title="">
+                            </a>
+                        </li>
+                        <li class="socialNetwork__item">
+                            <a class="socialNetwork__link view_iconGoogle" href="#" title="">
+                            </a>
+                        </li>
+                        <li class="socialNetwork__item">
+                            <a class="socialNetwork__link view_iconTwitter" href="#" title="">
+                            </a>
+                        </li>
+                        <li class="socialNetwork__item">
+                            <a class="socialNetwork__link view_iconOkRu" href="#" title="">
+                            </a>
+                        </li>
+                    </ul>
+    
+                
+                
+            </div>
+    
+    
+            <div class="borderedSection view_authorMaterials">
+                <ul class="textTabs view_dotBetween view_h5">
+                    <li class="textTabs__item">
+                        <a href="user.shtml" class="textTabs__link state_current" title="">Статьи (<span>15</span>)</a>
+                    </li>
+                    <li class="textTabs__item">
+                        <a href="user-comments.shtml" class="textTabs__link" title="">Комментарии (<span>133</span>)</a>
+                    </li>
+                </ul>
+            </div>
 
-            
-            
         </div>
-
-
-        <div class="borderedSection view_authorMaterials">
-            <ul class="textTabs view_dotBetween view_h5">
-                <li class="textTabs__item">
-                    <span class="textTabs__link state_current">статьи автора (<span>15</span>)</span>
-                </li>
-            </ul>
-        </div>
-        
+    
     </div>
 
     <div class="bricks__wrapper clearfix">
