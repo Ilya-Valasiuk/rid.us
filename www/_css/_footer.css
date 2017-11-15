@@ -242,13 +242,14 @@
 	position: absolute;
 	right: 0;
 	top: 10px;
-	background-position: -76px -630px; width: 38px; height: 38px;
-	background: url(../_images/sprite2.png) no-repeat;
+	width: 38px; height: 38px;
+	background: url(../_images/21.svg);
+	background-size: cover;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { 
 	.footerCopy__container.view_ageRestrictionSign:after {
-		background-image: url(../_images/sprite2.png);
-		background-position: -76px -630px; width: 38px; height: 38px;
+		width: 38px; height: 38px;
+		background-size: cover;
 	}
 }
 
