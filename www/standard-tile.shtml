@@ -1,0 +1,40 @@
+<!doctype html>
+<html itemscope itemtype="http://schema.org/WebSite" prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+    <!--#include virtual="_head.shtml"-->
+    <link href="_css/block.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="page_block brick-play" itemscope itemtype="http://schema.org/WebPage">
+    <section class="wrapper contentBackground_white paddings_side padding_top clearfix">
+        <div class="bricks__wrapper clearfix">
+
+            <div class="brick">
+                <!--#include virtual="bricks/news-simple.shtml?image=1&data=1&label=21&count1=120&count2=35&count3=3812"-->
+            </div>
+
+            <div class="brick">
+                <!--#include virtual="bricks/news-simple.shtml?image=2&data=2&label=22&count1=120&count2=35&count3=3812"-->
+            </div>
+            <div class="brick">
+                <!--#include virtual="bricks/news-simple.shtml?image=3&data=3&label=31&count1=120&count2=35&count3=3812"-->
+            </div>
+            <div class="brick view_banner not-search">
+                <!--#include virtual="bricks/banner-mts.shtml"-->
+            </div>
+            <div class="brick">
+                <!--#include virtual="bricks/news-simple.shtml?image=4&data=1&label=21&count1=120&count2=35&count3=3812"-->
+            </div>
+            <div class="brick">
+                <!--#include virtual="bricks/news-simple.shtml?image=5&data=1&label=21&count1=120&count2=35&count3=3812"-->
+            </div>
+            <div class="brick">
+                <!--#include virtual="bricks/news-simple.shtml?image=1&data=1&label=21&count1=120&count2=35&count3=3812"-->
+            </div>
+            <div class="brick">
+                <!--#include virtual="bricks/news-simple.shtml?image=2&data=1&label=21&count1=120&count2=35&count3=3812"-->
+            </div>
+        </div>
+    </section>
+</body>
+</html>

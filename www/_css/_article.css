@@ -9,7 +9,9 @@
 	text-decoration: none;
 }
 
-.article__container p > img {
+.article__container p > img,
+.article__container div > img,
+.article__container a > img {
 	width: 100%;
 }
 
@@ -266,7 +268,8 @@
 
 .author__info {
     padding: 30px;
-    font-size: 14px;
+	font-size: 14px;
+	flex: 1;
 }
 
 
