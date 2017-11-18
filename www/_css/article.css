@@ -13,6 +13,10 @@
 .percentage__item {
     margin-bottom: 10px;
 }
+.percentage__item a {
+	text-decoration: none;
+}
+
 .percentage {
     width: 100%;
 }
