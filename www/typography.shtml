@@ -1,0 +1,43 @@
+<!doctype html>
+<html itemscope itemtype="http://schema.org/WebSite" prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+    <!--#include virtual="_head.shtml"-->
+</head>
+<body class="page_news" itemscope itemtype="http://schema.org/WebPage">
+    <div style="margin: 20px">
+        <div style="margin-bottom: 20px">
+            <h6>Header - h6</h6>
+            <h5>Header - h5</h5>
+            <h4>Header - h4</h4>
+            <h3>Header - h3</h3>
+            <h2>Header - h2</h2>
+            <h1>Header - h1</h1>
+        </div>
+
+        <div style="margin-bottom: 20px">
+            <p>ul</p>
+            <ul>
+                <li><a href="#">Test</a></li>
+                <li><a href="#">Test</a></li>
+                <li><a href="#">Test</a></li>
+            </ul>
+        </div>
+
+        <div style="margin-bottom: 20px">
+            <p>ol</p>
+            <ol>
+                <li><a href="#">Test</a></li>
+                <li><a href="#">Test</a></li>
+                <li><a href="#">Test</a></li>
+            </ol>
+        </div>
+
+
+        <div style="margin-bottom: 20px">
+            <strong>Strong</strong>
+            <strike>Strike</strike>
+        </div>
+    </div>
+</body>
+</html>
