@@ -151,6 +151,28 @@ h1.view_centred {
 	text-align: center;
 }
 
+strong, b {
+	font-weight: bold;
+}
+
+ul, ol {
+	font-size: 18px;
+	font-style: normal;
+}
+
+ul li,
+ol li {
+	color: black;
+    margin-left: 25px;
+}
+
+ul li {
+	list-style: square;
+}
+
+ol li {
+	list-style: decimal;
+}
 
 .view_unbold {
 	font-weight: normal;
