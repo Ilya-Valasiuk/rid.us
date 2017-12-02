@@ -155,22 +155,23 @@ strong, b {
 	font-weight: bold;
 }
 
-ul, ol {
+.typography ul,
+.typography ol {
 	font-size: 18px;
 	font-style: normal;
 }
 
-ul li,
-ol li {
+.typography ul li,
+.typography ol li {
 	color: black;
     margin-left: 25px;
 }
 
-ul li {
+.typography ul li {
 	list-style: square;
 }
 
-ol li {
+.typography ol li {
 	list-style: decimal;
 }
 
