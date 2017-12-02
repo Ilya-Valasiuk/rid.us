@@ -5,7 +5,7 @@
     <!--#include virtual="_head.shtml"-->
 </head>
 <body class="page_news" itemscope itemtype="http://schema.org/WebPage">
-    <div style="margin: 20px">
+    <div class="typography" style="margin: 20px">
         <div style="margin-bottom: 20px">
             <h6>Header - h6</h6>
             <h5>Header - h5</h5>
