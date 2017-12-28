@@ -633,38 +633,21 @@ $(function() {
     function initStickyRightColumnHandler() {
         // сменяем слайды в зависимости от позиции скролла
         var slides = $(".stickedSlide");
+        var prevScrollPos = window.pageYOffset;
         
         if (slides.length) {
-    
-            var anchors = $(".stickedSlideHere"); /* якоря расставить в контенте! */
-            var showHeightsArray = [];
-            showHeightsArray[0] = 0; // просто, чтоб забить неиспользуемую ячейку
-            var position = 0;
-            var slideToShow = 0;
-    
-            anchors.each(function(){
-                var slideNum = $(this).attr("data-stickedSlideHere"); /* присвоить номер слайда */
-                showHeightsArray[slideNum] = $(this).offset().top;
-            });
-            var heightsNum = showHeightsArray.length;
     
             $(window).scroll(handler);
     
             function handler () {   
-                position = $(window).scrollTop();
-    
-                for (var i = 0; i < heightsNum; i++) {
-                    if (position > showHeightsArray[i]) {
-                        slideToShow = i
-    
-                    }
+                var curPos = window.pageYOffset;
+
+                if (Math.abs(curPos - prevScrollPos) > 1000) {
+                    prevScrollPos = curPos;
+
+                    slides.hide();
+                    $(slides[getRandomInt(0, slides.length - 1)]).show();
                 }
-    
-                slides.hide();
-                // на случай глюков - более тяжелый селектор, но более точный
-                // $(".stickedSlide:gt(" +slideToShow+ ")").hide();
-                // $(".stickedSlide:lt(" +slideToShow+ ")").hide();
-                $(slides[slideToShow]).show();
             }
         }
 
@@ -679,6 +662,10 @@ $(function() {
         }
 
         destroyRightColumnHandler = initStickyRightColumnHandler();
+    }
+
+    function getRandomInt(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
     }
 
 
