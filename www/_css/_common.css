@@ -1478,6 +1478,12 @@ blockquote b {
     /*-webkit-transform: translateZ(0);*/
 }
 
+.scroll_wrapper {
+	height: calc(100% - 36px);
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
 
 
 
