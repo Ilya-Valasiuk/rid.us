@@ -1,0 +1,23 @@
+<!doctype html>
+<html itemscope itemtype="http://schema.org/WebSite" prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+	<!--#include virtual="_head.shtml"-->
+	<link href="_css/home.css" rel="stylesheet" type="text/css">
+
+	<!-- файлы видеоплеера -->
+	<script src="jwplayer/jwplayer.js" type="text/javascript"></script>
+	<script src="https://www.youtube.com/iframe_api"></script>
+	<link rel="canonical" href="http://developers.ustream.tv/player-api/dynamic-insertion.html">
+	<script src="_js/ustream-embedapi.js" type="text/javascript"></script>
+	<script>jwplayer.key="00DvZV0BV0Wm4az/8jnnOlON+elKEaUrD1Cddg==";</script>
+	<link rel="stylesheet" type="text/css" href="jwplayer/skins/translation.css">
+
+</head>
+<body class="page_home" itemscope itemtype="http://schema.org/WebPage">
+
+<section class="wrapper contentBackground_white">
+    <!--#include virtual="_ridus-map.shtml"-->
+</section>
+</body>
+</html>
