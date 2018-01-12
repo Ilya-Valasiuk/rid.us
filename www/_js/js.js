@@ -15,37 +15,6 @@ $(function() {
 
 
 
-    // ======================================
-    // IScroll
-    // ======================================
-
-    $(window).load(function(){
-        /* обертка - чтобы просчитал высоту только после полного рендеринга элементов */
-
-        var iscrollWrapper = $('.iscroll');
-        window.globalstorage = {
-            iscroll: []
-        };
-        var el;
-        for (var i = 0; i < iscrollWrapper.length; i++) {
-            el = iscrollWrapper[i];
-
-            var iscrollInstance = new IScroll(el, {
-                scrollbars: true,
-                // disableMouse: false,
-                mouseWheel: true,
-                // momentum: false,
-                fadeScrollbars: true,
-                interactiveScrollbars: true,
-                bindToWrapper: true
-            });
-            window.globalstorage.iscroll.push(iscrollInstance);
-        }
-        // console.log(window.globalstorage.iscroll)
-
-    });
-
-
 
     // ======================================
     // ios switch - http://abpetkov.github.io/switchery/
@@ -1377,13 +1346,13 @@ $(function() {
             //autoplay();
 
             // reinit iscroll to calculate height
-            if (window.globalstorage) {
-                var iscroll;
-                for (var i = 0; i < window.globalstorage.iscroll.length; i++) {
-                    iscroll = window.globalstorage.iscroll[i];
-                    iscroll.refresh()
-                }
-            }
+            // if (window.globalstorage) {
+            //     var iscroll;
+            //     for (var i = 0; i < window.globalstorage.iscroll.length; i++) {
+            //         iscroll = window.globalstorage.iscroll[i];
+            //         iscroll.refresh()
+            //     }
+            // }
         }
 
         function initJwPlayerTranslations(id, height, el) {
