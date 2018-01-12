@@ -18,19 +18,19 @@
 <!-- //// конец --> 
 <div class="brick__side">
 	<!--#if expr="$image = 1" -->
-	<a href="#" class="brick__image" style="background-image: url(https://static6.smi2.net/img/135x90/2825727.jpeg)">
+	<a href="#" class="brick__image" data-src="https://static6.smi2.net/img/135x90/2825727.jpeg">
 	<!--#endif -->
 	<!--#if expr="$image = 2" -->
-	<a href="#" class="brick__image" style="background-image: url(https://static1.smi2.net/img/135x90/2877639.jpeg)">
+	<a href="#" class="brick__image" data-src="https://static1.smi2.net/img/135x90/2877639.jpeg">
 	<!--#endif -->
 	<!--#if expr="$image = 3" -->
-	<a href="#" class="brick__image" style="background-image: url(https://static2.smi2.net/img/135x90/2631075.jpeg)">
+	<a href="#" class="brick__image" data-src="https://static2.smi2.net/img/135x90/2631075.jpeg">
 	<!--#endif -->
 	<!--#if expr="$image = 4" -->
-	<a href="#" class="brick__image" style="background-image: url(https://static2.smi2.net/img/135x90/2631075.jpeg)">
+	<a href="#" class="brick__image" data-src="https://static2.smi2.net/img/135x90/2631075.jpeg">
 	<!--#endif -->
 	<!--#if expr="$image = 5" -->
-	<a href="#" class="brick__image" style="background-image: url(http://molbiol.ru/forums/uploads/a003/b047/post-24502-1338479907.jpg)">
+	<a href="#" class="brick__image" data-src="http://molbiol.ru/forums/uploads/a003/b047/post-24502-1338479907.jpg">
 	<!--#endif -->
 		<span class="clickable"></span>
 	</a>

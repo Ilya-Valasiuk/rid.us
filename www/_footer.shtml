@@ -114,3 +114,22 @@
 <script src="_js/js.js" type="text/javascript"></script>
 <script type="text/javascript" src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js" charset="utf-8"></script>
 <script type="text/javascript" src="//yastatic.net/share2/share.js" charset="utf-8"></script>
+
+<script>
+	// function init() {
+	// 	var imgDefer = document.getElementsByTagName('img');
+	// 	for (var i=0; i<imgDefer.length; i++) {
+	// 		if(imgDefer[i].getAttribute('data-src')) {
+	// 		imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));
+	// 		}
+	// 	}
+	// }
+	function init() {
+		var imgDefer = document.querySelectorAll('[data-src]');
+		var style = "background-image: url({url})";
+		for (var i = 0; i < imgDefer.length; i++) {
+			imgDefer[i].setAttribute('style', style.replace("{url}", imgDefer[i].getAttribute('data-src')));
+		}
+	}
+	window.onload = init;
+</script>

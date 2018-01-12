@@ -1,7 +1,7 @@
 <div class="scroll_wrapper">
     <div class="livelist__news">
         <h3>На борту А321 могла взорваться жидка</h3>
-        <ul class="liveList">
+        <ul class="liveList pb-0">
             <li class="liveList__item" data-time="16:22">
                 <a class="liveList__link" href="#">Грузия опровергла присоединение к санкциям Евросоюза против России</a>
             </li>

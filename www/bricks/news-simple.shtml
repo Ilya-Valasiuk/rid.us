@@ -71,25 +71,25 @@
 <!--#endif -->
 
 <!--#if expr="$image = 1" -->
-<div class="brick__image" style="background-image: url(http://dev.ridus.ru/images/2017/1/25/531730/preview_beca090840.jpg)">
+<div class="brick__image" data-src="http://dev.ridus.ru/images/2017/1/25/531730/preview_beca090840.jpg">
 <!--#endif -->
 <!--#if expr="$image = 2" -->
-<div class="brick__image" style="background-image: url(http://dev.ridus.ru/images/2017/1/25/531731/preview_62035471bc.jpg)">
+<div class="brick__image" data-src="http://dev.ridus.ru/images/2017/1/25/531731/preview_62035471bc.jpg">
 <!--#endif -->
 <!--#if expr="$image = 3" -->
-<div class="brick__image" style="background-image: url(http://dev.ridus.ru/images/2017/1/25/531732/preview_d2992afbbe.jpg)">
+<div class="brick__image" data-src="http://dev.ridus.ru/images/2017/1/25/531732/preview_d2992afbbe.jpg">
 <!--#endif -->
 <!--#if expr="$image = 4" -->
-<div class="brick__image" style="background-image: url(http://dev.ridus.ru/images/2017/1/24/531733/preview_f756df7384.jpg)">
+<div class="brick__image" data-src="http://dev.ridus.ru/images/2017/1/24/531733/preview_f756df7384.jpg">
 <!--#endif -->
 <!--#if expr="$image = 5" -->
-<div class="brick__image" style="background-image: url(http://dev.ridus.ru/images/2017/1/24/531735/preview_50ff0f9f84.jpg)">
+<div class="brick__image" data-src="http://dev.ridus.ru/images/2017/1/24/531735/preview_50ff0f9f84.jpg">
 <!--#endif -->
 <!--#if expr="$image = 6" -->
-<div class="brick__image" style="background-image: url(https://www.ridus.ru/images/2017/5/7/581014/large_59205c80a5.jpg)">
+<div class="brick__image" data-src="https://www.ridus.ru/images/2017/5/7/581014/large_59205c80a5.jpg">
 <!--#endif -->
 <!--#if expr="$image = 7" -->
-<div class="brick__image" style="background-image: url(https://www.ridus.ru/images/2014/7/8/212199/hd_e77957fba4.JPG)">
+<div class="brick__image" data-src="https://www.ridus.ru/images/2014/7/8/212199/hd_e77957fba4.JPG">
 <!--#endif -->
 <!--#if expr="$image = 8" -->
 <div class="brick__image brick__image-empty">

@@ -1087,51 +1087,6 @@
     transform: rotate(-45deg);
 }
 
-.brick.view_yellow .iscroll {
-    height: 356px;
-} 
-
-@media screen and (max-width: 1023px) {
-	.brick.view_2x.view_yellow .iscroll {
-	    height: 778px;
-	}
-	.brick.view_3x.view_yellow .iscroll {
-	    height: 1200px;
-	}
-}
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-	.brick.view_withTranslation .iscroll {
-	    height: 239px;
-	}
-	.brick.view_2x.view_yellow .iscroll {
-	    height: 778px;
-	}
-	.brick.view_3x.view_yellow .iscroll {
-	    height: 1200px;
-	}
-	.brick.view_withTranslation .state_translationMinimized ~ .brick .iscroll {
-	    height: 409px;
-	}
-}
-@media screen and (min-width: 1280px) {
-	.height-twice-container .view_yellow .iscroll {
-		height: 772px;
-	}
-	.brick.view_withTranslation .iscroll {
-		height: 545px;
-	}
-	.brick.view_2x.view_yellow .iscroll {
-	    height: 772px;
-	}
-	.brick.view_3x.view_yellow .iscroll {
-	    height: 1188px;
-	}
-	.brick.view_withTranslation .state_translationMinimized ~ .brick .iscroll {
-		height: 714px;
-	}
-}
-
-
 
 .iScrollIndicator {
 	border: none !important;
@@ -1728,7 +1683,7 @@
 }
 
 .brick__image-empty {
-	background-image: url('../_images/empty-brick.png');
+	background-image: url('../_images/ridus-back-min.png');
 	background-size: initial;
 }
 

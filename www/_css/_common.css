@@ -1459,25 +1459,6 @@ blockquote b {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-.iscroll {
-	position: relative;
-	overflow: hidden;
-	width: 100.1%;
-    /*transform: translateZ(0);*/
-    /*-webkit-transform: translateZ(0);*/
-}
-
 .scroll_wrapper {
 	height: calc(100% - 36px);
 	overflow-y: auto;
@@ -1711,4 +1692,8 @@ iframe.instagram {
 .editor-btn-group-right {
 	display: flex;
 	overflow: hidden;
+}
+
+.pb-0 {
+	padding-bottom: 0;
 }
