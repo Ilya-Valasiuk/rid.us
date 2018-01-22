@@ -765,10 +765,11 @@ $(function() {
         if(!flexSliders.length) return;
 
         flexSliders.each(function () {
+            var $currentSlider = $(this);
 
-            var flexSlider = new Swiper($(this), {
-                nextButton: $(this).parent().find('.swiper-button-next'),
-                prevButton: $(this).parent().find('.swiper-button-prev'),
+            var flexSlider = new Swiper($currentSlider, {
+                nextButton: $currentSlider.parent().find('.swiper-button-next'),
+                prevButton: $currentSlider.parent().find('.swiper-button-prev'),
                 spaceBetween: 16,
                 threshold: 50,
                 breakpoints: {
@@ -793,6 +794,11 @@ $(function() {
 
             if (window.globalstorage.pageSwiperArray) {
                 window.globalstorage.pageSwiperArray.push(flexSlider);
+            }
+
+            var preloaderEl = $currentSlider.parent().find('.preloader-slider');
+            if (preloaderEl.length) {
+                preloaderEl.fadeOut(500, function () { $(this).remove() });
             }
         });
 
@@ -1400,7 +1406,7 @@ $(function() {
 
             instant = new YT.Player(id, {
                 playerVars: {
-                    'autoplay': 1,
+                    'autoplay': 0,
                     'controls': 1,
                     'autohide': 1,
                     'wmode': 'opaque'

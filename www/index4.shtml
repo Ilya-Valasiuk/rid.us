@@ -153,7 +153,7 @@
 
 					<div class="brick swiper-slide">
 						<div class="translation__wrapper view_withTranslation" data-translation="uStream"
-						     data-src="https://www.ustream.tv/embed/recorded/53173134?autoplay=true&volume=0&wmode=direct&adfree=1&html5ui=1">
+						     data-src="https://www.ustream.tv/embed/recorded/53173134?autoplay=false&volume=0&wmode=direct&adfree=1&html5ui=1">
 							<div class="translationControls">
 								<span class="translation__type">Онлайн трансляция</span>
 								<a href="#" class="translation__flip"></a>
@@ -240,7 +240,11 @@
 						<!--#include virtual="bricks/more.shtml"-->
 					</div>
 				</div>
+				
+		</div>
 
+		<div class="preloader-slider wrapper">
+			<!--#include virtual="_md-preloader.shtml"-->
 		</div>
 
 		<div class="swiper-button-next"></div>
