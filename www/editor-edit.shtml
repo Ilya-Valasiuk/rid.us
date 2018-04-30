@@ -35,11 +35,15 @@
 	</div>
 
     <div class="bricks__wrapper clearfix">
-	    <label>Фотография для анонса</label><br>
+		<label>Фотография для анонса</label><br>
 	    <div class="brick view_noHeight view_doubleWidth contentBackground_grey paddings_side padding_top padding_bottom error">
 			<i>Для того, чтобы загрузить фотографию просто перетяните её.</i><br>
 			<a class="show_user_upload_form" href="javascript:void(0)">Или загрузите вручную</a>
-	    </div>
+			<input type='file' class="d-none preview__loader" />
+		</div>
+		<div class="brick view_doubleWidth view_noHeight brick__preview">
+			<div class="preview__wrapper"></div>
+		</div>
 	</div>
 
     <div class="bricks__wrapper clearfix">
@@ -58,7 +62,11 @@
 	    <div class="brick view_noHeight view_doubleWidth contentBackground_grey paddings_side padding_top padding_bottom error">
 			<i>Для того, чтобы загрузить фотографию просто перетяните её.</i><br>
 			<a class="show_user_upload_form" href="javascript:void(0)">Или загрузите вручную</a>
-	    </div>
+			<input type='file' class="d-none preview__loader" />
+		</div>
+		<div class="brick view_doubleWidth view_noHeight brick__preview">
+			<div class="preview__wrapper"></div>
+		</div>
 	</div>
 
     <div class="bricks__wrapper clearfix">

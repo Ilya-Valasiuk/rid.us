@@ -1707,3 +1707,7 @@ iframe.instagram {
     background-color: white;
     z-index: 1;
 }
+
+.d-none {
+	display: none;
+}
