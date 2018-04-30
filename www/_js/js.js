@@ -2445,3 +2445,38 @@ $(document).ready(function(){
         $this.parent().append('<span class="comments__avatar__error">' + text + '</span>');
     });
 });
+
+$(document).ready(function(){
+    function getColumn(imgSrc) {
+        return '<div class="preview__column">' +
+					'<div class="preview__element">' +
+						'<img src='+ imgSrc +' alt="preview">' +
+						'<textarea name="" id="" cols="30" rows="10" placeholder="Комментарий к фотографии"></textarea>' +
+					'</div>' +
+				'</div>';
+    }
+    function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+            
+            reader.onload = function (e) {
+                var column = $.parseHTML(getColumn(e.target.result));
+                $(input).parent().parent().find('.preview__wrapper').append(column);
+            }
+            
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+
+    function createImagePreview() {
+
+    }
+
+    $('.show_user_upload_form').on('click', function() {
+        $(this).parent().find('input[type="file"]').click();
+    });
+
+    $('.preview__loader').change(function(){
+        readURL(this);
+    });
+});

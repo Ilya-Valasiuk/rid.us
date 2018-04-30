@@ -230,3 +230,31 @@
 .editorCounter .view_red {
 	color: #900;
 }
+
+.preview__wrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.preview__column {
+	width: 50%;
+}
+
+.preview__element {
+	padding: 5px 10px;
+	text-align: center;
+}
+
+.preview__element img {
+	height: auto;
+	max-height: 150px;	
+	margin-bottom: 15px;
+}
+
+.preview__element textarea {
+	height: 80px;
+}
+
+.brick__preview {
+	clear: both;
+}
