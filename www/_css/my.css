@@ -243,6 +243,7 @@
 .preview__element {
 	padding: 5px 10px;
 	text-align: center;
+	position: relative;
 }
 
 .preview__element img {
@@ -253,6 +254,16 @@
 
 .preview__element textarea {
 	height: 80px;
+}
+
+.preview__element .yellowButton {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	font-size: 25px;
+	padding: 0 5px;
+	margin-right: 0;
+	font-weight: 400;
 }
 
 .brick__preview {

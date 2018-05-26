@@ -34,7 +34,7 @@
 	    </div>
 	</div>
 
-    <div class="bricks__wrapper clearfix">
+    <div class="bricks__wrapper bricks__wrapper__preview clearfix">
 		<label>Фотография для анонса</label><br>
 	    <div class="brick view_noHeight view_doubleWidth contentBackground_grey paddings_side padding_top padding_bottom error">
 			<i>Для того, чтобы загрузить фотографию просто перетяните её.</i><br>
@@ -57,7 +57,7 @@
 	<hr class="view__dashed">
 	<br>
 
-    <div class="bricks__wrapper clearfix">
+    <div class="bricks__wrapper bricks__wrapper__main clearfix">
 	    <label>Фотографии</label><br>
 	    <div class="brick view_noHeight view_doubleWidth contentBackground_grey paddings_side padding_top padding_bottom error">
 			<i>Для того, чтобы загрузить фотографию просто перетяните её.</i><br>
