@@ -2447,20 +2447,33 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+    var previewFiles = [];
+    var articleFiles = [];
+
     function getColumn(imgSrc) {
         return '<div class="preview__column">' +
 					'<div class="preview__element">' +
-						'<img src='+ imgSrc +' alt="preview">' +
+                        '<img src='+ imgSrc +' alt="preview">' +
+                        '<span class="yellowButton">×</span>' +
 						'<textarea name="" id="" cols="30" rows="10" placeholder="Комментарий к фотографии"></textarea>' +
 					'</div>' +
 				'</div>';
     }
-    function readURL(input) {
-        if (input.files && input.files[0]) {
+
+    function readURL(input, files) {
+        if (input.files && input.files[0] && !files.some(function (file) { return file.name === input.files[0].name })) {
             var reader = new FileReader();
             
             reader.onload = function (e) {
+                files.push({ name: input.files[0].name, base64: e.target.result });
                 var column = $.parseHTML(getColumn(e.target.result));
+                var name = input.files[0].name;
+                $(column).find('.yellowButton').on('click', function() {
+                    files = files.filter(function (file) {
+                        return file.name !== name;
+                    });
+                    $(this).parent().parent().remove();
+                });
                 $(input).parent().parent().find('.preview__wrapper').append(column);
             }
             
@@ -2468,15 +2481,15 @@ $(document).ready(function(){
         }
     }
 
-    function createImagePreview() {
-
-    }
-
-    $('.show_user_upload_form').on('click', function() {
+    $('.show_user_upload_form').on('click', function () {
         $(this).parent().find('input[type="file"]').click();
     });
 
-    $('.preview__loader').change(function(){
-        readURL(this);
+    $('.bricks__wrapper__preview').find('.preview__loader').change(function(){
+        readURL(this, previewFiles);
+    });
+
+    $('.bricks__wrapper__main').find('.preview__loader').change(function(){
+        readURL(this, articleFiles);
     });
 });
