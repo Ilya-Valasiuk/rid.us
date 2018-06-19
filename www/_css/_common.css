@@ -1711,3 +1711,17 @@ iframe.instagram {
 .d-none {
 	display: none;
 }
+
+.old-browser-warning {
+	background-color: #fff;
+	color: #111;
+	display: none;
+	max-width: 600px;
+	padding: 25px;
+}
+
+.old-browser-warning-header {
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 28px;
+}
