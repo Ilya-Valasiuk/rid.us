@@ -844,6 +844,8 @@
 	<img src="_images/footer_banner.jpg" alt="">
 </a>
 
+<!--#include virtual="_old-browser.shtml"-->
+
 <!--#include virtual="_footer.shtml"-->
 
 <!--<script type="text/javascript">-->
